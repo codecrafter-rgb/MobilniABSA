@@ -71,7 +71,7 @@ def assess_complexity(comment: str) -> tuple[int, list[str]]:
 		r"\bzbog\b", 
 		r"\buzeo|uzela sam\b", 
 		r"\bkupio|kupila sam\b", 
-		r"\bplatio|uplatila sam\b"
+		r"\bplatio|platila sam\b"
 	]
 	complexity_score += check_condition(comment_lower, general_price, 1, reasons, "Motiv kupovine")
 
@@ -97,7 +97,7 @@ def candidate_select(input_csv: str, output_csv: str, candidate_num: int = 150):
 	
 	candidates = df_sorted.head(candidate_num)
 	
-	candidates.to_csv(output_csv, index=False, encoding='utf-8-sig')
+	candidates.to_csv(output_csv, index=False, encoding="utf-8-sig")
 	print(f"Successfully stored {len(candidates)} candidates in file: {output_csv}")
 
 	return df_sorted
@@ -120,7 +120,7 @@ def generate_calibration_set(
 	result = pd.concat([df_complex, df_random]) \
 			.sample(frac=1, random_state=390) \
 			.reset_index(drop=True)
-	result.to_csv(output_csv)
+	result.to_csv(output_csv, index=False, encoding="utf-8-sig")
 	print(f"Successfully stored {len(result)} comments in file: {output_csv}")
 
 
