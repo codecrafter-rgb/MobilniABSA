@@ -8,6 +8,18 @@
     <Label value="Konflikt" background="#efff00"/>
     </Labels>
   
+  <Labels name="kategorije_aspekta" toName="comment">
+    <Label value="Baterija"/>
+    <Label value="Kamera"/>
+    <Label value="Ekran"/>
+    <Label value="Memorija"/>
+    <Label value="Zvucnici"/>
+    <Label value="Izgled"/>
+    <Label value="Softver"/>
+    <Label value="Cena"/>
+    <Label value="Opsta_ocena"/>
+  </Labels>
+  
   <View style="margin-top: 1em;"/>
   
   <Text name="comment" value="$comment"/>
