@@ -1,0 +1,18 @@
+- label-studio ne radi sa python verzijom 3.14. Morate da preuzmete i koristite Python 3.13 kako bi se instalirao i podigao kako treba
+	(za ovo mozete da napravite novo python virtualno okruzenje sa verzijom 3.13, i u njemu da pokrenete label-studio)
+
+- instalira se komandom: pip install label-studio
+
+- pokrece se komandom: label-studio start
+
+- Kreiranje projekta:
+
+	1. Prva stara ("Project name"): Unesite sta god, nije bitno.
+
+	2. Druga strana ("Data Import"): Samo unesite csv fajl sa zeljenim podaticma. Sto se tice formata fajla, jedino je bitno da se kolona sa komentarom naziva "comment" (ovako vec i jeste kod nas)
+
+	3. Treca strana ("Labeling Setup"): 
+
+		- Sa leve strane kliknite na "Custom template" opciju
+
+		- U "Code" sekciju, kopirajte sadrzaj iz "Labeling_Interface.xml" fajla okacenog u ovom direktorijumu.
