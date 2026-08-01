@@ -1,4 +1,4 @@
-/gitignore
-/test
-/data
-.env
+.scrapy
+
+__pycache__/
+.venv/
