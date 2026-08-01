@@ -45,11 +45,14 @@ Use ONLY these aspect categories:
 - Memorija
 - Zvučnici
 - Izgled
+- Hardver
 - Softver
 - Cena
 - Opšta
 
 Opšta = overall opinion about the phone that does not clearly belong to another category.
+Hardver = processor, performance, heating, connectivity, sensors, ports, and other
+physical components that do not clearly belong to another category.
 
 Rules:
 - Extract every mentioned aspect.

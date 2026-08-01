@@ -15,6 +15,7 @@
     <Label value="Memorija"/>
     <Label value="Zvucnici"/>
     <Label value="Izgled"/>
+    <Label value="Hardver"/>
     <Label value="Softver"/>
     <Label value="Cena"/>
     <Label value="Opsta_ocena"/>
@@ -78,6 +79,16 @@
   
   <Header value="Sentiment kategorije: Izgled"/>
     <Choices name="Izgled" toName="comment"
+             choice="single" required="true" showInLine="true">
+      <Choice value="Pozitivan"/>
+      <Choice value="Negativan"/>
+      <Choice value="Neutralan"/>
+      <Choice value="Konflikt"/>
+      <Choice value="N/A" selected="true"/>
+    </Choices>
+
+  <Header value="Sentiment kategorije: Hardver"/>
+    <Choices name="Hardver" toName="comment"
              choice="single" required="true" showInLine="true">
       <Choice value="Pozitivan"/>
       <Choice value="Negativan"/>
