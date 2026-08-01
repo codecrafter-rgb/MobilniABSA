@@ -1,6 +1,6 @@
 <View>
-  <Header value="Anotiraj sve aspekte u datoj recenziji"/>
-  <Header value="Telefon: $phone"/>
+  <Header value="Anotiraj sve aspekte u datoj recenziji" size="3"/>
+  <Header value="Telefon: $phone" size="4"/>
   <Labels name="sentimenti_aspekata" toName="comment">
     <Label value="Pozitivan" background="#0cf3b4"/>
     <Label value="Negativan" background="#f93a06"/>
