@@ -26,7 +26,8 @@
       <Label value="Hardware" background="#4682B4" hotkey="7">Hardver</Label>
       <Label value="Software" background="#32CD32" hotkey="8">Softver</Label>
       <Label value="Price" background="#FF8C00" hotkey="9">Cena</Label>
-      <Label value="General" background="#A9A9A9" hotkey="0">Opšta ocena</Label>
+      <Label value="Performance" background="#35118A" hotkey="0">Performanse</Label>
+      <Label value="General" background="#A9A9A9" hotkey="-">Opšta ocena</Label>
     </Labels>
 
     <Header value="SENTIMENT" size="4"/>
@@ -101,6 +102,13 @@
         <Choice value="Price:Negative">Negativan</Choice>
         <Choice value="Price:Neutral">Neutralan</Choice>
         <Choice value="Price:Conflict">Konflikt</Choice>
+      </Choice>
+      
+      <Choice value="Performanse">
+        <Choice value="Performance:Positive">Pozitivan</Choice>
+        <Choice value="Performance:Negative">Negativan</Choice>
+        <Choice value="Performance:Neutral">Neutralan</Choice>
+        <Choice value="Performance:Conflict">Konflikt</Choice>
       </Choice>
 
       <Choice value="Opšta ocena">
