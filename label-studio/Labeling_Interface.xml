@@ -4,12 +4,12 @@
   <View style="display: flex; align-items: center; gap: 16px; margin-top: 1.2em; padding: 0px 16px; border-radius: 5px; border: 2px solid #423C6E;">
     <Header value="Da li je RECENZIJA?" style="margin: 0; white-space: nowrap;"/>
     <Choices name="review_status" toName="comment" choice="single" showInLine="true" required="true">
-      <Choice value="valid_review" selected="true" hotkey="y">DA</Choice>
-      <Choice value="not_review" hotkey="n">NE</Choice>
+      <Choice value="DA" selected="true" hotkey="y"/>
+      <Choice value="NE" hotkey="n"/>
     </Choices>
   </View>
 
-  <View style="padding: 16px; border: 2px solid #2E7D4A;  border-radius: 8px; margin: 1.2em 0; box-shadow: 0 4px 12px rgba(46, 125, 74, 0.15);">
+  <View style="padding: 16px; border: 2px solid #2E7D4A; border-radius: 8px; margin: 1.2em 0; box-shadow: 0 4px 12px rgba(46, 125, 74, 0.15);">
     <Text name="comment" value="$comment"/>
   </View>
 
@@ -17,107 +17,107 @@
     
     <Header value="Eksplicitni aspekti" size="5"/>
     <Labels name="categories" toName="comment">
-      <Label value="Battery" background="#FFD700" hotkey="1">Baterija</Label>
-      <Label value="Camera" background="#FF69B4" hotkey="2">Kamera</Label>
-      <Label value="Screen" background="#1E90FF" hotkey="3">Ekran</Label>
-      <Label value="Memory" background="#9370DB" hotkey="4">Memorija</Label>
-      <Label value="Sound" background="#20B2AA" hotkey="5">Zvučnici</Label>
-      <Label value="Design" background="#FFA07A" hotkey="6">Izgled</Label>
-      <Label value="Hardware" background="#4682B4" hotkey="7">Hardver</Label>
-      <Label value="Software" background="#32CD32" hotkey="8">Softver</Label>
-      <Label value="Price" background="#FF8C00" hotkey="9">Cena</Label>
-      <Label value="Performance" background="#35118A" hotkey="0">Performanse</Label>
-      <Label value="General" background="#A9A9A9" hotkey="-">Opšta ocena</Label>
+      <Label value="Baterija" background="#FFD700" hotkey="1"/>
+      <Label value="Kamera" background="#FF69B4" hotkey="2"/>
+      <Label value="Ekran" background="#1E90FF" hotkey="3"/>
+      <Label value="Memorija" background="#9370DB" hotkey="4"/>
+      <Label value="Zvučnici" background="#20B2AA" hotkey="5"/>
+      <Label value="Izgled" background="#FFA07A" hotkey="6"/>
+      <Label value="Hardver" background="#4682B4" hotkey="7"/>
+      <Label value="Softver" background="#32CD32" hotkey="8"/>
+      <Label value="Cena" background="#FF8C00" hotkey="9"/>
+      <Label value="Performanse" background="#35118A" hotkey="0"/>
+      <Label value="Opšta ocena" background="#A9A9A9" hotkey="-"/>
     </Labels>
 
     <Header value="SENTIMENT" size="4"/>
     <Choices name="sentiment" toName="comment" showInLine="true" perRegion="true" required="true">
-      <Choice value="Positive" hotkey="a">Pozitivan</Choice>
-      <Choice value="Negative" hotkey="d">Negativan</Choice>
-      <Choice value="Neutral" hotkey="s">Neutralan</Choice>
-      <Choice value="Conflict" hotkey="w">Konflikt</Choice>
+      <Choice value="Pozitivan" hotkey="a"/>
+      <Choice value="Negativan" hotkey="d"/>
+      <Choice value="Neutralan" hotkey="s"/>
+      <Choice value="Konflikt" hotkey="w"/>
     </Choices>
 
     <Header value="Implicitni aspekti" size="5"/>
     <Taxonomy name="implicit_aspects" toName="comment" leafsOnly="true" showFullPath="true">
 
       <Choice value="Baterija">
-        <Choice value="Battery:Positive">Pozitivan</Choice>
-        <Choice value="Battery:Negative">Negativan</Choice>
-        <Choice value="Battery:Neutral">Neutralan</Choice>
-        <Choice value="Battery:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Kamera">
-        <Choice value="Camera:Positive">Pozitivan</Choice>
-        <Choice value="Camera:Negative">Negativan</Choice>
-        <Choice value="Camera:Neutral">Neutralan</Choice>
-        <Choice value="Camera:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Ekran">
-        <Choice value="Screen:Positive">Pozitivan</Choice>
-        <Choice value="Screen:Negative">Negativan</Choice>
-        <Choice value="Screen:Neutral">Neutralan</Choice>
-        <Choice value="Screen:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Memorija">
-        <Choice value="Memory:Positive">Pozitivan</Choice>
-        <Choice value="Memory:Negative">Negativan</Choice>
-        <Choice value="Memory:Neutral">Neutralan</Choice>
-        <Choice value="Memory:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Zvučnici">
-        <Choice value="Sound:Positive">Pozitivan</Choice>
-        <Choice value="Sound:Negative">Negativan</Choice>
-        <Choice value="Sound:Neutral">Neutralan</Choice>
-        <Choice value="Sound:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Izgled">
-        <Choice value="Design:Positive">Pozitivan</Choice>
-        <Choice value="Design:Negative">Negativan</Choice>
-        <Choice value="Design:Neutral">Neutralan</Choice>
-        <Choice value="Design:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Hardver">
-        <Choice value="Hardware:Positive">Pozitivan</Choice>
-        <Choice value="Hardware:Negative">Negativan</Choice>
-        <Choice value="Hardware:Neutral">Neutralan</Choice>
-        <Choice value="Hardware:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Softver">
-        <Choice value="Software:Positive">Pozitivan</Choice>
-        <Choice value="Software:Negative">Negativan</Choice>
-        <Choice value="Software:Neutral">Neutralan</Choice>
-        <Choice value="Software:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Cena">
-        <Choice value="Price:Positive">Pozitivan</Choice>
-        <Choice value="Price:Negative">Negativan</Choice>
-        <Choice value="Price:Neutral">Neutralan</Choice>
-        <Choice value="Price:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
-      
+
       <Choice value="Performanse">
-        <Choice value="Performance:Positive">Pozitivan</Choice>
-        <Choice value="Performance:Negative">Negativan</Choice>
-        <Choice value="Performance:Neutral">Neutralan</Choice>
-        <Choice value="Performance:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
 
       <Choice value="Opšta ocena">
-        <Choice value="General:Positive">Pozitivan</Choice>
-        <Choice value="General:Negative">Negativan</Choice>
-        <Choice value="General:Neutral">Neutralan</Choice>
-        <Choice value="General:Conflict">Konflikt</Choice>
+        <Choice value="Pozitivan"/>
+        <Choice value="Negativan"/>
+        <Choice value="Neutralan"/>
+        <Choice value="Konflikt"/>
       </Choice>
-    
+
     </Taxonomy>
 
   </View>
