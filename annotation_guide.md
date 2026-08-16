@@ -43,7 +43,7 @@ Za svaki analizirani komentar potrebno je:
 | **`Zvučnici`** | Kvalitet i jačina zvuka, stereo zvučnici, mikrofon, kvalitet poziva, 3.5mm ulaz. | Bluetooth slušalice, bagove pri pozivu/razgovoru koji se ne odnose na kvalitet zvuka. |
 | **`Izgled`** | Dizajn, boja, dimenzije, težina, materijali izrade, ergonomija. | Veličina ili kvalitet samog ekrana. |
 | **`Hardver`** | Procesor, čipset, komponente, zagrevanje i hlađenje, senzori, otisak prsta, priključci, signal. | OS, aplikacije, bagove (Softver); opštu brzinu bez pomena komponenata (Performanse). |
-| **`Softver`** | OS (Android/iOS), korisnički interfejs (UI), ažuriranja, bagovi, optimizacija, aplikacije. | RAM i internu memoriju. |
+| **`Softver`** | OS (Android/iOS), korisnički interfejs (UI), ažuriranja, bagovi, optimizacija, aplikacije, igrice. | RAM i internu memoriju. |
 | **`Performanse`** | Brzina rada, fluidnost, seckanje, odziv sistema (bez pominjanja procesora/OS-a). | Eksplicitne hardverske čipove ili softverske bagove. |
 | **`Cena`** | Cena, odnos cene i kvaliteta (*Value for Money*), isplativost, troškovi servisa. | Akcije prodavnica i dostupnost. |
 | **`Opšta ocena`** | Utisak o telefonu u celini, zadovoljstvo kupovinom, preporuka. | Ocene konkretnih pojedinačnih funkcija. |
@@ -90,7 +90,7 @@ Obuhvata kvalitet i jačinu reprodukcije zvuka sa zvučnika, stereo balans, mikr
 
 #### 6. Izgled
 
-Obuhvata vizuelni dizajn, boju, dimenzije kućišta, masi (težinu), debljinu, primenjene materijale (staklo, aluminijum, plastika) i subjektivni osjećaj u ruci (ergonomiju).
+Obuhvata vizuelni dizajn, boju, dimenzije, masu (težinu), debljinu, primenjene materijale (staklo, aluminijum, plastika) i subjektivni osjećaj u ruci (ergonomiju).
 
 * *Primer:* *"Telefon prelepo izgleda ali je malo težak."* $\rightarrow$ **Konflikt**
 
@@ -104,7 +104,7 @@ Obuhvata fizičke elektronske komponente: procesor (čipset/GPU), senzore (čita
 
 #### 8. Softver
 
-Obuhvata operativni sistem (Android, iOS, MIUI, MagicOS...), korisnički interfejs (UI), sistemska ažuriranja, optimizaciju, sistemske aplikacije, AI alate za obradu i ponašanje aplikacija, kao i aplikacije treće strane.
+Obuhvata operativni sistem (Android, iOS, MIUI, MagicOS...), korisnički interfejs (UI), sistemska ažuriranja, optimizaciju, sistemske aplikacije, AI alate za obradu i ponašanje aplikacija, kao i aplikacije treće strane i igrice.
 
 * *Primer:* *"Interfejs je pregledan i redovno stižu ažuriranja."* $\rightarrow$ **Pozitivan**
 
