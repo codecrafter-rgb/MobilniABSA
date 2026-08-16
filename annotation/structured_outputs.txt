@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "properties": {
+    "response": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "aspects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "aspect_target": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "sentiment": {
+                  "type": "string"
+                }
+              },
+              "propertyOrdering": [
+                "aspect_target",
+                "category",
+                "sentiment"
+              ],
+              "required": [
+                "category",
+                "sentiment"
+              ]
+            }
+          }
+        },
+        "propertyOrdering": [
+          "id",
+          "aspects"
+        ],
+        "required": [
+          "id",
+          "aspects"
+        ]
+      }
+    }
+  },
+  "propertyOrdering": [
+    "response"
+  ],
+  "required": [
+    "response"
+  ]
+}
