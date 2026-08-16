@@ -1,0 +1,21 @@
+1. python annotation\csv_to_json_segment.py --brand {e.g. Apple} --index {e.g. 0}
+
+2. https://aistudio.google.com/prompts/new_chat
+
+3.1. gemini-pro-latest
+
+3.2. System instructions: Anotiranje komentara mobilnih telefona + system_instructions.txt
+
+3.3. Temperature: 0.1
+
+3.4. Structured outputs: structured_outputs.txt
+
+4. Copy 'annotation\mobilnisvet_segment_{e.g. Apple}\{e.g. 0}.json' for prompts/new_chat
+
+5. Click 'run ctrl'
+
+6. Copy response and create 'annotation\mobilnisvet_segment_{e.g. Apple}\g_{e.g. 0}.json'
+
+7. python annotation\gemini_to_label_studio.py --brand {e.g. Apple} --index {e.g. 0}
+
+8. Open LabelStudio and import 'annotation\mobilnisvet_segment_{e.g. Apple}\ls_{e.g. 0}.json'
