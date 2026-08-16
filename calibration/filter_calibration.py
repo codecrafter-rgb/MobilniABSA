@@ -309,7 +309,7 @@ def merge_annotations(exported_json: Path, input_csv: Path, output_json: Path):
 	print("=" * 50 + "\n")
 
 
-if __name__ == "__main__":
+def build_parser() -> argparse.ArgumentParser:
 	parser = argparse.ArgumentParser(description="Generate, expand, or merge calibration datasets for Label Studio")
 	subparsers = parser.add_subparsers(dest="command", required=True, help="Command to execute")
 
@@ -360,11 +360,13 @@ if __name__ == "__main__":
 	parser_merge.add_argument(
 		"exported_json",
 		type=str,
+		required=True,
 		help="Relative path to old exported JSON file"
 	)
 	parser_merge.add_argument(
 		"output_json",
 		type=str,
+		required=True,
 		help="Relative path for output import JSON file"
 	)
 	parser_merge.add_argument(
@@ -374,7 +376,12 @@ if __name__ == "__main__":
 		help="Relative path to CSV dataset file (default: 'calibration_set_1200.csv')"
 	)
 
-	args = parser.parse_args()
+	return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+	parser = build_parser()
+	args = parser.parse_args(argv)
 
 	if args.command == "generate":
 		generate_calibration_set(
@@ -385,7 +392,8 @@ if __name__ == "__main__":
 			total_number=800,
 			random_state=390
 		)
-	elif args.command == "expand":
+		return 0
+	if args.command == "expand":
 		expand_calibration_set(
 			input_csv=absPath / args.input,
 			existing_set_csv=absPath / args.existing_set,
@@ -394,9 +402,18 @@ if __name__ == "__main__":
 			additional_complex_cnt=150,
 			random_state=390
 		)
-	elif args.command == "merge":
+		return 0
+	if args.command == "merge":
 		merge_annotations(
 			exported_json=absPath / args.exported_json,
 			input_csv=absPath / args.csv,
 			output_json=absPath / args.output_json
 		)
+		return 0
+
+	parser.error(f"Unknown command: {args.command}")
+	return 2
+
+
+if __name__ == "__main__":
+	raise SystemExit(main())
