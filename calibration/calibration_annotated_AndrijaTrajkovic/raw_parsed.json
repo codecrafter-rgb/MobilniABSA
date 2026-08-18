@@ -8776,5 +8776,5003 @@
                 "sentiment": "Negativan"
             }
         ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/8cw/Samsung/Galaxy-S23-256GB-Dual-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "wladimir",
+        "date": "2026-07-15 12:34:00",
+        "comment": "Prezadovoljan korisnik S23 već druga godina.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2157,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/lsg/Honor/X8c-8GB-256GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor X8c",
+        "author": "Boris",
+        "date": "2026-01-20 13:28:00",
+        "comment": "Best buy u kategoriji telefona 150-200e, AMOLED ekran, solidan Snapdragon CPU, dobra glavna kamera, odlična selfi kamera, uobičajena baterija, lep dizajn kao da je Iphone 14-15.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2158,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 74,
+                "end": 77,
+                "text": "CPU",
+                "category": "Hardver",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 85,
+                "end": 98,
+                "text": "glavna kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 108,
+                "end": 120,
+                "text": "selfi kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 133,
+                "end": 141,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 147,
+                "end": 153,
+                "text": "dizajn",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9812/Apple/iPhone-SE-2022-256GB",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE 2022",
+        "author": "Mara",
+        "date": "2026-06-04 11:13:00",
+        "comment": "Ovo su ludacke cene za ovaj telefon",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2164,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 15,
+                "end": 19,
+                "text": "cene",
+                "category": "Cena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/mgt/Samsung/Galaxy-A54/29",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A54",
+        "author": "joker",
+        "date": "2023-03-19 15:38:00",
+        "comment": "srednja klasa cena preko 450e,hahaha boze svasta,u ovoj 2023coj godini nece niko ostati noramalan a samsung pogotovo",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2166,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 14,
+                "end": 18,
+                "text": "cena",
+                "category": "Cena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8007/Samsung/Galaxy-S20-FE/5",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S20 FE",
+        "author": "Aca",
+        "date": "2021-10-03 19:04:00",
+        "comment": "Ja koristim snapdragon i baterija je super,nema sanse da je potrosim do kraja dana",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 2167,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 25,
+                "end": 33,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9567/Xiaomi/12/3",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 12",
+        "author": "Miso",
+        "date": "2023-02-14 21:01:00",
+        "comment": "Kupio sam ovaj telefon pre par dana i do sad je utisak odlican telefon je jako kvalitetan u ruci daje premium osecaj sve je na odlicnom nivou vibracija zvucnici ekran,baterija izgura 5.5-6 sot sa svim potrosacima 120herca navigacija,uvek ukljuceni podaci,tako da je solidna baterija punjenje jako brzo,kamere dosta dobre i jako dobre nocne fotografije,prednja prosek i nista vise od togaj,a sam telefon dobio sa miui14 tako da mozda je nesto ispravljeno ali za sad me nije razocarao.",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 2174,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 15,
+                "end": 22,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 142,
+                "end": 152,
+                "text": "vibracija ",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 152,
+                "end": 160,
+                "text": "zvucnici",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 161,
+                "end": 166,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 274,
+                "end": 282,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 302,
+                "end": 308,
+                "text": "kamere",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/30j/Honor/Magic8-Lite-8GB-512GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor Magic8 Lite",
+        "author": "Predrag",
+        "date": "2026-05-30 08:12:00",
+        "comment": "Juče sam ga kupio sinu i mogu da kažem da je telefon vrh (za te male pare i u svom rangu).Ja imam magic 7 lite jedva čekam da ga prodam da bih i sebi uzeo magic 8 lite.Pre kupovine sam gledao Redmi 15 pro +5G  i Samsung A56 5G   i odluka je pala na magic 8 lite. Živi bili 🍻",
+        "complexity_score": 3,
+        "reasons": "Dužina (>=15 reči), Motiv kupovine",
+        "id": 2175,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 45,
+                "end": 52,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/6",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Kamera zeza",
+        "date": "2023-04-29 12:40:00",
+        "comment": "Pozdrav ekipa opet ja ..pri instalaciji preko miui downloadera jel brise sve sa telefona ili ne...kamere mi ne rade i dalje..jedna po jedna je crkavala sad ni selfi ne radi...sumnja na procesor a nebi hard reset radio sve mi na njemu..znaci samo me zanima posto nije oficijalni update dal brise sve na telefonu..hvala puno ekipa",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2177,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 98,
+                "end": 104,
+                "text": "kamere",
+                "category": "Kamera",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9810/Apple/iPhone-SE-2022/2",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE 2022",
+        "author": "Slavica",
+        "date": "2024-03-16 11:29:00",
+        "comment": "Mnogo dobar telefon, moj sin ga koristi vec 4 godine i uopste mi nije trazio  da mu menjam.I ja sam uzela za sebe i odusevila sam se!",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2178,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 12,
+                "end": 19,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8491/Xiaomi/Mi-11-Lite-5G/5",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Mi 11 Lite 5G",
+        "author": "Maxa",
+        "date": "2021-10-17 09:44:00",
+        "comment": "Problemi koje ovde navode ja trenutno nemam.Telefon uzet kod operatera u avgustu.Jedino što baterija može da bude bolja,ali zato je valjda lagan.",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici",
+        "id": 2181,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 92,
+                "end": 100,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "N"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7651/Apple/iPhone-SE-(2020)/14",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE (2020)",
+        "author": "Zex",
+        "date": "2020-06-18 15:43:00",
+        "comment": "Pre par dana uzeh i SE 2020, do tad koristio 8-icu, razlike fizicke minimalne, kamere mnooogo bolje, rzina u radu se ne moze porediti jer Apple A A13 Bionic mnogo brzi u radu, baterija hmmm, klasika za Apple mozda za nijansu bolja za sad ali poucen iskustvom osmice mislim da ce to biti isto. Sve u svemo za ove novce nov telefon je ok kupovina. Ipak ko planira teefon za duze staze odlican izbor jer za 4-5 godina ce ova masinka na ovoj platformi da radi bolje od bilo kog androida sto se moze da uprediti sa nekim android i apple uredjem od pre 4-5 godina.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2182,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 79,
+                "end": 85,
+                "text": "kamere",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 101,
+                "end": 113,
+                "text": "rzina u radu",
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 176,
+                "end": 184,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/zpj/Honor/Magic7-Pro-16GB-512GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor Magic7 Pro",
+        "author": "Mladja",
+        "date": "2026-02-06 01:06:00",
+        "comment": "Ovi je i razlog no.1 zasto se uskoro vracam na dobri stari iPhone.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2188,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8239/Samsung/Galaxy-S21-Ultra-5G/12",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 Ultra 5G",
+        "author": "Pedja20",
+        "date": "2021-04-05 15:26:00",
+        "comment": "Kako ste zadovoljni sa trajanjem baterije nakon zadnjeg apdejta? Ja sam prezadovoljan,sot mi je bio ravno 10 sati,to ni u snu nisam mogao da zamislim,pre sam imao note 10+ koji je mogao izgurati max 7 sati sota.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2194,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 86,
+                "end": 89,
+                "text": "sot",
+                "category": "Baterija",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/gz0/Honor/Magic5-Pro/9",
+        "brand": "Honor",
+        "phone": "Honor Magic5 Pro",
+        "author": "Niški",
+        "date": "2023-11-30 15:36:00",
+        "comment": "Jel imao neko problema sa otkljucavanjem lica na ovom tel. Sve radi, ali to nece. Kad pogledam ekran pokaze AOD ali ga ne otkljuca",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2196,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9124/Huawei/P50-Pro/4",
+        "brand": "Huawei",
+        "phone": "Huawei P50 Pro",
+        "author": "Eu plus",
+        "date": "2022-03-05 01:43:00",
+        "comment": "Čekaj, stani malo .Telefon je ok da nekazem Azdaja, jel vecinom su flegšip /ovi slični..Jedino u razlikama na kvalitet,izrada, Displey , Mp to je ono sto najviše očekujemo? P50 pre par meseca kad je trebao stici u prodaju zaljubljen sam bio i samo sam čekao , trenutak da se pusti u prodaji ,sada posle šesti mesec , stize u prodaji Ojladio sam se🥶 i Malo više kosta posle tog duzeg perioda🛵🛵 za telefon koji sam se ohladio.... Moguce je sto volim veci displey zbog video sadržaja . Ja vas savetujem pre kupovine da odete do najbliže mreze i pogledate i procenite i izguglate",
+        "complexity_score": 3,
+        "reasons": "Dužina (>=15 reči), Motiv kupovine",
+        "id": 2197,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 19,
+                "end": 26,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/8152/Samsung/Galaxy-A12-Dual-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A12",
+        "author": "Dejan",
+        "date": "2023-01-02 10:56:00",
+        "comment": "Ja stvarno ne znam sta telefonu A12 nedostaje. 2 god ga normalno koristim. Oglasi , fb, placanje...u sustini kao sto ga i vecina ljudi koristi. Sto se mene tice, dobar telefon",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2200,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 168,
+                "end": 175,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/8439/Samsung/Galaxy-A52-8GB-256GB",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A52",
+        "author": "Tutinac",
+        "date": "2024-02-07 13:08:00",
+        "comment": "Telefon sam uzeo u Yettelu u aprilu 2021. godine i od tada ga koristim sa dve kartice i duplim aplikacijama, za sada stvarno dobar utisak i zadovoljan sam. U ovoj klalsi dosta dobar telefon. Nadam se da će biti nova verzija Androida za njega. Moje mišljenje da treba sačekati novi model u ovoj seriji posle aktuelnog A54, jer sam čuo od nekih korisnika da nije ispunio očekivanja. Pozdrav.",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
+        "id": 2202,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/6718/Huawei/Honor-10-Lite-128GB",
+        "brand": "Huawei",
+        "phone": "Huawei Honor 10 Lite",
+        "author": "Miki",
+        "date": "2020-06-20 12:04:00",
+        "comment": "Na Androidu 10 ovo je fenomenalan telefon, on je i ovako lep i pouzdan a sad pa po meni srednja viša klasa, telefon je najbolji koji sam ja do sada imao a do nekih 200/230 e zavisi u kojim radnjama, ovo sto ovde piše 180eu je laz, nema ih.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2208,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 34,
+                "end": 41,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/87w/Honor/400-Pro-12GB-256GB-1x-SIM-1x-eSIM",
+        "brand": "Honor",
+        "phone": "Honor 400 Pro",
+        "author": "Nemke",
+        "date": "2026-06-10 21:12:00",
+        "comment": "Dobar je telefon, ali senzor otiska prsta je blagi užas. Em je nisko postavljen, em svako malo ne reaguje, pa ni iz tri puta ne uspem da ga otključam, pa mi prebacuje ili da sačekam 30 sekundi ili drugu šifru. Da ne pričam kad se imalo oznoje ruke, ili kad su malo mokre, nema šanse da se otključa. Na honoru 70 gotovo uopšte nisam imao te probleme. Zar ne bi treba sa ip 68 sertifikat da bolje radi?",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2212,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 9,
+                "end": 16,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 22,
+                "end": 41,
+                "text": "senzor otiska prsta",
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/khb/Samsung/Galaxy-S23/6",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "Sale Bumbar",
+        "date": "2025-01-11 23:31:00",
+        "comment": "Malo razocarenje u ovaj telefon... sam telefon hardverski je dobar ali optmizacija softvera prema hardveru nije bas sjajna previse su je pokvarili... Do pre dva tri meseca nisam imao ni jednu manu do pre par abdejta  kamera vrlo često aplikacija zakoci baguje kresujes ili stuca",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2213,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 24,
+                "end": 31,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 83,
+                "end": 91,
+                "text": "softvera",
+                "category": "Softver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/gz0/Honor/Magic5-Pro/7",
+        "brand": "Honor",
+        "phone": "Honor Magic5 Pro",
+        "author": "WrongButton",
+        "date": "2024-02-07 16:26:00",
+        "comment": "Kamere, ekran, cipset, zvuk, sve vrhunski. Zaista me odusevio, u svakom pogledu. Jedina mana, po meni, je da je glomazan telefon. Nije zgodan za koriscenje jednom rukom. Da je, recimo, ekran 6.5inca, bio bi mi idealan.",
+        "complexity_score": 6,
+        "reasons": "Dužina (>=15 reči), Negacija, Specifikacija",
+        "id": 2219,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 6,
+                "text": "Kamere",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 8,
+                "end": 13,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 15,
+                "end": 21,
+                "text": "cipset",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 23,
+                "end": 27,
+                "text": "zvuk",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/gwmgy/Xiaomi/12T-Pro/2",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 12T Pro",
+        "author": "Semir Alic",
+        "date": "2023-11-15 02:42:00",
+        "comment": "Ja sam koristio 12 pro i negdje na oglasu kupim 12 t pro i poklonim ga supruzi iako ja koristim telefon 5x više. 12t Pro je brzo i od 12 pro i baterija mu duže traje, mada u odnosu na 10t pro koji je pre poslednja 2 ažuriranja uveče u 22h imao 40% baterije, ova dva to da sanjaju ne mogu.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2220,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 143,
+                "end": 151,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9846/Samsung/Galaxy-A53-5G-8GB-256GB-Dual-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A53 5G",
+        "author": "Vlatko",
+        "date": "2025-02-21 15:03:00",
+        "comment": "2 godine i 4 mjeseca radi bez greške.",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 2228,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/btp/Samsung/Galaxy-A25/2",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A25",
+        "author": "Dejan",
+        "date": "2024-06-22 09:04:00",
+        "comment": "Da li se jos nekome greje telefon i to samo slusanje muzike na YouTube? Posle pola sata slusanja muzike ceo telefon je bas zagrejan, fon je samsung a25 8/256gb",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Specifikacija",
+        "id": 2229,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/6nv/Xiaomi/Redmi-Note-13-Pro+/2",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 13 Pro+",
+        "author": "AleKsandar",
+        "date": "2025-04-04 03:52:00",
+        "comment": "Ja sam kupio redmi note 12 pro speed uFrancuskoi 2023. i telefon je odlican, baterija vise od dan traje i to sto gledam filmove.. Ne menjam ga dok ne lipce .. pozdrav",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 2230,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/qy8/Xiaomi/15-12GB-256GB-2x-SIM/6",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 15",
+        "author": "Zoki",
+        "date": "2025-04-15 14:58:00",
+        "comment": "Telefon cista 10,mozda najbolji xiaomi i android telefon ikada,samsung vise nikad",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2232,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/21",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Alex",
+        "date": "2022-01-29 15:13:00",
+        "comment": "Jel realno da baterija od 5020 ne izdrzi ni ceo dan!?",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 2238,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 14,
+                "end": 22,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7651/Apple/iPhone-SE-(2020)/7",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE (2020)",
+        "author": "NS",
+        "date": "2021-02-07 18:22:00",
+        "comment": "Ovima što pune telefon već popodne, postavljam pitanje čime se bavite kada imate toliko vremena da istrošite bateriju? Koji vam to posao dozvoljava da 5 sati bez pauze od ujutru drndate telefon? Ja ga uvek napunim uveče na nekih 90-95%, ujutru oko pola 8 na posao i kada se vratim s posla oko 17h imam 50% baterije uz umereno korišćenje i pozive koji su sastavni deo posla. Telefon lagano izgura od ujutru do uveče, ali lagano. Potencijalni kupci se brinu da li će im izdržati jedan dan baterija jer vi ovde što ceo dan visite na telefonu pljujete bateriju. Ko ima vremena da igra igrice na poslu i visi na YT, on neka uzme laptop, a ne telefon.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2242,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/30j/Honor/Magic8-Lite-8GB-512GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor Magic8 Lite",
+        "author": "Dragan",
+        "date": "2026-07-06 14:50:00",
+        "comment": "Izgleda da ne može da se napravi da AOD radi stalno nikako,tako da treba da se zove NOD-Never On Display.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2245,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9573/Samsung/Galaxy-S21-FE-5G/16",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 FE 5G",
+        "author": "Igor",
+        "date": "2022-09-25 11:49:00",
+        "comment": "Od poslednjeg azuriranja,poceo je prilikom otkljucavanja otiskom da sam otvara aplikacije,uvek one koje se nalaze tu kod otiska. Baterija za nijansu bolja.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2249,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 14,
+                "end": 24,
+                "text": "azuriranja",
+                "category": "Softver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 129,
+                "end": 137,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/g4v/Xiaomi/14T-Pro-12GB-1TB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 14T Pro",
+        "author": "Stefan",
+        "date": "2025-08-17 21:16:00",
+        "comment": "Kupio sam xiomi 14t pro i imam problem sporo se puni, kupio sam punjac 120w ali najbrze sto je napunio je 45m. Sa 67w treba mu oko 50min",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Specifikacija, Motiv kupovine",
+        "id": 2256,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/jtv/Xiaomi/Redmi-Note-14-5G-(China)-8GB-256GB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 14 5G (China)",
+        "author": "Tamara",
+        "date": "2026-01-11 17:10:00",
+        "comment": "Da li se jos nekome brzo prazni telefon ? Od pocetka mu je losa baterija a imam ga mesec dana.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2259,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 64,
+                "end": 72,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/fbd/Honor/X8a/3",
+        "brand": "Honor",
+        "phone": "Honor X8a",
+        "author": "Tara",
+        "date": "2023-06-27 16:04:00",
+        "comment": "Zasto nema ulaz za zičane slusalice",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 2261,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/31",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Одличан",
+        "date": "2021-07-26 15:58:00",
+        "comment": "Telefon top ali se greje dostaaaaaa",
+        "complexity_score": 3,
+        "reasons": "Suprotni veznici",
+        "id": 2262,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8448/Samsung/Galaxy-A72/7",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A72",
+        "author": "Nikolaj",
+        "date": "2021-05-19 22:57:00",
+        "comment": "Telefon za svaku pohvalu, top ulozeno dobijeno optimizovan software 3g nadogradnje zvucnici prejaki kamera baterija ekran full telefon za svaku preporuku radi kao sat nema greske",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2269,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 59,
+                "end": 67,
+                "text": "software",
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 83,
+                "end": 91,
+                "text": "zvucnici",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 100,
+                "end": 106,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 107,
+                "end": 115,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 116,
+                "end": 121,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/kvj/Samsung/Galaxy-S25-FE-8GB-512GB-1x-SIM-1x-eSIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S25 FE",
+        "author": "Mili",
+        "date": "2026-07-16 23:14:00",
+        "comment": "Imam telefon od marta mesece.Telefon je odličan u svakom pogledu.Brz,fluidan,stabilan,baterija dobra.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2270,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 29,
+                "end": 36,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 86,
+                "end": 94,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9955/Honor/70/10",
+        "brand": "Honor",
+        "phone": "Honor 70",
+        "author": "Filip",
+        "date": "2023-06-01 08:11:00",
+        "comment": "Fantastičan telefon! Sve preporuke!",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2273,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 12,
+                "end": 19,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9293/Xiaomi/11T-Pro/4",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 11T Pro",
+        "author": "Bax",
+        "date": "2022-10-22 21:06:00",
+        "comment": "Vrhunski Telefon, daje bas dosta za novac,baterija 2dana,punje je 15minuta,iphone 12 mi se puni 2 Sara,jedina mana stop je cigla",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Sleng",
+        "id": 2274,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 9,
+                "end": 16,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8224/Xiaomi/Mi-11/4",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Mi 11",
+        "author": "Magomajev",
+        "date": "2021-07-01 20:41:00",
+        "comment": "Na 12.5.2 sve ispeglano. U svakom slučaju ovo je nešto najbolje od Xiaomi do sada, medju 5 najjačih modela na tržištu. Ko razbije predrasudu za Šaomi ne više od xxx eur i skupi dovoljno novca za ovaj model shvatiće da je obavio sasvim pametno ulaganje u vrhunski kvalitet za duže vreme.",
+        "complexity_score": 6,
+        "reasons": "Dužina (>=15 reči), Negacija, Sleng",
+        "id": 2278,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9445/Xiaomi/Redmi-Note-11-Pro-4G-6GB-128GB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 11 Pro 4G",
+        "author": "Milica",
+        "date": "2023-06-27 09:58:00",
+        "comment": "Ovo je ubedljivo najgori mobilni uredjaj koji sam ikada koristila. Jako spor, tesko ucitava, cesto zabada, stvarno strasno los telefon! Ko planira da ga kupi neka odmah odustane. Ocena -10 uzas od telefona",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2279,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9841/Samsung/Galaxy-A53-5G/8",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A53 5G",
+        "author": "Vladimir",
+        "date": "2022-09-19 02:44:00",
+        "comment": "Čitao svašta, googl-ao iako za pametne piše da je A52s 5G 70% brzine od naj bržeg procesora na svetu dok za ovo smetlište lepo piše 47%... prodam tako ja A52s 5G i kupim sebi đubre zvano A53. Pa ne stoji džabe recenzija na YT da je totalni promašaj. Jedino šta će imati je duža podrška za softwer i to je sve... ostalo. Nemam reči užasa. Niti igram igrice, niti sam zahtevan korisnik ali telefon po gore navedenim procentima od strane Antutu su primetno osetni. Telefon kao da radi što mora. Naj više šta me je bilo iznerviralo jeste to što ne daj bože noću da upalim kameru i na brzinu da slikam nešto, minimum 3 sekunde mu treba da uslika nešto, u messengeru mu treba 1 sec da pusti poruku sagovorniku... jedan užas od uređaja to što su lepo rekli na recenziji prvi put u istoriji da proizvođač napravi novi model identične težine, identičnog izgleda ali sa osakaćenim čipsetom bili su potpuno u pravu.Prema testovima identična brzina kao na običnom A52 ili A72. Ko ne mora neka kupi A52s 5G jer verujte mi ko pređe sa njegovog Snapdragon-a na ovaj exynos videće drastično sporiji odziv uređaja i opravdanu ocenu od strane stručnih lica. Jednostavno slažem se sa antutu u potpunosti da je ovaj telefon trebao po pravilu danizađe između A52 i A52s 5G. Na kraju sam ga hvala bogu prodao posle par dana i kupio S21 ultra. Dok sam supruzi kupio S20FE snapdragon verziju koji je zver od uređaja za isti novac za razliku od ove lomatine. Isprobajte, istestirajte pa ćete videti da sam u pravu.",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 2281,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/l7m/Samsung/Galaxy-S23-Ultra/25",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 Ultra",
+        "author": "Kimiko",
+        "date": "2023-11-03 17:04:00",
+        "comment": "Staro je pravilo da bilo koji telefon radi najbolje sa verzijom androida \" iz kutije \". Posebno se to odnosi na bateriju. Pri svakoj većoj nadogradnji, normalno je da se oseti određen nivo degradacije i nešto manji SoT. Ništa to nije strašno, tako je oduvek bilo",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2282,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 215,
+                "end": 218,
+                "text": "SoT",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/0l8/Samsung/Galaxy-S23+-512GB",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23+",
+        "author": "Milos",
+        "date": "2025-11-26 16:43:00",
+        "comment": "Pozdrav da li neko ima problem sa 7.0 android 15 baterija za 44 min upaljenog ekrana 17% skida danas ga uzeo polovnog kao nov pise baterija uci obrasce upotrebe",
+        "complexity_score": 3,
+        "reasons": "Dužina (>=15 reči), Motiv kupovine",
+        "id": 2299,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 49,
+                "end": 57,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/14",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Milenko",
+        "date": "2022-07-08 11:23:00",
+        "comment": "Posle mnogo kolebanja kupujem Xiaomi Redmi Note 10 Pro. 27 Januara ove godine. Posle 3 ipo meseca rada telefon mi zamrzne sliku. Posle par trebutak se ugasi i ništa - nikakve znake. Ne reaguje ni na punjač. Ulažem reklamaciju u MTS. Sa izričitim zahtevom za zamenu ili vraćanja novca. Međutim oni mi vraćaju telefon posle 10 tak dana. Dijagnoza da je do softvera, te da su instalirali novi softver istestirali ga i da radi bez problema. Nakon tog slučaja telefon je radio tačno 28 dana. Dešava se potpuno ista stvar. Zamrzavanje slike i nemogućnost ni jedne funkcije.  Jedino što se nije ovaj put ugasio već je ostao osvetljen sa zamznutom slikom. Nosim ga ponovo u poslovnicu (tako sa zamznutom slikom) Ponovo moram slati telefon na reklamaciju. Pored reklamacije ovoga puta popunjavam i prigovor. Gde objašnjavam opis kvara i da se ponavlja isti problem. Izričito zahtevam na zameni uređaja ili povračaj novca.  Međutim u roku od 5-6 dana mi stiže poruka, da se reklamacija ne uvažava (odnosi se na uvažavanje o zameni) već su ga po drugi put drndali  i ko zna šta radili. Već su mi napisali da - ako nisam zadovoljan prigovorom mogu tražiti vansudsko rešavanje sporova. Tako da sam odustao od toga jer nemam vremena ni živaca da se bakćem sa tim.  Preuzeo sam ga i on sada radi a dokle, će ? Neznam. Kupio sam NOV telefon i sada imam telefon koji je za 5 meseci bio 2 puta na reklamaciji.",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 2304,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7651/Apple/iPhone-SE-(2020)/10",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE (2020)",
+        "author": "Bokica",
+        "date": "2020-10-25 21:50:00",
+        "comment": "E ljudi , posle instalacije ios 14.1 baterija se topi nenormanlo. Jel i kod vas tako. Pozdrav.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2306,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 37,
+                "end": 45,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8239/Samsung/Galaxy-S21-Ultra-5G/11",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 Ultra 5G",
+        "author": "Jaffa",
+        "date": "2021-06-19 22:40:00",
+        "comment": "Jel se jos kome grije s21 ultra narocito kako je doslo ovo toplo vreme, prilikom video poziva itd. Meni se nenormalno grije(pregrijava)",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2309,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7651/Apple/iPhone-SE-(2020)/3",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE (2020)",
+        "author": "Goksi",
+        "date": "2022-03-25 19:54:00",
+        "comment": "Mukama je konacno dosao kraj,SE 2022 je konacno ugradio bateriju jaceg kapaciteta...",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2310,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 56,
+                "end": 64,
+                "text": "bateriju",
+                "category": "Baterija",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/z9z/Honor/600-Pro-12GB-512GB-2x-SIM-1x-eSIM",
+        "brand": "Honor",
+        "phone": "Honor 600 Pro",
+        "author": "Ljusa",
+        "date": "2026-07-22 13:50:00",
+        "comment": "H400 Pro kosta 100e manje a nista losiji telefon... Poceli su kao Samsung, da prodaju maglu.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2311,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/qt4/Samsung/Galaxy-A16-5G-8GB-256GB-1x-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A16 5G",
+        "author": "Samsung lovers",
+        "date": "2025-06-10 20:37:00",
+        "comment": "Veoma,veoma brz telefon al kad se smanje animacije",
+        "complexity_score": 3,
+        "reasons": "Suprotni veznici",
+        "id": 2314,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Konflikt"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/pt4qv/Apple/iPhone-14-Pro-Max/5",
+        "brand": "Apple",
+        "phone": "Apple iPhone 14 Pro Max",
+        "author": "Bojan",
+        "date": "2023-03-11 18:17:00",
+        "comment": "vrhunska masina",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2317,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 9,
+                "end": 15,
+                "text": "masina",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/87w/Honor/400-Pro-12GB-256GB-1x-SIM-1x-eSIM/9",
+        "brand": "Honor",
+        "phone": "Honor 400 Pro",
+        "author": "Nina",
+        "date": "2025-09-09 21:55:00",
+        "comment": "U toku razgovora ekran telefona se ne gasi,ne zaključa se.Dok pričam udjem u bezbroj aplikacija.Može li pomoć kako da podesim da se ekrem zaključa kada se poziv uspostavi?",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2319,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8714/Honor/50/9",
+        "brand": "Honor",
+        "phone": "Honor 50",
+        "author": "Leks",
+        "date": "2021-11-02 15:40:00",
+        "comment": "Za ove pare-nedovoljno, nema 2 zvucnika ima dobar procesor, ali za neku slabiju kategoriju, upola jeftiniji telefoni imaju ovaj i jaci čip.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2320,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 31,
+                "end": 39,
+                "text": "zvucnika",
+                "category": "Zvučnici",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 50,
+                "end": 58,
+                "text": "procesor",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/gwmgy/Xiaomi/12T-Pro/3",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 12T Pro",
+        "author": "Nino",
+        "date": "2023-07-05 15:32:00",
+        "comment": "Telefon ako zanemarimo izradu srednje klase ima sve odlike najačih modela.Kamera je perfektna ko zna da slika,ko ne zna DSLR mu daj i opet će da maši.Baterija je savršena kao i brzo punjenje od 120w,Ekran lijep,dobre boje i dobar odziv pri dodiru kao i otisak,slabija je vidljivost na suncu u odnosu na druge modele.Procesor je zmaj,štedljiv a brz kao infrakt.Zvuk čist i glasan.Jedina zamerka na update,ja ga koristim mjesec dana i još je na Androidu 12/MIUI 13.Ovi što pominju a54 sigurno su plaćeni botovi,jer poredjenje ovog zmaja sa telefonom koji imao kvalitet kao kanta od polikolora je smiješno",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Negacija, Specifikacija, Sleng",
+        "id": 2323,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 23,
+                "end": 29,
+                "text": "izradu",
+                "category": "Izgled",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 74,
+                "end": 80,
+                "text": "Kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 150,
+                "end": 158,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 199,
+                "end": 204,
+                "text": "Ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 316,
+                "end": 324,
+                "text": "Procesor",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 360,
+                "end": 364,
+                "text": "Zvuk",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 397,
+                "end": 403,
+                "text": "update",
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8239/Samsung/Galaxy-S21-Ultra-5G/7",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 Ultra 5G",
+        "author": "Nex",
+        "date": "2022-01-28 22:25:00",
+        "comment": "Ovaj telefon je savrseno upakovano i odradjeno cudo bez reci, ako ste pratili s22 su skroz unazadili i napravili korak unazad sa svim sto je zasita sramota. Ne menjajte ovo bar jos 2 godine.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2324,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 5,
+                "end": 12,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/lsg/Honor/X8c-8GB-256GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor X8c",
+        "author": "Mickey Mental",
+        "date": "2025-05-13 12:43:00",
+        "comment": "- Nema brzo punjenje",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 2332,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 12,
+                "end": 20,
+                "text": "punjenje",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9654/Samsung/Galaxy-S22-Ultra-5G/12",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S22 Ultra 5G",
+        "author": "Aca",
+        "date": "2022-04-03 15:29:00",
+        "comment": "Baterija je dosta bolja nakon poslednjeg abdejta.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2334,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 8,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/sfg/Honor/X6c-8GB-256GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor X6c",
+        "author": "Слободан",
+        "date": "2026-02-15 20:30:00",
+        "comment": "Telefon je odličan .Bez primedbi.",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 2336,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9955/Honor/70/13",
+        "brand": "Honor",
+        "phone": "Honor 70",
+        "author": "Saša",
+        "date": "2023-04-16 09:07:00",
+        "comment": "Honor 70 sa svojim performansama, izgledom, linijom po meni spada u premijum liniju. Svako ko ga je pogledao oduševio se izgledom i ekrenom. Koristim ga oko mesec dana, sve je to fasada i lepo, al malo malo zaigra mi slika na aplikaciji viber, sa sistemskim porukama, kada ga otključa on mi direktno ulazi u aplikaciju u koju prethodno nisam ušao danima, ja ga resetujem, onda bude dobro par dana i opet isto. Reinstaliram Viber, gubim ćaskanje, i opet isto. Razmišljam koji telefon drugi da uzmem al ovakav telefon sa tim performansama i izgledom nema za 370 eura sve je preko 600 700,ili da se pomorimm sa ovom sitnom anomalijom, kolko para sta da radiš!?!!?",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2345,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 19,
+                "end": 32,
+                "text": "performansama",
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 34,
+                "end": 42,
+                "text": "izgledom",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 132,
+                "end": 139,
+                "text": "ekrenom",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9841/Samsung/Galaxy-A53-5G/9",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A53 5G",
+        "author": "Miroslav",
+        "date": "2022-06-04 21:52:00",
+        "comment": "Telefon nije dobar nego fenomenalan.",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 2356,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8239/Samsung/Galaxy-S21-Ultra-5G/11",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 Ultra 5G",
+        "author": "Ajfon",
+        "date": "2021-07-31 19:50:00",
+        "comment": "Ovaj telefon ima sve ,ono sto I trazimo.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2358,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 5,
+                "end": 12,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/lf3/Honor/Magic6-Pro-12GB-512GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor Magic6 Pro",
+        "author": "Mandrak",
+        "date": "2026-05-25 21:23:00",
+        "comment": "Evo prvog buga u novož ažuriraju (152) kada radite screenshot pokazuje da nema dovoljno memorije, ali bez obzira na lažnu poruku o memoriji snimi screenshot. Verovatno će ispraviti ubrzo, bar se nadam, vidim po forumima za masu honor telefona ista greška, ako neko nađe rešenje, neka piše...",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2360,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 23,
+                "end": 32,
+                "text": "ažuriraju",
+                "category": "Softver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9288/Xiaomi/11-Lite-5G-NE/3",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 11 Lite 5G NE",
+        "author": "Dex",
+        "date": "2022-03-03 21:53:00",
+        "comment": "Uzeo ga prekjuče, maltretirao sam ga od jutros, baterija mu je na 10%, pravi dobre slike pride sam instalirao gcam, isprobao sam par igrica, glatko sam im pokrenuo,a zamislite plus amoled je lep, nikakvih bagova nema, predhodni tel je imao problem sa signalom (motorola one vision) a ovaj je baš ok,verzija je sa 8/128 memorije, nisam povatao jo sve opcije ali upamtite da su ovi tel sa otljkučanim boot loaderom, imate uputstvo za custom rom, samo pratite na youtube kako promeniti os i to je to, javljam za par dana o pstalim utiscima i sl.",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 2361,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 83,
+                "end": 88,
+                "text": "slike",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 181,
+                "end": 187,
+                "text": "amoled",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 251,
+                "end": 259,
+                "text": "signalom",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/7181/Apple/iPhone-11-256GB",
+        "brand": "Apple",
+        "phone": "Apple iPhone 11",
+        "author": "Vlado nk",
+        "date": "2025-04-05 01:39:00",
+        "comment": "Konacno i ja u Apple svijetu. Malo navikavanja ali ok, dakle telefon sam uzeo polovan za 90e. Telefon je Zestok, kamere otkidaju, brz i dan danas, lijep, zanimljiv.",
+        "complexity_score": 6,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Motiv kupovine",
+        "id": 2363,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 94,
+                "end": 101,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 113,
+                "end": 119,
+                "text": "kamere",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8233/Samsung/Galaxy-S21+-5G/5",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21+ 5G",
+        "author": "Korisnik",
+        "date": "2021-09-28 13:12:00",
+        "comment": "Zadovoljna, fotografije vrhunske, baterija traje, staklo se pomera, preporuka odmah maska na preklop.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2370,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 12,
+                "end": 23,
+                "text": "fotografije",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 34,
+                "end": 42,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/khb/Samsung/Galaxy-S23/20",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "Ana",
+        "date": "2023-09-08 16:54:00",
+        "comment": "Da li jos neko ima problem sa zadnjom kamerom prilikom slikanja npr nekog teksta(jedan deo slike je mutan, a drugi ne)?",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2371,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 30,
+                "end": 45,
+                "text": "zadnjom kamerom",
+                "category": "Kamera",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7179/Apple/iPhone-11-64GB/3",
+        "brand": "Apple",
+        "phone": "Apple iPhone 11",
+        "author": "Andrija",
+        "date": "2023-12-17 10:39:00",
+        "comment": "Juče sa uzeo iPhone 11 86% BH, true tone radi, face id radi, sve je u perfektnom stanju, uz njega sam dobio i originalni kabal za punjenje i originalnu kutiju na to sve imam i još 6 meseci garancije za njega, platio sam 290 e, da li sam napravio grešku ili ne",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
+        "id": 2377,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 61,
+                "end": 64,
+                "text": "sve",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/6nv/Xiaomi/Redmi-Note-13-Pro+/12",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 13 Pro+",
+        "author": "Kenzo",
+        "date": "2024-02-01 14:46:00",
+        "comment": "Za Redmi Note seriju kakva god da je ovo je totalno neprimerena cena. Mogu da kače šta god hoće pro, plus, max ali nema teorije da je to bolje, kvalitetnije od\" čistih\" Xiaomi 12,13, modela i tačka.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2382,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 64,
+                "end": 68,
+                "text": "cena",
+                "category": "Cena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8061/Apple/iPhone-12-mini/6",
+        "brand": "Apple",
+        "phone": "Apple iPhone 12 mini",
+        "author": "Marmun",
+        "date": "2021-01-21 23:21:00",
+        "comment": "Baterija mi izdrzi 5 sati. Bas slaba baterija. I malo memorije, sa 64gb napunio sam ga za dva dana.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Specifikacija",
+        "id": 2384,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 37,
+                "end": 45,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 54,
+                "end": 62,
+                "text": "memorije",
+                "category": "Memorija",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/cq3/Samsung/Galaxy-A56-12GB-256GB-2x-SIM-2x-eSIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A56",
+        "author": "Tesla X",
+        "date": "2026-07-09 14:05:00",
+        "comment": "Galaxy A56 je Top za ove pare.... za ispod 300€",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2390,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 25,
+                "end": 29,
+                "text": "pare",
+                "category": "Cena",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/2wjlc/Xiaomi/13/2",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 13",
+        "author": "Domla",
+        "date": "2024-03-02 12:11:00",
+        "comment": "Da li je moguće da ovi iz Xiaomija odrade bolji dizajn kod jeftinih modela, nego kod premium. I cena? Znaju da im ta priča sa budženjem cena premium modela kod nas ne prolazi, i opet teraju isto",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2394,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8491/Xiaomi/Mi-11-Lite-5G/5",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Mi 11 Lite 5G",
+        "author": "Fast",
+        "date": "2021-10-17 07:54:00",
+        "comment": "Odličan telefon a baterija plač,30-40%jača baterija na običnom redmi note 10, nije tako na papiru ali drugo je realnost ili je redmi 10 ozbiljni best buy...",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2395,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 8,
+                "end": 15,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 18,
+                "end": 26,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/khb/Samsung/Galaxy-S23/4",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "Shomi",
+        "date": "2025-05-03 22:07:00",
+        "comment": "Ovaj update je ubio telefon. Nov telefon sam kupio i ovaj update 1h na 60hz trosi 10%. Toliko je ranije trosio na 120hz.",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Specifikacija, Motiv kupovine",
+        "id": 2398,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 5,
+                "end": 11,
+                "text": "update",
+                "category": "Softver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/mhj/Xiaomi/14-12GB-512GB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 14",
+        "author": "N",
+        "date": "2025-06-02 13:19:00",
+        "comment": "Nije li čudno što ovaj fon iz 2023 košta isto kao X15 iz 2025. koji ima jače procesore, grafiku i možda još po nešto",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2400,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/pt4qv/Apple/iPhone-14-Pro-Max/7",
+        "brand": "Apple",
+        "phone": "Apple iPhone 14 Pro Max",
+        "author": "DONA",
+        "date": "2022-09-23 01:52:00",
+        "comment": "bolje uzeti 13 pro max od 1TB bas su preterali sa cenom",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2407,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 50,
+                "end": 55,
+                "text": "cenom",
+                "category": "Cena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/qqy/Xiaomi/13T/4",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 13T",
+        "author": "Prijatelju procitaj",
+        "date": "2024-02-02 20:04:00",
+        "comment": "posedujem Honor magic 5 pro i ovaj model Xiaomi 13t 8/256. Razlog iz kojeg pišem je da se ne nervirate oko kvazi mišljenja. Što se tiče telefona, sve isto radi kao premijum modeli, kamera je fenomenalna kao i preformanse uredjaja. Uredjaj je dobio Hiper nadogradnju i sve je jos bolje sad. Dakle kratko i jasno telefon bez greske za dugo koriscenje a to da li je flagship ili middle range okacite macki o rep.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2409,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 181,
+                "end": 187,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 209,
+                "end": 220,
+                "text": "preformanse",
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 311,
+                "end": 318,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/h4v/Samsung/Galaxy-S25+-12GB-512GB-1x-SIM-2x-eSIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S25+",
+        "author": "Hilf",
+        "date": "2026-02-19 10:25:00",
+        "comment": "Ima li jos neko problem sa zagrevanjem? Pola sata skrolovanja i čačkanja podešavanja,telefon se usija.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2410,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9841/Samsung/Galaxy-A53-5G/7",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A53 5G",
+        "author": "Cool",
+        "date": "2022-11-19 20:30:00",
+        "comment": "Ovaj mob navodno vodootporan al nije bas. Upade u vodu i pokvari se pa moras kod majstora.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2412,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/khb/Samsung/Galaxy-S23/18",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "miloš",
+        "date": "2023-11-08 14:08:00",
+        "comment": "a1 pustio update za svoje telefone.. radi sve ok",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 2414,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/l7m/Samsung/Galaxy-S23-Ultra/26",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 Ultra",
+        "author": "...",
+        "date": "2023-11-02 01:55:00",
+        "comment": "Ovaj apdejt je katastrofa, sve mi se vise svidjalo na starom. Najvise mi smeta sto je pola na engleskom, a pola na srpskom. Cak mi je i  whatsapp skroz presao na engleski i ne mogu da promenim. Izgubila se i opcija da vidim koliko imam SOT. Da li ne zna gde to mogu da proverim? Jedina dobra stvar je sto sada moze da slika 200mp u 9:16.",
+        "complexity_score": 6,
+        "reasons": "Dužina (>=15 reči), Negacija, Specifikacija",
+        "id": 2415,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 5,
+                "end": 11,
+                "text": "apdejt",
+                "category": "Softver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9573/Samsung/Galaxy-S21-FE-5G/18",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 FE 5G",
+        "author": "Slavisa",
+        "date": "2022-07-30 06:44:00",
+        "comment": "Juče kupljen u Yettel-u. Prvi utisci su da je veoma brz i sve glatko radi.Nisam imao samsung sigurno 7 godina i ono što nisu popravili je baterija koja zaista kratko traje. Napunjena do 90 % i 3 sata koriscenja interneta bez gledanja video zapisa,baterija na 65%. Kamere su na prvi utisak odlicne,cekam noc pa cu videti kakva je tu situacija.Imao sam utisak da je malo veci telefon,ali lepo lezi u ruci i brzo sam se navikao iako sam pre njega ima Redmi note 9pro koji je dosta veci. Dolazi sa android 12 i ima kako rekose podrsku do androida 15. Ekran je zaista odlican,a boje lepo uklopljene i uz 120hz osvezenje ekrana,pravo je zadovoljstvo za koriscenje.  Igrice slabo igram,pa tu cu tek videti utiske. Ono sto sam primetio je da dok je na punjacu ima vecu temperaturu i kada ga prislonite na uvo nije nimalo prijatno koliko je topao. Uglavnom prvi utisci su ok,pa ukoliko zelite dobar uredjaj sa dobrim karakteristikama,moja preporuka je za ovaj model. Naravno cena je previsoka i dalje,s obzirom da ce jos malo izaci S23.",
+        "complexity_score": 9,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija",
+        "id": 2419,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 138,
+                "end": 146,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 264,
+                "end": 270,
+                "text": "Kamere",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 547,
+                "end": 552,
+                "text": "Ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 966,
+                "end": 970,
+                "text": "cena",
+                "category": "Cena",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/12",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Fag",
+        "date": "2022-08-09 09:59:00",
+        "comment": "Telefon koristim vec mesec dana super je nema nikakve greske miui 13.0.10 je meni i to je to generalno nema bagova bar kod mene",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2420,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/7425/Samsung/Galaxy-S20-Dual-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S20",
+        "author": "Pajko",
+        "date": "2021-11-22 18:27:00",
+        "comment": "Pozz mala pomoc, pri koriscenju poslednjih dana mi se cini kao da telefon samo stucne na sekundu, nesto slicno onome kad se skrinsotuje ekran.. i npr ako sam na you tube iz celog ekrana me vrati na mali ekran, ako se dopisujem na viberu samo se spusti tastatura, ja je podignem i sve normalno radi.. jel imao neko slican problem, da mi ukaze na nesto ? Ima li razloga za brigu inace sve ostalo je ekstra, ekstra telefon radi.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2422,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 412,
+                "end": 419,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/blm/Honor/Magic5-Lite/16",
+        "brand": "Honor",
+        "phone": "Honor Magic5 Lite",
+        "author": "Mikica",
+        "date": "2023-04-04 01:15:00",
+        "comment": "Imam problem sa prikazom obaveštenja. Na ekranu sa obaveštenjima se ne prikazuje više od 5 obaveštenja.  Čim stigne neko novo potisne ono poslednje i više ga nema.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2425,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/qy8/Xiaomi/15-12GB-256GB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 15",
+        "author": "X15",
+        "date": "2026-04-14 08:09:00",
+        "comment": "Kao sto rekoh telefon radi odlicno za normalnog korisnika tu nema greske. Dobra baterija, brzo punjenje i kompaktan telefon su prednost. Nor juce sam igrao malo zahtevniju igricu i toliko se usijao da nije mogao da se drzi. Procesor je prejak a kuciste malo i nema mnogo prostora za odvodjenje toplote. Ne samo da se puni sa 90w punjacem nego i kada radi on se puni jacinom od 90w sto je 1/3 snage ringle. Ko ne igra igrice sve radi kako treba. Pozdrav",
+        "complexity_score": 6,
+        "reasons": "Dužina (>=15 reči), Negacija, Specifikacija",
+        "id": 2428,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 14,
+                "end": 21,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 80,
+                "end": 88,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 224,
+                "end": 232,
+                "text": "Procesor",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/trxcj/Samsung/Galaxy-Z-Flip4-256GB",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy Z Flip4",
+        "author": "Danijela",
+        "date": "2024-01-12 00:20:00",
+        "comment": "Uzas boziji,koristim ga pet meseci i juce mi se odvoji komplet ekran,garanciju u yetelu ne priznaju jer kazu da je fizicko ostecenje,a nije popravka kosta 47200 din",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2429,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/5rz/Xiaomi/Redmi-Note-13-Pro-5G/5",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 13 Pro 5G",
+        "author": "339",
+        "date": "2024-03-26 10:37:00",
+        "comment": "Perfektan uredjaj (za cenu) sa HyperOS radi jos bolje i fluidnije. Preporuka, ko trazi Xiaomi uredjaj iz Note 13 serije, jedan od (naj)bojih ulozeno-dobijeno.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2430,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 10,
+                "end": 18,
+                "text": "uredjaj ",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 22,
+                "end": 26,
+                "text": "cenu",
+                "category": "Cena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/gz0/Honor/Magic5-Pro/14",
+        "brand": "Honor",
+        "phone": "Honor Magic5 Pro",
+        "author": "Dejan",
+        "date": "2023-06-05 23:21:00",
+        "comment": "Baterija 1 dan ako se tel koristi, sot oko 5h. Ne znam kako kod ostalih ali eto vec 2 nedelje je tel kod mene to je to, nista se nije popravilo nakon tog nekog nazovimo ucenja. Mozda toliko traje jer imam 2 simani 2 profila poslovni, sluzbeni.  Kakva su vasa iskustva?",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2437,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9955/Honor/70/15",
+        "brand": "Honor",
+        "phone": "Honor 70",
+        "author": "Dejvi",
+        "date": "2023-01-24 15:43:00",
+        "comment": "Koristim telefon par dana,  uzet nov u A1,  mogu reci da je veoma dobar... Interfejs,  automatizacija, brzina procesora, sve radi fluidno i lepo.  Uz to jos i 120hz ekran(zakrivljen) milina. Baterija perfekcija...  Kamere veoma dobre(nisu kao na s22ultra ili s21) ali za ovaj rang telefona odlicne.  Tako da ko razmislja o H70 slobodno neka ga uzme,  nece se pokajati.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Specifikacija",
+        "id": 2438,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 9,
+                "end": 16,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 75,
+                "end": 84,
+                "text": "Interfejs",
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 110,
+                "end": 119,
+                "text": "procesora",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 165,
+                "end": 170,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 191,
+                "end": 199,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 215,
+                "end": 221,
+                "text": "Kamere",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8239/Samsung/Galaxy-S21-Ultra-5G/5",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 Ultra 5G",
+        "author": "Bole",
+        "date": "2022-07-05 20:15:00",
+        "comment": "Ne znam neki govore samsung ima lose baterije ovo ono... ja moram reci da moja S21 Ultra bulvalno uvek ima oko 55% na kraju dana. Radni dan mi pocinje u 6.30 i evo sada u 22h imam 55%.... po meni je to savrseno i svaka cast inace samsungu na s21 ultri i za bateriju, i za ekran, i za zvuk zvucnika, i za celokupnu stabilnost uredjaja. :)",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 2442,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 257,
+                "end": 265,
+                "text": "bateriju",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 272,
+                "end": 277,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 289,
+                "end": 297,
+                "text": "zvucnika",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/76d/Xiaomi/13T-Pro/4",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 13T Pro",
+        "author": "Haos",
+        "date": "2023-12-20 12:20:00",
+        "comment": "Da li ljudi stvarno i dalje kupuju xiaomi telefone? Da li zaista niste nista naucili do sada? Pa ovo nije nimalo jeftino vise za kinesko sme.. dok su kostali 200-250e bili su ok, sad vam uvaljuju cene po 700-800e za bloatware, buvljak proizvod. Samo u Srbiji od postene brace kineza. Strasno.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2443,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/87w/Honor/400-Pro-12GB-256GB-1x-SIM-1x-eSIM/5",
+        "brand": "Honor",
+        "phone": "Honor 400 Pro",
+        "author": "Kum",
+        "date": "2026-01-04 15:19:00",
+        "comment": "Ne znam za druge al kao prethodnom korisniku honora ovaj model je veliko unapređenje, kamere su odlicne, na snegu pravi fenomenalne fotografije, stereo zvucnici su odlicni, baterija traje ceo dan za sledeci ostane nekih 20-25%, punjenje je brzo za neke hitne situacije za 10-15minuta moze da napuni telefon i da sa tim punjenjem izdrzi ostatak dana. Na snegu ekran radi kao i kad je suv, nema cimanja slike greske senzora pa da nista ne reaguje, sve radi odlicno. Za sad sam zadovoljan, svako ko se razmislja za ovaj model neka uzme, nece pogresiti!",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 2444,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 86,
+                "end": 92,
+                "text": "kamere",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 152,
+                "end": 160,
+                "text": "zvucnici",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 173,
+                "end": 181,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 359,
+                "end": 364,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 446,
+                "end": 449,
+                "text": "sve",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/m5l/Honor/X7d-4G-8GB-256GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor X7d 4G",
+        "author": "Miki",
+        "date": "2026-05-05 13:24:00",
+        "comment": "Dobar telefon, sve radi savrseno. Baterija je doslovno cudo. po suncu se ekran dobro vidi. kamera je dobra, video je isto dobar.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2449,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 6,
+                "end": 13,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 34,
+                "end": 42,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 73,
+                "end": 78,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 91,
+                "end": 97,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/27",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Srb",
+        "date": "2021-08-30 19:59:00",
+        "comment": "Nocas sam primetio u dark modu blago treperenje ekrana ugasio sam dark mod i evo sad je ok da li mi moze neko reci u cemu je problem? Ako je ima neko slican problem nek mi javi inace sve ostalo je u redu.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 2454,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 48,
+                "end": 54,
+                "text": "ekrana",
+                "category": "Ekran",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 183,
+                "end": 193,
+                "text": "sve ostalo",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/khb/Samsung/Galaxy-S23/3",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "Alex",
+        "date": "2025-06-30 10:01:00",
+        "comment": "Sta je ovo ljudi moji. Pa sa ovimnapdejtom ocekivao sam pobosljanje baterije, kad ono,, juce skinut sa punjaca, uspostavljenano dva tri razgovora, igrive ne igram. Nocas ugasen oko 3, sada baterija 23 posto. Pa sta je ovo. Imam a55 i sve radim na njemu takovda je ovaj maksimalno postedjen. Ja ne znam sta da radim. Ocekivao sam poboljsanje dok ono sve gore i gore.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 562,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9204/Samsung/Galaxy-A52s-5G-8GB-256GB-1x-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A52s 5G",
+        "author": "SamA",
+        "date": "2025-09-21 13:17:00",
+        "comment": "U novembru ce biti 4 godine kako sam kupio ovaj telefon. Ove godine u martu sam zamijenio bateriju i nastavio koristenje bez ikakvih problema. Zaista jedan on najboljih telefona srednje klase u svoje vrijeme a i danas moze na crtu mnogima.",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
+        "id": 563,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/m2j/Huawei/nova-9-SE-8GB",
+        "brand": "Huawei",
+        "phone": "Huawei nova 9 SE",
+        "author": "Joksim",
+        "date": "2023-11-10 20:23:00",
+        "comment": "Kamera loša, po mraku neupotrebljiva, retko baguje, javile se žute mrlje na ekranu. Baterija prosečna, punjenje od 66w odlično, prilično otporan na padove. Nema proširenje memorije.",
+        "complexity_score": 6,
+        "reasons": "Dužina (>=15 reči), Negacija, Specifikacija",
+        "id": 567,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 6,
+                "text": "Kamera",
+                "category": "Kamera",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 76,
+                "end": 82,
+                "text": "ekranu",
+                "category": "Ekran",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 84,
+                "end": 92,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 172,
+                "end": 180,
+                "text": "memorije",
+                "category": "Memorija",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/zj6/Xiaomi/13T-Pro-16GB-1TB",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 13T Pro",
+        "author": "zeleni",
+        "date": "2025-08-18 21:57:00",
+        "comment": "telefon odlican od prvog dana. slike zadovoljavajuce, baterija solidna, memoriju sam napunio do 150gb a ima 512. punjac napuni telefon dok popijes kafu. uzeo ga u pretprodaji pocetkom oktobra. ako bog da ice jos jednu turu od dve godine.",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Specifikacija, Motiv kupovine",
+        "id": 569,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 31,
+                "end": 36,
+                "text": "slike",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 54,
+                "end": 62,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 113,
+                "end": 119,
+                "text": "punjac",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/dlb/Samsung/Galaxy-A16-6GB-256GB-2x-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A16",
+        "author": "Riki",
+        "date": "2026-04-10 05:33:00",
+        "comment": "Odlicna kamera po suncanom vremenu za taj novac , ali video ne valja. A oled ili  AMOLED umaraju  oci.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 571,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 8,
+                "end": 14,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "Konflikt"
+            },
+            {
+                "start": 82,
+                "end": 88,
+                "text": "AMOLED",
+                "category": "Ekran",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/khb/Samsung/Galaxy-S23/12",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "Miloš",
+        "date": "2024-05-28 22:57:00",
+        "comment": "Telefon imam od marta, veoma brz, kamera fenomenalna, ali greje se kad duže pričam ili koristim kameru. Imate li savet kako to rešiti ili prosto ne valja telefon hardverski? Kupljen je u radnji u Balkanskoj.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 572,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 34,
+                "end": 40,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8491/Xiaomi/Mi-11-Lite-5G/5",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Mi 11 Lite 5G",
+        "author": "Miki",
+        "date": "2021-11-05 04:36:00",
+        "comment": "Telefon apdejtovan na 12.5.6.Nema nikakvih problema.Baterija po meni jedino bi mogla bi biti bolja.",
+        "complexity_score": 2,
+        "reasons": "Negacija",
+        "id": 573,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 52,
+                "end": 60,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "N"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/cxb56/Samsung/Galaxy-A04-64GB-Dual-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A04",
+        "author": "Filip",
+        "date": "2023-04-05 14:48:00",
+        "comment": "Za 120 evra Nisam, mogao bolji telefom da kupim, drzi bateriju dva dana ima sve sto, mi treba Kamera je ok sve u svemu dobra trgovina za ulozeni novac.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 575,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 94,
+                "end": 100,
+                "text": "Kamera",
+                "category": "Kamera",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/9",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Marija",
+        "date": "2022-12-03 20:55:00",
+        "comment": "Užasan telefon vratih se na Samsung.Mnogo mi je žao što sam prodala xiaomi 9pro radio je kao sat.Umesto da desetka bude bolja ona kao sa aliexpres-a.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 576,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 7,
+                "end": 14,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/qy8/Xiaomi/15-12GB-256GB-2x-SIM/2",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 15",
+        "author": "Bromos9",
+        "date": "2025-12-07 14:32:00",
+        "comment": "Baterija dva dana, hladan kao Tuborg iz frizidera pri uobicajenom koriscenju, u zahtevnim igrama se malo zagreje ali to je tako je i kod svih ostalih telefona.",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici",
+        "id": 577,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/nc2/Samsung/Galaxy-A25-8GB-256GB",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A25",
+        "author": "Boda",
+        "date": "2025-06-01 03:13:00",
+        "comment": "Dobar uredjaj, za mene licno Sams softver je top, kamere solidne, baterija solidna, prima mem kart, ima 3,5mm dzek, 2 zvucnika, dobar ekran (bolji od A26), manji i laksi od svih iz A serije od prosle i ove god. Verzija 8/256gb za mene top kupovina!",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Specifikacija",
+        "id": 578,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 6,
+                "end": 13,
+                "text": "uredjaj",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 34,
+                "end": 41,
+                "text": "softver",
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 50,
+                "end": 56,
+                "text": "kamere",
+                "category": "Kamera",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 66,
+                "end": 74,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 134,
+                "end": 139,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/x24/Honor/X6a",
+        "brand": "Honor",
+        "phone": "Honor X6a",
+        "author": "Weksy",
+        "date": "2023-08-11 13:09:00",
+        "comment": "Telefon skromnih mogućnosti.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 579,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/3",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "daca",
+        "date": "2023-12-11 10:12:00",
+        "comment": "tel koristim 1 god,tel je vrh, e sad,juce mi ispao iz ruke i primetio sam da uvek za poruke stoji sim 2, u podesavanjima nema za poruke sa koje kartice vec samo za pozive i mob podatke, pa prilikom svake poruke menjam sim, cini mi se da nije bilo tako, aj pomoć prijatelja",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 582,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 19,
+                "end": 22,
+                "text": "tel",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9622/Xiaomi/Redmi-Note-11-Pro-5G/2",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 11 Pro 5G",
+        "author": "radovan",
+        "date": "2022-06-28 19:00:00",
+        "comment": "telefon je odlican",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 583,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/bv01r/Apple/iPhone-14-Pro-1TB",
+        "brand": "Apple",
+        "phone": "Apple iPhone 14 Pro",
+        "author": "Kristina",
+        "date": "2025-05-07 10:46:00",
+        "comment": "Pozdrav, da li još neko ima problem sa baterijom za ajfon 14 pro? Za 6 nedelja koriscenja battery health mi sa 100% opao na 94%, što po meni nije normalno.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 586,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 90,
+                "end": 104,
+                "text": "battery health",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/fmj/Apple/iPhone-16-Pro-8GB-1TB-2x-SIM",
+        "brand": "Apple",
+        "phone": "Apple iPhone 16 Pro",
+        "author": "Nikola",
+        "date": "2025-11-14 18:38:00",
+        "comment": "Kad ga uporedim sa samsung s25 edge,iphone zaostaje mnogo,imam samsung s25 edge i mnogo je zgodniji za nosenje i veci ekran dobijes,baterija u redu...",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 588,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 118,
+                "end": 123,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 132,
+                "end": 140,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9955/Honor/70",
+        "brand": "Honor",
+        "phone": "Honor 70",
+        "author": "Darko",
+        "date": "2025-05-16 16:24:00",
+        "comment": "Pozdrav. Da li je neko imao problema da dok razgovaram sagovornik cuje svaku drugu rec. Testirao sam mikrofon. Kad saljem glasovnu poruku nema nikakvih prekida. Kada zovem na obican pozov svi mi kazu da prekidam kao da nema signala. A signala ima, to znam. Ne znam sta moze da bude problem.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 589,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/6nv/Xiaomi/Redmi-Note-13-Pro+/3",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 13 Pro+",
+        "author": "Ixon Redmi  13 Pro +",
+        "date": "2025-03-17 02:49:00",
+        "comment": "Telefon skroz solidan , Ali lens flejer bas nikakav. Kamera nije losa Ali lens flejer je stvarno bas osetljiv. Definitivno I'ma problema sa izvorima svetlosti.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 592,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 53,
+                "end": 59,
+                "text": "Kamera",
+                "category": "Kamera",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8007/Samsung/Galaxy-S20-FE/2",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S20 FE",
+        "author": "Miki",
+        "date": "2022-03-26 10:22:00",
+        "comment": "Ponovo se desava restartovanje telefona pri pokretanju sada glavne kamere. Ranije se dešavalo da se to dešava pri pokretanju prednje kamere. Da li je jos neko imao ovaj problem?",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 595,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/tj1/Apple/iPhone-17-Pro-Max-12GB-2TB-1x-SIM-2x-eSIM",
+        "brand": "Apple",
+        "phone": "Apple iPhone 17 Pro Max",
+        "author": "Ljubo",
+        "date": "2026-07-23 07:04:00",
+        "comment": "Da li je realno da mu je cena i dalje 1200 evra. S26 ultri je 850. Pa nije Ajfon 350 evra bolji od Ultre.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 608,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 25,
+                "end": 29,
+                "text": "cena",
+                "category": "Cena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9638/Samsung/Galaxy-S22-5G/2",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S22 5G",
+        "author": "Miško94",
+        "date": "2024-05-12 22:19:00",
+        "comment": "Stigao je One UI 6.1. Tu je i Galaxy AI, nedostaje samo usporavanje snimaka sa dodavanjem frejmova. Interesantne funkcije mada su realno gimik. Podesavanje AOD-a je prebaceno negde i pespotrebno zakomplikovano. Baterija cini mi se ni bolja ni gora. Sve u svemu solidna nadogradnja. Interesantno je dobiti neke nove funkcije nakon dve godine 😅",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 610,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 211,
+                "end": 219,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 269,
+                "end": 280,
+                "text": "nadogradnja",
+                "category": "Softver",
+                "sentiment": "Neutralan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/gsmly/Huawei/nova-10-SE-8GB",
+        "brand": "Huawei",
+        "phone": "Huawei nova 10 SE",
+        "author": "Laza",
+        "date": "2023-07-31 22:46:00",
+        "comment": "Uzeo sa Nova 10 se preko A1 i ovo su moji utisci. Dizajn - vanserijski, Ekran -izvanredan, Kamere - solidne, Punjene - veoma brzo, Procesor - solidan za prosečne korisnike, Zvuk - jak ali nije stereo.",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 612,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 50,
+                "end": 56,
+                "text": "Dizajn",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 72,
+                "end": 77,
+                "text": "Ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 91,
+                "end": 97,
+                "text": "Kamere",
+                "category": "Kamera",
+                "sentiment": "Neutralan"
+            },
+            {
+                "start": 109,
+                "end": 116,
+                "text": "Punjene",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 131,
+                "end": 139,
+                "text": "Procesor",
+                "category": "Hardver",
+                "sentiment": "Neutralan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/xnjcm/Xiaomi/Redmi-Note-12-Pro/2",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 12 Pro",
+        "author": "Andjela",
+        "date": "2024-06-26 14:27:00",
+        "comment": "Ovaj telefon je katastrofa.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 613,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 5,
+                "end": 12,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/xhk/Xiaomi/15-Ultra-12GB-256GB-2x-SIM-2x-eSIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 15 Ultra",
+        "author": "BebaDzo",
+        "date": "2025-09-19 20:14:00",
+        "comment": "Pozdrav svima. Imam jedno pitanje. Slučajno sam primetio ovo, možda je samo moj opsesivno-kompulzivni poremećaj, ali kada je u pitanju kućište telefoto kamere, čini se da je malo, za manje od pola milimetra, čak i manje od toga, pomereno u stranu, kod mene u levo kada se gleda kućište kamere, da li je to slučaj i kod vas? Posetio sam dve ili tri zvanične Mi prodavnice u Bg-u, i usput je bilo par prodavnica tehničke opreme gde se prodaje 15 Ultra. Na skoro svim telefonima položaj kamere je bio drugačiji; na nekima je bila strogo u centru, a na drugima je takođe bila malo pomerena u stranu, negde levo negde desno. Jasno mi je da kamere imaju optičku stabilizaciju i da je određeni ugao u telu kamere normalan pogotovo za ovo sočivo, ali me je stvarno zanimalo kakva je situacija sa drugima. Kada su u pitanju slike i video sa ovom kamerom, sve radi besprekorno, i zum, stabilizacija, i fokus, sve radi bez ikakvih problema.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 618,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 837,
+                "end": 844,
+                "text": "kamerom",
+                "category": "Kamera",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/25",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Boris Blagojevic",
+        "date": "2021-10-21 20:23:00",
+        "comment": "Pre mesec dana sam kupio ovaj uredjaj u A1 i zadovoljan sam.Imam samo jedan iritantan problem A1 USIM postpaid karticu mi indentifikuje kao Vip SRB.Sta da radim da mi prepozna kao A1.Imam najnoviji MIUI 12.5.8 Stable Global.",
+        "complexity_score": 3,
+        "reasons": "Dužina (>=15 reči), Motiv kupovine",
+        "id": 623,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 25,
+                "end": 37,
+                "text": "ovaj uredjaj",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9266/Apple/iPhone-13-mini/7",
+        "brand": "Apple",
+        "phone": "Apple iPhone 13 mini",
+        "author": "miki",
+        "date": "2021-09-27 11:10:00",
+        "comment": "Lep, kompaktan telefoncic. Prvi rezultati testova baterije obecavaju, znacajno duze traje od 12 mini ali nazalost cena je 350 evra veca nego u americi...tako da se ne isplati sada.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 624,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 50,
+                "end": 58,
+                "text": "baterije",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 114,
+                "end": 118,
+                "text": "cena",
+                "category": "Cena",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/dd4/Honor/Magic6-Lite/12",
+        "brand": "Honor",
+        "phone": "Honor Magic6 Lite",
+        "author": "Jovan",
+        "date": "2024-01-27 16:38:00",
+        "comment": "Realno izgled, baterija i izdržljivost na padove su mu najjače strane, ostalo ne vredi te love...",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 625,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 7,
+                "end": 13,
+                "text": "izgled",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 15,
+                "end": 23,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 26,
+                "end": 38,
+                "text": "izdržljivost",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 90,
+                "end": 94,
+                "text": "love",
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9955/Honor/70/13",
+        "brand": "Honor",
+        "phone": "Honor 70",
+        "author": "DBoss",
+        "date": "2023-04-13 17:29:00",
+        "comment": "Posle mesec dana korišćenja jedina zamerka na ovaj telefon je što nema nikakav player za muziku, tj. aplikaciju. Možeš da pustiš audio zapis, ali ne možeš da praviš play listu. Moraš da instaliraš neku aplikaciju, a većina je prepuna reklama i oglasa. Jedva sam našao neku da to nema.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 628,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7598/Huawei/P40-Pro/5",
+        "brand": "Huawei",
+        "phone": "Huawei P40 Pro",
+        "author": "Mile",
+        "date": "2021-09-01 08:46:00",
+        "comment": "Harmony os je najnoviji update dodao aplikaciju gspace gde su sada skoro sve aplikacije od Google.Sada je sve mnogo lakše za instaliranje",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 629,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/chk/Samsung/Galaxy-A15-8GB-256GB",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A15",
+        "author": "Goran",
+        "date": "2026-07-13 06:16:00",
+        "comment": "Stigao mi UI.8.5.na Samsung A15.4g.dobar je😉👋",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 634,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7426/Samsung/Galaxy-S20/3",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S20",
+        "author": "Žarko",
+        "date": "2020-11-07 18:12:00",
+        "comment": "S20 sam kupio pre 3 dana, jedino što mi smeta je blago grejanje telefona sve ostalo je odlično, čak i baterija mi traje ceo dan uz normalno korišćenje (malo igrica, malo YouTube, malo interneta, posle 12 h korišćenja baterija na 55%).",
+        "complexity_score": 3,
+        "reasons": "Dužina (>=15 reči), Motiv kupovine",
+        "id": 639,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 73,
+                "end": 83,
+                "text": "sve ostalo",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 102,
+                "end": 110,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/h0x/Xiaomi/15T-12GB-512GB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 15T",
+        "author": "Nenad",
+        "date": "2026-02-18 20:20:00",
+        "comment": "Utisci nakon par nedelja korišćenja. Baterija oko dan ipo. Android 16 i xyper os 3 odmah po vađenju iz kutije. Fluidan rad,nema zagrevanja. Premium izgled, vidi se kvalitet na prvi pogled. Kamere veoma dobre, pogotovo noću, zanimljive lajka opcije pri fotografisanju,ima neki svoj pečat. Ekran dobro osvetljen sa lepim bojama. Sve u svemu lepo zaokružen uređaj u svom cenovnom rangu.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 643,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 119,
+                "end": 122,
+                "text": "rad",
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 148,
+                "end": 154,
+                "text": "izgled",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 189,
+                "end": 196,
+                "text": "Kamere ",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 288,
+                "end": 294,
+                "text": "Ekran ",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 354,
+                "end": 360,
+                "text": "uređaj",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9qc/Apple/iPhone-17-Pro-12GB-1TB-2x-eSIM",
+        "brand": "Apple",
+        "phone": "Apple iPhone 17 Pro",
+        "author": "Munja",
+        "date": "2026-05-28 19:06:00",
+        "comment": "Dizajn je odlican, video snimanje top, igre rade perfektno, baterija sasvim ok, ali... Telefon odbija da reaguje brzinom kojom ja tipkam, jednostavno ima kao neku blokadu sto se tice brzine u radu, moram da ga \"cekam\", ne znam kako drugacije da objasnim. Neke aplikacije \"trzaju\", ne secam se da mi se ovo desavalo na 13 Pro Max, mozda nisam koristio iste aplikacije... Ali svakako ocekujem da svaka aplikacija radi glatko. Liquid Glass izgleda jako lepo ali ima neki bag, to kocenje se oseca ponekad i to bi trebalo da se sredi sto pre, nekako kvari celokupan utisak.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 648,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 6,
+                "text": "Dizajn",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 19,
+                "end": 33,
+                "text": "video snimanje",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 60,
+                "end": 68,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 192,
+                "end": 196,
+                "text": "radu",
+                "category": "Performanse",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 260,
+                "end": 270,
+                "text": "aplikacije",
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8448/Samsung/Galaxy-A72/7",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A72",
+        "author": "Enkaj",
+        "date": "2021-05-10 07:23:00",
+        "comment": "Ja jos ne mogu vjerovati da ovaj telefon kosta oko 400€ i vise. Procesor koji je na nivou Helio G90T iz 2019 godine sa slabijom grafikom, UFS 2.1 memorija i 1866 Mhz lpddr 4x ram, 5000 Mah baterija(koja nije sjajna) sa 25W punjenjem upakovano u plastiku sa istim senzorom od prosle godine za kameru samo mu dodali OIS. Obecali 3 godine android nadogradnji na slab hardver ili sto bi se reklo, prodaju mu pod bubrege. 😳",
+        "complexity_score": 6,
+        "reasons": "Dužina (>=15 reči), Negacija, Specifikacija",
+        "id": 653,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 64,
+                "end": 72,
+                "text": "Procesor",
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 189,
+                "end": 197,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/66m/Samsung/Galaxy-S24-FE-8GB-256GB-1x-SIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S24 FE",
+        "author": "silogizam",
+        "date": "2026-04-19 17:08:00",
+        "comment": "Ovo je bolja kupovina nego noviji A57, ista cena.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 656,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/pt4qv/Apple/iPhone-14-Pro-Max/2",
+        "brand": "Apple",
+        "phone": "Apple iPhone 14 Pro Max",
+        "author": "Marko",
+        "date": "2024-05-14 21:19:00",
+        "comment": "Imam telefon 2 ipo meseca i na ultra vide kameri mi se pojavljuje neka fleka kao krug i obrisem kameru i opet, dal neko zna sta moze da bude",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 658,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 42,
+                "end": 48,
+                "text": "kameri",
+                "category": "Kamera",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9810/Apple/iPhone-SE-2022/4",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE 2022",
+        "author": "Banca",
+        "date": "2022-09-26 20:36:00",
+        "comment": "Tel.je azdaja kakvo grejanje kakvi bakraci, sve leti kamera ubija, baterija odlicna...",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 664,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 3,
+                "text": "Tel",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 53,
+                "end": 59,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 67,
+                "end": 75,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/btp/Samsung/Galaxy-A25/2",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A25",
+        "author": "Z",
+        "date": "2024-04-28 13:59:00",
+        "comment": "Dobar telefon i veoma isplativ za cenu kostanja ako izuzmemo masku i punjac.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 665,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 6,
+                "end": 13,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 34,
+                "end": 38,
+                "text": "cenu",
+                "category": "Cena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9817/Honor/X8",
+        "brand": "Honor",
+        "phone": "Honor X8",
+        "author": "Ivan",
+        "date": "2024-11-19 08:13:00",
+        "comment": "Imao ga. Mnogo precenjen telefon iako ima dobre specifikacije. Sad imam Samsung A15 koji mi je neuporedivo bolji za manje novca.",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici",
+        "id": 672,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 25,
+                "end": 32,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Konflikt"
+            },
+            {
+                "start": 122,
+                "end": 127,
+                "text": "novca",
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/z43/Apple/iPhone-15-Plus-6GB-512GB-1x-SIM-1x-eSIM",
+        "brand": "Apple",
+        "phone": "Apple iPhone 15 Plus",
+        "author": "Mare",
+        "date": "2023-12-30 23:03:00",
+        "comment": "Drugari Samsung s23 plus jede ovaj model na svim poljima,eventualno ne na bateriji,ali svakako izdrzi ceo dan lagano :D",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 673,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 74,
+                "end": 82,
+                "text": "bateriji",
+                "category": "Baterija",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/7177/Apple/iPhone-11-Pro-256GB",
+        "brand": "Apple",
+        "phone": "Apple iPhone 11 Pro",
+        "author": "Dare",
+        "date": "2023-08-17 13:09:00",
+        "comment": "Telefon je savrsen imam i 13mini po meni bolji 11pro totalno tel….,tako da ne bih ga menjao ni za jedan od ovih novijih nikakva spektakularna promena…dimenzija telefona najbolja….",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 674,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 7,
+                "text": "Telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 150,
+                "end": 159,
+                "text": "dimenzija",
+                "category": "Izgled",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/gsmly/Huawei/nova-10-SE-8GB",
+        "brand": "Huawei",
+        "phone": "Huawei nova 10 SE",
+        "author": "Mikica",
+        "date": "2023-04-10 23:46:00",
+        "comment": "Uzeo sam ovaj telefon u A1 pre nekih mesec dana,odmah je počeo mikrofon da me zeza jer me niko ništa ne razume kad pričamo.Da li telefon da šaljem u servis ili je neka sistemska greška i da li ima ažuriranje za mikrofon?",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
+        "id": 675,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 63,
+                "end": 71,
+                "text": "mikrofon",
+                "category": "Zvučnici",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/2hh/Samsung/Galaxy-S22-Ultra-5G-256GB-2x-SIM-1x-eSIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S22 Ultra 5G",
+        "author": "Darko",
+        "date": "2025-11-07 07:12:00",
+        "comment": "Konacno je izasla pouzdana verzija bez bagova android 16 sa Ui 8, utisci posle detaljnog pracenja su sledeci: baterija traje malo duze a ne krace, nekih 20,30 min aktivnog koriscenja duze, sto je za neke zanemarljivo za mene je to ipak korak unapred da ostavim barem jos godinu, ako ne i duze, ovaj fantasticni uredjaj. Interfejs je ispeglaniji, animacije tecnije, zvucnik zerko glasniji, a wifi aignal imam utisak stabilniji. Manje se greje. E sad ko na mobilne podatke ukljuci navigaciju i krene na dug put sigurno ce se grejati sto je i normalno. Kamera je takodje malo ispeglanija i lepse fokusira. I dalje je jedan od najboljig flagship uredjaja i ipak ga necu menjati. Naravno verzija 12/256. Postoje glasine da ce ipak dobiti naredne godine i one Ui 8.5, a to znaci jos barem dve godine cu ga nositi, i onda prelazim na novije modele.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 676,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 110,
+                "end": 118,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 320,
+                "end": 329,
+                "text": "Interfejs",
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 365,
+                "end": 372,
+                "text": "zvucnik",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 391,
+                "end": 402,
+                "text": "wifi aignal",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 550,
+                "end": 556,
+                "text": "Kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/6nv/Xiaomi/Redmi-Note-13-Pro+/7",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 13 Pro+",
+        "author": "mare",
+        "date": "2024-07-14 09:09:00",
+        "comment": "imam ga par meseci nemam nekih problema radi ok",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 678,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7179/Apple/iPhone-11-64GB/18",
+        "brand": "Apple",
+        "phone": "Apple iPhone 11",
+        "author": "Wtf",
+        "date": "2021-04-12 12:02:00",
+        "comment": "Ljudi, prednja kamera mi je postala, blago receno horor. Odmah sam povezala to sa azuriranjem novog softvera 14.4.2, da li neko ima isti problem? 😖",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 680,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 7,
+                "end": 21,
+                "text": "prednja kamera",
+                "category": "Kamera",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/f2p/Samsung/Galaxy-S23-FE/3",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 FE",
+        "author": "Dragan",
+        "date": "2023-11-23 06:33:00",
+        "comment": "Ovaj telefon je prepakovani a54 samo sa naduvanom cenom, malo svetliji ekran i malo bolji procesor, nije vredan toliko novca bolje uzet s21 ili s22ultru",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 683,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 50,
+                "end": 55,
+                "text": "cenom",
+                "category": "Cena",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 71,
+                "end": 76,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 90,
+                "end": 98,
+                "text": "procesor",
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/2wjlc/Xiaomi/13/5",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 13",
+        "author": "Ja",
+        "date": "2023-02-28 07:19:00",
+        "comment": "Staga komentara,a niko nema tel...🫣kazu da su ispeglali ceo softver,pa ce mo videti...kod operatera do 7.3 ko poruci bugs sluske dobija...realno da se uzima samo na ugovor,ovako je preskupo..",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 685,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/gwmgy/Xiaomi/12T-Pro/3",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 12T Pro",
+        "author": "Joca",
+        "date": "2023-06-30 16:04:00",
+        "comment": "Imam ovaj telefon 6meseci. Prezadovoljan sam. Baterija je odlična. Zvuk i ekran dobri... Kamera je odlična. Softver ok, ne baguje. Sve u svemu.... Preporuka. Platio sam ga tada 640 eura... Vidim da je sada malo skuplji.",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
+        "id": 686,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 46,
+                "end": 54,
+                "text": "Baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 67,
+                "end": 71,
+                "text": "Zvuk",
+                "category": "Zvučnici",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 74,
+                "end": 79,
+                "text": "ekran",
+                "category": "Ekran",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 89,
+                "end": 95,
+                "text": "Kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 108,
+                "end": 115,
+                "text": "Softver",
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8061/Apple/iPhone-12-mini/2",
+        "brand": "Apple",
+        "phone": "Apple iPhone 12 mini",
+        "author": "larisica",
+        "date": "2022-10-25 07:08:00",
+        "comment": "Odlican izbor telefona po meni.Brz i jak.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 688,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9894/Honor/Magic4-Lite",
+        "brand": "Honor",
+        "phone": "Honor Magic4 Lite",
+        "author": "Nesnsy",
+        "date": "2023-01-08 13:04:00",
+        "comment": "Tako dobar telefon a nema slot za memorijsku karticu. Svaki koji je bolji u ovom cenovnom rangu nema slot za memorijsku.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 696,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 26,
+                "end": 52,
+                "text": "slot za memorijsku karticu",
+                "category": "Memorija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/35",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Šibaj",
+        "date": "2021-05-27 16:01:00",
+        "comment": "U specifikaciji piše da je ekran otporan na prašinu i polivanje vodom. Meni se ovde zadržava prašina više nego na bilo kom telefonu koji sam imao",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 697,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/pt4qv/Apple/iPhone-14-Pro-Max/5",
+        "brand": "Apple",
+        "phone": "Apple iPhone 14 Pro Max",
+        "author": "Veki",
+        "date": "2023-03-28 12:07:00",
+        "comment": "Juče sam kupila ovaj tel i prvi put koristim iPhone i mogu reci da sam oduševljena.kamera je brutalna.Ovo je najbolji tel koji trenutno postoji",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 699,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 16,
+                "end": 24,
+                "text": "ovaj tel",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 83,
+                "end": 89,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9817/Honor/X8",
+        "brand": "Honor",
+        "phone": "Honor X8",
+        "author": "Tanja",
+        "date": "2024-09-18 23:04:00",
+        "comment": "Posle godinu ipo dana, krenuo da se zagreva (8x) a potom ponekad zabaguje, obično kada se kamera otvori... Znate li možda šta je u pitanju? Ovako, odličan je u svemu.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 700,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8714/Honor/50/6",
+        "brand": "Honor",
+        "phone": "Honor 50",
+        "author": "Zara",
+        "date": "2022-04-19 14:38:00",
+        "comment": "Korisnik sam ovog telefona već 5 dana,i do sada mu nisam našao nijednu manu.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 702,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 13,
+                "end": 26,
+                "text": "ovog telefona",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/l7m/Samsung/Galaxy-S23-Ultra/25",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 Ultra",
+        "author": "miki",
+        "date": "2023-11-05 11:45:00",
+        "comment": "odlican tel svaka preporuka",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 705,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 8,
+                "end": 11,
+                "text": "tel",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/hjz/Xiaomi/Redmi-Note-14-Pro+-5G-12GB-512GB-1x-SIM-1x-eSIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 14 Pro+ 5G",
+        "author": "Cile mile",
+        "date": "2025-12-06 05:48:00",
+        "comment": "Dobar telefon ko ima malo vise love neka uzme poco seriju koja je odlicna.Sve u svemu ja sam jako zadovoljan naspram honor magic lite 7 koji je kanta jer bateriju ne puni normalno ovaj makar to radi ima 120 w pinjenje",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Negacija, Specifikacija, Sleng",
+        "id": 708,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 6,
+                "end": 13,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/mgt/Samsung/Galaxy-A54/14",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A54",
+        "author": "Sale",
+        "date": "2023-10-26 19:43:00",
+        "comment": "poštovanje moj se a54 greje samo tokom video poziva preko messengera kako da obrišem sistemske aplikacije zauzimaju mi prostor npr google mape google pretragu google messages i to neće da se obriše i kako da mu reinstaliram android da mu stavim ponovo stock rom jel to rizično da se radi ili ne srdačan pozdrav za sve",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 710,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8233/Samsung/Galaxy-S21+-5G/3",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21+ 5G",
+        "author": "szj",
+        "date": "2022-11-08 12:23:00",
+        "comment": "Izasao je Android 13, one ui 5 za s21+.. Telefon osetno fluidnije radi, dodate su neke nove stvari, imate na youtube bukvalno sve. Napokon jedan okej update. Savet, instalirajte Good Guardians - Galaxy App Booster sa Samsung stora i odradite optimizaciju, ovo se inace savatuje nakon updejta da se obavezno odradi, moze da potraje dosta ali vredi!",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici",
+        "id": 718,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 150,
+                "end": 156,
+                "text": "update",
+                "category": "Softver",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/9571/Xiaomi/12-Pro-256GB",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 12 Pro",
+        "author": "Sasa",
+        "date": "2024-11-26 17:36:00",
+        "comment": "Zadnja nekolika apdejta,i raskidom saradnje sa Harman Cardon,zvucnici su sad u rangu jeftinih telefona,jer je  softverski izbacen harman cardon,a ubacen dolby atmos.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 719,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 61,
+                "end": 69,
+                "text": "zvucnici",
+                "category": "Zvučnici",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9293/Xiaomi/11T-Pro/2",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi 11T Pro",
+        "author": "Milos",
+        "date": "2023-08-11 06:34:00",
+        "comment": "Da li je moguće da je ovoliko spor otisak prsta na ovom telefonu?",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 725,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 35,
+                "end": 47,
+                "text": "otisak prsta",
+                "category": "Hardver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/mgt/Samsung/Galaxy-A54/12",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A54",
+        "author": "Kronos",
+        "date": "2023-11-30 00:08:00",
+        "comment": "Može li nekako da se promeni izgled control panela i ikonice koje pokazuju vajfaj, blutut...ne sviđa mi se ova bela boja, stavio sam dark pozadinu ali kada spustim control panel, svetlije je bez obzira na temu. I nekako mi je control panel bio pregledniji pre, sada sve natrpano. Nikako mi se ne dopada ova promena. Kada se može očekivati novi softver za koliko meseci?",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 728,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/dd4/Honor/Magic6-Lite/11",
+        "brand": "Honor",
+        "phone": "Honor Magic6 Lite",
+        "author": "Zoki",
+        "date": "2024-02-03 14:07:00",
+        "comment": "U odnosu na 5 lite slab upgrade a skoro duplo skuplji. 5 lite dokazano dobar a za ovaj videcemo. Nista tu nema specijalno, svi u ovoj klasi su slicni samo sto honor ima odlican skin MagicOS koji retko baguje.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 729,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9835/Samsung/Galaxy-A33-5G/4",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy A33 5G",
+        "author": "Ana",
+        "date": "2022-06-17 23:50:00",
+        "comment": "Gubi i mrezu, nisam zadovoljna",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 731,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 7,
+                "end": 12,
+                "text": "mrezu",
+                "category": "Hardver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8714/Honor/50/7",
+        "brand": "Honor",
+        "phone": "Honor 50",
+        "author": "Tina",
+        "date": "2022-03-02 13:25:00",
+        "comment": "Da li jos neko ima problem sa malom brzim praznjenjem baterije?",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 732,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 54,
+                "end": 62,
+                "text": "baterije",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/9432/Honor/50-Lite/2",
+        "brand": "Honor",
+        "phone": "Honor 50 Lite",
+        "author": "super",
+        "date": "2021-12-12 02:41:00",
+        "comment": "Ovaj telefon je idealan za one koji zele da im telefon sa losim ekranom i sporim procesorom ima brz punjac.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 734,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 64,
+                "end": 71,
+                "text": "ekranom",
+                "category": "Ekran",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 81,
+                "end": 91,
+                "text": "procesorom",
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 100,
+                "end": 106,
+                "text": "punjac",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/kvj/Samsung/Galaxy-S25-FE-8GB-512GB-1x-SIM-1x-eSIM",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S25 FE",
+        "author": "Maja",
+        "date": "2026-05-27 20:53:00",
+        "comment": "Update uništio bateriju, treba ih tužiti za ovo!!!",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 735,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 0,
+                "end": 6,
+                "text": "Update",
+                "category": "Softver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 15,
+                "end": 23,
+                "text": "bateriju",
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/27",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Taća",
+        "date": "2021-09-08 11:30:00",
+        "comment": "Imam ovaj telefon vec par dana i okej je zadovoljna sam, sve radi, ne fali mu nista. Samo ne mogu da nadjem nigde u podesavanjima, ne znam da li uopste i postoji da kada kuckate sms sa nekom osobom dodate pozadinu na vasu konverzaciju neku vasu sliku ili tako nesto.. Isto vazi i za sliku kontakata..",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 736,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 10,
+                "end": 17,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/3zv/Xiaomi/Redmi-15-4G-8GB-256GB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi 15 4G",
+        "author": "Dusko",
+        "date": "2026-07-27 00:36:00",
+        "comment": "Spor telefon nisam sporiji video od 15c telefona",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 738,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7651/Apple/iPhone-SE-(2020)/11",
+        "brand": "Apple",
+        "phone": "Apple iPhone SE (2020)",
+        "author": "Krompirko",
+        "date": "2020-09-05 08:10:00",
+        "comment": "Ja mislio da da pazarim ovaj telefon al sad necu,sta ce mi telefon gde baterija traje jedan dan. A kako samo lazu da se baterija menja na 2,3 godine!",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici",
+        "id": 739,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 71,
+                "end": 79,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/l7m/Samsung/Galaxy-S23-Ultra/20",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 Ultra",
+        "author": "Bojan",
+        "date": "2024-01-24 09:40:00",
+        "comment": "Pozdrav svima, imam jedan problem koji se pojavio juce nakon 2 meseca starosti telefona. Senzor otiska prsta poceo da se oslikava na ekranu. To se najbolje vidi napolju na suncu dok je ekran ugasen pod uglom od nekih 45 stepeni. Nasao sam na netu da se ljudima desavala ista stvar, neko kaze da je to normalno mada ja nebi rekao zato sto nije bilo od pocetka. Ako moze neko ko ima ovaj telefon da pogleda, bio bih mu zahvalan. Nemam nikave zastite na ekranu i nije mi padao telefon cisto da naglasim.",
+        "complexity_score": 7,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
+        "id": 741,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 89,
+                "end": 108,
+                "text": "Senzor otiska prsta",
+                "category": "Hardver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/j1k/Xiaomi/Redmi-Note-14-5G-(India)-8GB-256GB-2x-SIM",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 14 5G (India)",
+        "author": "Edo",
+        "date": "2025-01-15 10:23:00",
+        "comment": "Realno ovaj model neće da se isplati, ako ga uporedite sa RN 13 Pro Plus zaista u ničemu nema prednosti ovaj RN 14 što ćete sami da uporedite a ne da vam ja sad pričam pa da neko kaže da solim. Po meni je ovaj telefon promašen telefon. Jedini koji valja i koji donosi neka veća poboljšanja u ovo seriji je verovatno RN 14 Pro plus koji jedini ima pravu telefonu kameru, ali zašto mu je tako visoka cena 500 eura bez punjača? 560 eura sa punjačem?? Pa to nije više telefon srednjeg ranga po ceni uopšte, lagano može da se uzme mnogo bolji telefon za te pare? Zašto to radiš Xiaomi? Ovo krajnji bezobrazluk za ovu redmi seriju. Dosad sam bio njihov „fan“ hvalio ih, ali sada neću više ni mane da im sakrivam. Previše telefona izbacuje Xiaomi i zato nakon 2 godine često krenu da štekaju kao da ih namerno oslabe sa svojim updateom da vas teraju da kupite drugi telefon. Eto vam primer moj drug ima realme 8 stariji od 3 godine i radi mu odlično još uvek, a ja sam Xiaomi morao da promenim posle dve… Zato ga iako nije loš po specifikacijama mada sada i drugi to nude ništa moćniji više Xiaomi nije ako ne slušate njihove fanove… više ga ne bi uzeo. Dosta sam vremena koristio Xiaomi telefone i nisam imao neka pre loša iskustva sa njima kao neki, ali dosta se promenila situacija u poslednje vreme i sada i ostali proizvođači imaju šta da ponude kao što su Motorola i Honor. Kažem ljudima često da je sadanajbolji odabir u srednjoj klasi za malo para sada Edge 50 Neo (neverovatan telefon za malo para koji dosad najviše nudi balansirano chipset-kamere a ne samo jak chipset kao Poco). Edge 50 Neo je telefon kojeg lično sada imam i sa kojim sam zasad zadovoljan u svim pogledima, ima odličnu kamere, dugotrajnu bateriju (iako je na papiru mala), nekako su uspeli napraviti da ona traje puno duže (čist Android softver kao Pixel koji ne troši nepotrebo bateriju i LTPO ekran koji štedu bateriju te veoma energetski učinkovit chipset) ili Honor 200 koji je takođe klasika odličan telefon za one koji vole telefon većih dimenzija a opet sistem mnogo bolji nego na Xiaomiju iako nije čist android. Između ta 2 telefona ne može da se pogreši za manje para. Ako nađete Edge 50 Neo jeftinijeg uzmite njega nećete da pogrešite, ili Honor 200 ali on je većinom nešto skuplji, a kamere su mu tu negde kao na Edge 50 Neo (mrvicu bolje samo) te nešto malo jači chipset, ali isto ne verujem da ćete da pogrešite i sa Neo. Što se tiče mog iskustva s Xiaomi telefonima kažem nisu toliko loši kao što se priča, bolji su oni realno od Samsunga u mnogo stvari, ali mislim da sada više ne igraju toliku konkurenciju pored ostalih brendova... Naravno kada je netko zadovoljan s nekim brendom nema potrebe da ga menja i da mu netko pa ni ja priča šta bi trebao da uzme, ali zašto sam ja odlučio da se malo maknem Xiaomi telefona?  Xiaomi radi sa Redmi serijom ludilo unutar svojih serija i mislim da i oni znaju da se samo udaraju bezveze, ali profit im je bitniji… Redmi serija bi trebala max 300-320 eura u svim modelima od niže do srednje za ono što nude. Poco telefoni samo x za gaming jer kamere su im prosečne u usporedbi sa drugim brendovima (Pixel, Motorola, Honor…) i ne treba da se skriva i da se prodaju samo njegove prednosti kao što se to radi u Poco seriji, a to je taj chipset koji jeste zaista jači od ostalih telefona, ali gde ćete vi to da iskoristite to u posečnim kamerama senzora IMX882? Mislim da ne,  jedino u igricama priznajem ako ste gamer nema bolje opcije. A Poco F neki univerzalac u rangu obične t serije, a t serija viša srednja klasa i best buy, ali ispod flagship serije. Ono što Xiaomi mora da uradi jeste drastično smanji broj modela, poboljša optimizaciju sistema i baterije a ne da samo diže mAh baterije i sve svode na brzi punjač, treba da smanje bagove i brljanje softvera kojeg ostali brendovi nemaju više. Nema niti potrebe da se utrkuju sa Samsungom ili Pixelom u broju ažuriranja nego da imaju par ali par pravih. Npr Motorola brend koji mogu smatraju još uvek zapostavljenim a sve više i više daje gas za ono što nudi, čist i funkcionalan Android sa Hello UI, telefoni solidnih chipsetovima (ne prejakim za gaming ali dovoljno jakim za sve svakodnevne radnje i više zaista brzo rade čak i brže od nekih jačih chipseta čini se da je to zbog čistog sistema). Motorola na primer nikad nije izbacila loš update kao Xiaomi. Jedina mana Motoroli je bila prošlu godinu što su zaista kasnili sa tim nadogradnjama i to takođe neću da sakrivam, ali sada verujem da će da iskoriste ovu prednost jer ako ne budu ažurniji ovu godinu i ovo su su ponudili, a trenutno je bolja kupovina o svakog Xiaomija u srednjoj klasi će da im padne u vodu, a Honor klasika isto uvek odličan telefon. Pričam sada malo više o Motoroli jer zaslužuju da ih se pohvali za ovaj posao sada i da ih se ne smatra više lošim brendom i prosipaju neke neistine o lošoj izradi, lošem sistemu i lošim kamerama što više zaista nije tako.",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 742,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/khb/Samsung/Galaxy-S23/3",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23",
+        "author": "Djordje",
+        "date": "2025-09-04 11:59:00",
+        "comment": "Koristim s23 vec 6 meseci. Od prvog dana pa do sad imam problem sa prepoznavanjem lica pri otkljucavanju telefona. Ima li neko savet sta da se uradi? Pri svakom atlzuriranju nije bilo nikakvih promena",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 748,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 67,
+                "end": 86,
+                "text": "prepoznavanjem lica",
+                "category": "Softver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/sw0/Honor/600-Lite-8GB-256GB-2x-SIM",
+        "brand": "Honor",
+        "phone": "Honor 600 Lite",
+        "author": "Rudi",
+        "date": "2026-04-18 14:30:00",
+        "comment": "Kupljen 10.04.2026. Prezadovoljan!",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 756,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/13",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "Damir",
+        "date": "2022-07-31 16:56:00",
+        "comment": "Ima li jos neko problem, nece da slika u 108mpx modu. Zabode i mora restart, zna li neko sta nije u redu? Hvala",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 758,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Kamera",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/blm/Honor/Magic5-Lite/17",
+        "brand": "Honor",
+        "phone": "Honor Magic5 Lite",
+        "author": "xxx",
+        "date": "2023-03-20 15:44:00",
+        "comment": "Ljudi ako vam se sviđa ovaj telefon vi ga kupite i nemojte ovde slušati pojedince koji sve najgore pričaju o ovom telefonu a ustvari pojma nemaju. Prvo su pisali kako ovaj telefon ima eMMC 5.1 što nije tačno već ima UFS 2.2, pa su pričali kako je snapdragon 695 veoma slab procesor a u stvari je jači od snapdragona 750G. Dobro znamo da Samsung a71 ima snapdragon 730 i šta fali tim telefonu danas (ništa) a 695 je jači od njega pa kako je onda snapdragon 695 slab kad je jači od snapdragona 720,730,730G,750G?",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 759,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 273,
+                "end": 281,
+                "text": "procesor",
+                "category": "Hardver",
+                "sentiment": "P"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/xnjcm/Xiaomi/Redmi-Note-12-Pro/7",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 12 Pro",
+        "author": "Neletaksista",
+        "date": "2023-08-15 14:18:00",
+        "comment": "Kupio telefon pre 10 dana i mogu samo reći da sam prezadovoljan. Brz, fluidan, bez i najmanjeg seckanja,  bagovanja. Za te pare neverovatan. Jedino sam očekivao da će baterija trajati duže. Ja jesam zahtevan korisnik pošto ga tokom čitavog dana koristim ali sam očekivao da će me izgurati od jutra do kraja dana ali nema šanse. U 7:00 h ujutru ga skinem sa punjača i ako mi je non stop uključena lokacija već oko 14:00 h ispadne ispod 20%, a bez uključene lokacije traje do nekih 17:00 h",
+        "complexity_score": 8,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Motiv kupovine",
+        "id": 761,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 6,
+                "end": 13,
+                "text": "telefon",
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 123,
+                "end": 127,
+                "text": "pare",
+                "category": "Cena",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 167,
+                "end": 175,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Performanse",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8389/Xiaomi/Redmi-Note-10-Pro/6",
+        "brand": "Xiaomi",
+        "phone": "Xiaomi Redmi Note 10 Pro",
+        "author": "uki",
+        "date": "2023-04-02 16:04:00",
+        "comment": "nisam trebao azurirati tel.izvadi iz kutije i koristi i nebi bili nikakvih problema.",
+        "complexity_score": 0,
+        "reasons": "",
+        "id": 764,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Softver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/l7m/Samsung/Galaxy-S23-Ultra/22",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 Ultra",
+        "author": "Lion",
+        "date": "2023-12-05 15:49:00",
+        "comment": "Upropadtise sve sa azuriranjem losa kam pritom baterija se vise prazni...tako da nemam nista dobro da kazem tolike pare ali jbg nista spec",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Suprotni veznici",
+        "id": 767,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 36,
+                "end": 39,
+                "text": "kam",
+                "category": "Kamera",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 19,
+                "end": 30,
+                "text": "azuriranjem",
+                "category": "Softver",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 47,
+                "end": 55,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            },
+            {
+                "start": 115,
+                "end": 119,
+                "text": "pare",
+                "category": "Cena",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/l7m/Samsung/Galaxy-S23-Ultra/14",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 Ultra",
+        "author": "Bojan",
+        "date": "2024-05-06 12:10:00",
+        "comment": "Desava li se vama da kada razgovarate ili hodate sa telefonom u ruci da se cuje krckanje kamere tjst lupkanje sociva od kamere, da li je to kod svih tako jer je bas iritantno??",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 768,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Izgled",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/8239/Samsung/Galaxy-S21-Ultra-5G/8",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S21 Ultra 5G",
+        "author": "Pedja20",
+        "date": "2021-12-07 13:35:00",
+        "comment": "Nakon prelaska sa androida 11 na 12 ponovo se vratilo grejanje ne baš toliko izraženo kao pre a taman su bili ispeglali to grejanje na androidu 11.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 774,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Negativan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7598/Huawei/P40-Pro/8",
+        "brand": "Huawei",
+        "phone": "Huawei P40 Pro",
+        "author": "Miki",
+        "date": "2020-11-08 14:13:00",
+        "comment": "Uzeo tel pre mesec dana. Ludilo",
+        "complexity_score": 1,
+        "reasons": "Motiv kupovine",
+        "id": 785,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni/cbh/Samsung/Galaxy-S23-Ultra-12GB-1TB",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23 Ultra",
+        "author": "Nemam pojma",
+        "date": "2026-06-07 14:23:00",
+        "comment": "Ne razumem čemu služe ažuriranja, kada je sve isto od kako sam kupio mobilni. Niti se nešto poboljšalo, niti se nešto pogoršalo, apsolutno sve isto od kada sam ga kupio. Tada je imao android 13 i ne mogu da se setim koji One UI, mislim 6, sada je android 16 i 8.5 i sve je isto...",
+        "complexity_score": 5,
+        "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
+        "id": 786,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 22,
+                "end": 32,
+                "text": "ažuriranja",
+                "category": "Softver",
+                "sentiment": "N"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/gz0/Honor/Magic5-Pro/6",
+        "brand": "Honor",
+        "phone": "Honor Magic5 Pro",
+        "author": "Beks - NUFC",
+        "date": "2024-02-29 17:19:00",
+        "comment": "Kako da isključim one sadržaje koje nudi sam telefon? Ono što je skroz u levo, ne znam kako se zove. Šta reći za telefon... Nešto najbolje što sam koristio u životu. Prava furija oličena u prefinjen dizajn! Do skoro me je baterija služila puna tri dana, nakon nekoliko zadnjih ažuriranja spala je jedva preko dva. Ne bih ovaj telefon menjao za novi Magic 6 Pro. Meni se ovaj više svidja, lepši je i prefinjeniji.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 788,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 199,
+                "end": 205,
+                "text": "dizajn",
+                "category": "Izgled",
+                "sentiment": "P"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Opšta ocena",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/7432/Samsung/Galaxy-S20+/4",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S20+",
+        "author": "S20",
+        "date": "2020-07-17 10:52:00",
+        "comment": "Sa julskim updateom kamera je poboljsana, zum, i baterija, a cini mi se i da se manje greje.",
+        "complexity_score": 2,
+        "reasons": "Dužina (>=15 reči)",
+        "id": 789,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": 20,
+                "end": 26,
+                "text": "kamera",
+                "category": "Kamera",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": 49,
+                "end": 57,
+                "text": "baterija",
+                "category": "Baterija",
+                "sentiment": "Pozitivan"
+            },
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Hardver",
+                "sentiment": "Pozitivan"
+            }
+        ]
+    },
+    {
+        "url": "https://mobilnisvet.com/mobilni-komentari/x9p/Samsung/Galaxy-S23+/3",
+        "brand": "Samsung",
+        "phone": "Samsung Galaxy S23+",
+        "author": "Deki bg",
+        "date": "2023-12-25 15:47:00",
+        "comment": "Od juce ne mogu da punim mobilni preko kabla.Nece da udje metalni deo u mobilni,nosim ga u servis.I Samsung nekada omane.",
+        "complexity_score": 4,
+        "reasons": "Dužina (>=15 reči), Negacija",
+        "id": 799,
+        "review_status": "DA",
+        "aspects": [
+            {
+                "start": -1,
+                "end": -1,
+                "text": null,
+                "category": "Baterija",
+                "sentiment": "Negativan"
+            }
+        ]
     }
 ]
