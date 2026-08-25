@@ -1,0 +1,162 @@
+{
+  "iaa": {
+    "annotators": [
+      {
+        "id": "A1",
+        "file": "analytics/andrija.json"
+      },
+      {
+        "id": "A2",
+        "file": "analytics/jelena.json"
+      },
+      {
+        "id": "A3",
+        "file": "analytics/luka.json"
+      },
+      {
+        "id": "A4",
+        "file": "analytics/nikola.json"
+      }
+    ],
+    "review_count": 800,
+    "pair_count": 6,
+    "pairs": {
+      "A1-A2": {
+        "noise_cohen_kappa": 0.8283359314353514,
+        "span_strict_f1": 0.5002610966057441,
+        "span_partial_f1": 0.6838630995124801,
+        "category_cohen_kappa": 0.7247895912232387,
+        "category_gwet_ac1": 0.7345544758444011,
+        "acsa_tuple_micro_f1": 0.6968130921619293,
+        "sentiment_cohen_kappa": 0.7437929331477574,
+        "sentiment_gwet_ac1": 0.846890951654061,
+        "sentiment_exact_agreement": 0.8723135271807838,
+        "sentiment_positive_component_kappa": 0.7727037620257238,
+        "sentiment_negative_component_kappa": 0.8561114726795727,
+        "sentiment_bipolar_weighted_kappa": 0.8132900063338199,
+        "full_tuple_micro_f1": 0.41077704021866457
+      },
+      "A1-A3": {
+        "noise_cohen_kappa": 0.6754271288824776,
+        "span_strict_f1": 0.5028213166144201,
+        "span_partial_f1": 0.6945070077974699,
+        "category_cohen_kappa": 0.688970285807685,
+        "category_gwet_ac1": 0.6976052623009541,
+        "acsa_tuple_micro_f1": 0.6481916392672616,
+        "sentiment_cohen_kappa": 0.7375944435203807,
+        "sentiment_gwet_ac1": 0.8586046233716148,
+        "sentiment_exact_agreement": 0.8801213960546282,
+        "sentiment_positive_component_kappa": 0.7778848712414629,
+        "sentiment_negative_component_kappa": 0.812756227252432,
+        "sentiment_bipolar_weighted_kappa": 0.7941489210653355,
+        "full_tuple_micro_f1": 0.375
+      },
+      "A1-A4": {
+        "noise_cohen_kappa": 0.8270720032079396,
+        "span_strict_f1": 0.4396934247680516,
+        "span_partial_f1": 0.5982498959242477,
+        "category_cohen_kappa": 0.7211378142528871,
+        "category_gwet_ac1": 0.7310185159491273,
+        "acsa_tuple_micro_f1": 0.6708860759493671,
+        "sentiment_cohen_kappa": 0.711088168490605,
+        "sentiment_gwet_ac1": 0.8237235749141211,
+        "sentiment_exact_agreement": 0.853496115427303,
+        "sentiment_positive_component_kappa": 0.7678311030423707,
+        "sentiment_negative_component_kappa": 0.8147674635246349,
+        "sentiment_bipolar_weighted_kappa": 0.7902134751599226,
+        "full_tuple_micro_f1": 0.3567433188315724
+      },
+      "A2-A3": {
+        "noise_cohen_kappa": 0.6816263154117654,
+        "span_strict_f1": 0.6446759259259259,
+        "span_partial_f1": 0.6760193263907569,
+        "category_cohen_kappa": 0.7057550964191159,
+        "category_gwet_ac1": 0.7160171109913523,
+        "acsa_tuple_micro_f1": 0.6155276615527662,
+        "sentiment_cohen_kappa": 0.6189711805710378,
+        "sentiment_gwet_ac1": 0.7934824395538002,
+        "sentiment_exact_agreement": 0.8250377073906485,
+        "sentiment_positive_component_kappa": 0.6619112468278869,
+        "sentiment_negative_component_kappa": 0.7402764564329285,
+        "sentiment_bipolar_weighted_kappa": 0.6980903568348948,
+        "full_tuple_micro_f1": 0.4321353065539112
+      },
+      "A2-A4": {
+        "noise_cohen_kappa": 0.7867482877141925,
+        "span_strict_f1": 0.6300309597523219,
+        "span_partial_f1": 0.6562249867778162,
+        "category_cohen_kappa": 0.7366523122312131,
+        "category_gwet_ac1": 0.7474692882345989,
+        "acsa_tuple_micro_f1": 0.6632200886262924,
+        "sentiment_cohen_kappa": 0.7628076594558902,
+        "sentiment_gwet_ac1": 0.8427530388941865,
+        "sentiment_exact_agreement": 0.8712041884816754,
+        "sentiment_positive_component_kappa": 0.7873051224944321,
+        "sentiment_negative_component_kappa": 0.8445280264967581,
+        "sentiment_bipolar_weighted_kappa": 0.8144372429763506,
+        "full_tuple_micro_f1": 0.47780126849894294
+      },
+      "A3-A4": {
+        "noise_cohen_kappa": 0.6386242450279245,
+        "span_strict_f1": 0.5636114911080712,
+        "span_partial_f1": 0.5919940347742163,
+        "category_cohen_kappa": 0.6823805458425058,
+        "category_gwet_ac1": 0.6924237848138014,
+        "acsa_tuple_micro_f1": 0.5407554671968191,
+        "sentiment_cohen_kappa": 0.5840511386336396,
+        "sentiment_gwet_ac1": 0.7630523352737841,
+        "sentiment_exact_agreement": 0.8008298755186722,
+        "sentiment_positive_component_kappa": 0.63658944841082,
+        "sentiment_negative_component_kappa": 0.6876598129531682,
+        "sentiment_bipolar_weighted_kappa": 0.6598424820114244,
+        "full_tuple_micro_f1": 0.357379219060225
+      }
+    },
+    "group_means": {
+      "noise_cohen_kappa": 0.7396389852799419,
+      "span_strict_f1": 0.5468490357957558,
+      "span_partial_f1": 0.6501430585294978,
+      "category_cohen_kappa": 0.709947607629441,
+      "category_gwet_ac1": 0.7198480730223725,
+      "acsa_tuple_micro_f1": 0.6392323374590726,
+      "sentiment_cohen_kappa": 0.6930509206365518,
+      "sentiment_gwet_ac1": 0.821417827276928,
+      "sentiment_exact_agreement": 0.8505004683422852,
+      "sentiment_positive_component_kappa": 0.7340375923404494,
+      "sentiment_negative_component_kappa": 0.792683243223249,
+      "sentiment_bipolar_weighted_kappa": 0.7616704140636247,
+      "full_tuple_micro_f1": 0.4016393588605527
+    },
+    "noise_fleiss_kappa": 0.738951935137221,
+    "methodology": {
+      "review_alignment": "exact composite key (url, review text); source IDs are ignored",
+      "span_scope": "reviews both annotators marked non-noise; explicit targets only",
+      "explicit_alignment": "Hungarian maximum-total character IoU; overlap must be > 0",
+      "category_units": "aligned explicit targets plus unordered implicit category multisets; unmatched implicit entries use MISSING",
+      "acsa_tuple_units": "unique (category, sentiment) pairs per review; targets are ignored and duplicates are consolidated",
+      "implicit_alignment": "order-independent category multiset; duplicate-category sentiment is excluded as ambiguous",
+      "sentiment_scope": "target-aligned entries with matching categories",
+      "sentiment_bipolar_mapping": {
+        "Pozitivan": [
+          1,
+          0
+        ],
+        "Negativan": [
+          0,
+          1
+        ],
+        "Neutralan": [
+          0,
+          0
+        ],
+        "Konflikt": [
+          1,
+          1
+        ]
+      },
+      "sentiment_bipolar_weight": "1 - HammingDistance(positive_bit, negative_bit) / 2",
+      "undefined_scores": "null; excluded from group means"
+    }
+  },
+  "dataset_statistics": null
+}
