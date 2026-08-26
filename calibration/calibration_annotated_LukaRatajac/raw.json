@@ -133,16 +133,16 @@
     },
     {
       "start": 85,
-      "end": 91,
-      "text": "glavna",
+      "end": 98,
+      "text": "glavna kamera",
       "labels": [
         "Kamera"
       ]
     },
     {
       "start": 108,
-      "end": 113,
-      "text": "selfi",
+      "end": 120,
+      "text": "selfi kamera",
       "labels": [
         "Kamera"
       ]
@@ -175,11 +175,11 @@
     {
       "taxonomy": [
         [
-          "Opšta ocena",
+          "Cena",
           "Pozitivan"
         ],
         [
-          "Cena",
+          "Opšta ocena",
           "Pozitivan"
         ]
       ]
@@ -188,8 +188,8 @@
   "annotator": 1,
   "annotation_id": 11,
   "created_at": "2026-08-06T01:57:36.581105Z",
-  "updated_at": "2026-08-06T01:57:36.581105Z",
-  "lead_time": 97.642
+  "updated_at": "2026-08-26T03:03:20.088144Z",
+  "lead_time": 163.548
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/8239\/Samsung\/Galaxy-S21-Ultra-5G\/12",
@@ -235,12 +235,23 @@
   "complexity_score": 9,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija",
   "id": 260,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 99,
+      "end": 103,
+      "text": "rama",
+      "labels": [
+        "Hardver"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 14,
   "created_at": "2026-08-06T01:57:50.563324Z",
-  "updated_at": "2026-08-06T01:57:50.563324Z",
-  "lead_time": 4.05
+  "updated_at": "2026-08-26T03:03:59.951525Z",
+  "lead_time": 37.629
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7598\/Huawei\/P40-Pro\/8",
@@ -416,8 +427,8 @@
     },
     {
       "start": 1118,
-      "end": 1124,
-      "text": "glavna",
+      "end": 1131,
+      "text": "glavna kamera",
       "labels": [
         "Kamera"
       ]
@@ -442,8 +453,8 @@
   "annotator": 1,
   "annotation_id": 18,
   "created_at": "2026-08-06T02:05:07.329547Z",
-  "updated_at": "2026-08-06T02:05:07.329547Z",
-  "lead_time": 225.745
+  "updated_at": "2026-08-26T03:05:35.708211Z",
+  "lead_time": 270.76300000000003
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/x9p\/Samsung\/Galaxy-S23+\/2",
@@ -472,12 +483,23 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 266,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 15,
+      "end": 19,
+      "text": "cene",
+      "labels": [
+        "Cena"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 20,
   "created_at": "2026-08-06T02:05:20.761503Z",
-  "updated_at": "2026-08-06T02:05:20.761503Z",
-  "lead_time": 6.13
+  "updated_at": "2026-08-26T03:05:48.420993Z",
+  "lead_time": 12.836
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/8490\/Xiaomi\/Mi-11-Lite-8GB-128GB",
@@ -506,12 +528,23 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 268,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 14,
+      "end": 18,
+      "text": "cena",
+      "labels": [
+        "Cena"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 22,
   "created_at": "2026-08-06T02:05:30.812294Z",
-  "updated_at": "2026-08-06T02:05:30.812294Z",
-  "lead_time": 6.319
+  "updated_at": "2026-08-26T03:38:49.656049Z",
+  "lead_time": 53.494
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/8007\/Samsung\/Galaxy-S20-FE\/5",
@@ -560,7 +593,7 @@
           "Pozitivan"
         ],
         [
-          "Izgled",
+          "Baterija",
           "Negativan"
         ]
       ]
@@ -582,17 +615,26 @@
       "labels": [
         "Ekran"
       ]
+    },
+    {
+      "start": 224,
+      "end": 231,
+      "text": "telefon",
+      "labels": [
+        "Izgled"
+      ]
     }
   ],
   "sentiment": [
     "Pozitivan",
-    "Pozitivan"
+    "Pozitivan",
+    "Negativan"
   ],
   "annotator": 1,
   "annotation_id": 24,
   "created_at": "2026-08-06T02:07:58.806029Z",
-  "updated_at": "2026-08-06T02:07:58.806029Z",
-  "lead_time": 130.878
+  "updated_at": "2026-08-26T03:29:27.161366Z",
+  "lead_time": 218.981
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/t05\/Xiaomi\/Redmi-13C-4G-8GB-256GB",
@@ -753,7 +795,7 @@
       "end": 1078,
       "text": "skrolovanje",
       "labels": [
-        "Softver"
+        "Performanse"
       ]
     }
   ],
@@ -771,8 +813,8 @@
   "annotator": 1,
   "annotation_id": 29,
   "created_at": "2026-08-06T02:11:32.380795Z",
-  "updated_at": "2026-08-06T02:11:32.380795Z",
-  "lead_time": 196.986
+  "updated_at": "2026-08-26T03:06:51.659831Z",
+  "lead_time": 207.933
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/l7m\/Samsung\/Galaxy-S23-Ultra\/41",
@@ -842,7 +884,7 @@
       "end": 80,
       "text": "brzini",
       "labels": [
-        "Hardver"
+        "Performanse"
       ]
     },
     {
@@ -884,6 +926,14 @@
       "labels": [
         "Ekran"
       ]
+    },
+    {
+      "start": 90,
+      "end": 94,
+      "text": "radu",
+      "labels": [
+        "Performanse"
+      ]
     }
   ],
   "sentiment": [
@@ -892,6 +942,7 @@
     "Pozitivan",
     "Pozitivan",
     "Neutralan",
+    "Pozitivan",
     "Pozitivan"
   ],
   "implicit_aspects": [
@@ -900,6 +951,10 @@
         [
           "Opšta ocena",
           "Pozitivan"
+        ],
+        [
+          "Izgled",
+          "Negativan"
         ]
       ]
     }
@@ -907,8 +962,8 @@
   "annotator": 1,
   "annotation_id": 33,
   "created_at": "2026-08-06T02:14:49.856019Z",
-  "updated_at": "2026-08-06T02:14:49.856019Z",
-  "lead_time": 172.441
+  "updated_at": "2026-08-26T03:09:31.826202Z",
+  "lead_time": 287.829
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9567\/Xiaomi\/12\/3",
@@ -931,19 +986,11 @@
       ]
     },
     {
-      "start": 110,
-      "end": 116,
-      "text": "osecaj",
+      "start": 142,
+      "end": 151,
+      "text": "vibracija",
       "labels": [
-        "Izgled"
-      ]
-    },
-    {
-      "start": 152,
-      "end": 160,
-      "text": "zvucnici",
-      "labels": [
-        "Zvučnici"
+        "Hardver"
       ]
     },
     {
@@ -985,23 +1032,45 @@
       "labels": [
         "Kamera"
       ]
+    },
+    {
+      "start": 152,
+      "end": 160,
+      "text": "zvucnici",
+      "labels": [
+        "Zvučnici"
+      ]
     }
   ],
   "sentiment": [
     "Pozitivan",
     "Pozitivan",
     "Pozitivan",
-    "Pozitivan",
     "Neutralan",
     "Pozitivan",
     "Pozitivan",
+    "Neutralan",
     "Pozitivan"
+  ],
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Izgled",
+          "Pozitivan"
+        ],
+        [
+          "Opšta ocena",
+          "Pozitivan"
+        ]
+      ]
+    }
   ],
   "annotator": 1,
   "annotation_id": 34,
   "created_at": "2026-08-06T02:16:17.102675Z",
-  "updated_at": "2026-08-06T02:16:17.102675Z",
-  "lead_time": 86.658
+  "updated_at": "2026-08-26T03:12:11.156763Z",
+  "lead_time": 191.727
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/30j\/Honor\/Magic8-Lite-8GB-512GB-2x-SIM",
@@ -1086,26 +1155,17 @@
       "labels": [
         "Kamera"
       ]
-    },
-    {
-      "start": 185,
-      "end": 193,
-      "text": "procesor",
-      "labels": [
-        "Hardver"
-      ]
     }
   ],
   "sentiment": [
-    "Negativan",
     "Negativan",
     "Negativan"
   ],
   "annotator": 1,
   "annotation_id": 37,
   "created_at": "2026-08-06T02:17:46.965151Z",
-  "updated_at": "2026-08-06T02:17:46.965151Z",
-  "lead_time": 52.847
+  "updated_at": "2026-08-26T03:13:16.505212Z",
+  "lead_time": 75.61500000000001
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9810\/Apple\/iPhone-SE-2022\/2",
@@ -1254,12 +1314,33 @@
   "complexity_score": 5,
   "reasons": "Dužina (>=15 reči), Suprotni veznici",
   "id": 288,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 92,
+      "end": 100,
+      "text": "baterija",
+      "labels": [
+        "Baterija"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Izgled",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 42,
   "created_at": "2026-08-06T02:20:05.425854Z",
-  "updated_at": "2026-08-06T02:20:05.425854Z",
-  "lead_time": 4.243
+  "updated_at": "2026-08-26T03:18:27.104019Z",
+  "lead_time": 65.823
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9619\/Xiaomi\/Redmi-Note-11S-4G\/3",
@@ -1592,12 +1673,22 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 300,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Opšta ocena",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 800,
   "created_at": "2026-08-17T21:32:25.004205Z",
-  "updated_at": "2026-08-17T21:32:25.004205Z",
-  "lead_time": 55.073
+  "updated_at": "2026-08-26T03:29:52.503113Z",
+  "lead_time": 66.679
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9293\/Xiaomi\/11T-Pro\/5",
@@ -2643,34 +2734,12 @@
   "complexity_score": 9,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Sleng",
   "id": 336,
-  "review_status": "DA",
-  "categories": [
-    {
-      "start": 21,
-      "end": 28,
-      "text": "Telefon",
-      "labels": [
-        "Opšta ocena"
-      ]
-    },
-    {
-      "start": 73,
-      "end": 84,
-      "text": "fotografije",
-      "labels": [
-        "Kamera"
-      ]
-    }
-  ],
-  "sentiment": [
-    "Pozitivan",
-    "Negativan"
-  ],
+  "review_status": "NE",
   "annotator": 1,
   "annotation_id": 83,
   "created_at": "2026-08-11T00:07:31.274294Z",
-  "updated_at": "2026-08-11T00:07:31.274294Z",
-  "lead_time": 36.293
+  "updated_at": "2026-08-26T03:50:29.728955Z",
+  "lead_time": 62.875
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7179\/Apple\/iPhone-11-64GB\/7",
@@ -2820,14 +2889,6 @@
       ]
     },
     {
-      "start": 94,
-      "end": 102,
-      "text": "baterija",
-      "labels": [
-        "Baterija"
-      ]
-    },
-    {
       "start": 127,
       "end": 133,
       "text": "kamera",
@@ -2837,7 +2898,6 @@
     }
   ],
   "sentiment": [
-    "Pozitivan",
     "Pozitivan",
     "Konflikt"
   ],
@@ -2854,8 +2914,8 @@
   "annotator": 1,
   "annotation_id": 88,
   "created_at": "2026-08-11T00:09:26.970745Z",
-  "updated_at": "2026-08-11T00:09:26.970745Z",
-  "lead_time": 51.956
+  "updated_at": "2026-08-26T02:50:23.630733Z",
+  "lead_time": 119.526
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9573\/Samsung\/Galaxy-S21-FE-5G\/19",
@@ -3014,17 +3074,6 @@
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija",
   "id": 347,
   "review_status": "DA",
-  "categories": [
-    {
-      "start": 410,
-      "end": 416,
-      "text": "Punjač",
-      "labels": [
-        "Baterija"
-      ]
-    }
-  ],
-  "sentiment": "Konflikt",
   "implicit_aspects": [
     {
       "taxonomy": [
@@ -3038,8 +3087,8 @@
   "annotator": 1,
   "annotation_id": 94,
   "created_at": "2026-08-11T00:11:59.780451Z",
-  "updated_at": "2026-08-11T00:11:59.780451Z",
-  "lead_time": 40.192
+  "updated_at": "2026-08-26T04:00:56.758501Z",
+  "lead_time": 73.67099999999999
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/87w\/Honor\/400-Pro-12GB-256GB-1x-SIM-1x-eSIM\/2",
@@ -3729,12 +3778,62 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Sleng, Motiv kupovine",
   "id": 370,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 99,
+      "end": 107,
+      "text": "baterija",
+      "labels": [
+        "Baterija"
+      ]
+    },
+    {
+      "start": 109,
+      "end": 115,
+      "text": "kamera",
+      "labels": [
+        "Kamera"
+      ]
+    },
+    {
+      "start": 123,
+      "end": 131,
+      "text": "grejanje",
+      "labels": [
+        "Hardver"
+      ]
+    },
+    {
+      "start": 685,
+      "end": 690,
+      "text": "ekran",
+      "labels": [
+        "Kamera"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Negativan",
+    "Negativan",
+    "Negativan",
+    "Pozitivan"
+  ],
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Performanse",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 117,
   "created_at": "2026-08-15T23:08:13.543411Z",
-  "updated_at": "2026-08-15T23:08:13.543411Z",
-  "lead_time": 54.699
+  "updated_at": "2026-08-26T04:13:24.918825Z",
+  "lead_time": 303.565
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/87w\/Honor\/400-Pro-12GB-256GB-1x-SIM-1x-eSIM\/10",
@@ -4555,12 +4654,34 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 393,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 14,
+      "end": 24,
+      "text": "azuriranja",
+      "labels": [
+        "Softver"
+      ]
+    },
+    {
+      "start": 129,
+      "end": 137,
+      "text": "Baterija",
+      "labels": [
+        "Baterija"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Negativan",
+    "Pozitivan"
+  ],
   "annotator": 1,
   "annotation_id": 140,
   "created_at": "2026-08-16T00:15:56.783570Z",
-  "updated_at": "2026-08-16T00:15:56.783570Z",
-  "lead_time": 10.545
+  "updated_at": "2026-08-26T03:57:27.158099Z",
+  "lead_time": 45.039
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/mgt\/Samsung\/Galaxy-A54\/19",
@@ -5110,12 +5231,23 @@
   "complexity_score": 2,
   "reasons": "Negacija",
   "id": 412,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 19,
+      "end": 35,
+      "text": "zičane slusalice",
+      "labels": [
+        "Zvučnici"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 159,
   "created_at": "2026-08-16T00:28:10.504136Z",
-  "updated_at": "2026-08-16T00:28:10.504136Z",
-  "lead_time": 2.871
+  "updated_at": "2026-08-26T03:27:01.977938Z",
+  "lead_time": 9.875
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/8389\/Xiaomi\/Redmi-Note-10-Pro\/31",
@@ -5240,12 +5372,12 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 416,
-  "review_status": "DA",
+  "review_status": "NE",
   "annotator": 1,
   "annotation_id": 163,
   "created_at": "2026-08-16T00:29:24.683918Z",
-  "updated_at": "2026-08-16T00:29:24.683918Z",
-  "lead_time": 1.182
+  "updated_at": "2026-08-26T03:40:18.046223Z",
+  "lead_time": 6.930999999999999
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/jy9xf\/Samsung\/Galaxy-A23-5G-128GB",
@@ -7381,12 +7513,22 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 483,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Hardver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 230,
   "created_at": "2026-08-16T01:58:40.141008Z",
-  "updated_at": "2026-08-16T01:58:40.141008Z",
-  "lead_time": 3.857
+  "updated_at": "2026-08-26T03:37:39.619186Z",
+  "lead_time": 13.25
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7651\/Apple\/iPhone-SE-(2020)\/3",
@@ -7586,12 +7728,22 @@
   "complexity_score": 7,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
   "id": 493,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Hardver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 240,
   "created_at": "2026-08-16T02:00:37.102161Z",
-  "updated_at": "2026-08-16T02:00:37.102161Z",
-  "lead_time": 8.617
+  "updated_at": "2026-08-26T03:47:24.142657Z",
+  "lead_time": 34.53
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/8714\/Honor\/50\/9",
@@ -8093,12 +8245,23 @@
   "complexity_score": 2,
   "reasons": "Negacija",
   "id": 510,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 12,
+      "end": 20,
+      "text": "punjenje",
+      "labels": [
+        "Baterija"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 257,
   "created_at": "2026-08-16T02:12:46.188721Z",
-  "updated_at": "2026-08-16T02:12:54.240915Z",
-  "lead_time": 14.568
+  "updated_at": "2026-08-26T03:46:43.780399Z",
+  "lead_time": 20.064999999999998
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9841\/Samsung\/Galaxy-A53-5G\/4",
@@ -8161,12 +8324,22 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija, Motiv kupovine",
   "id": 514,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Baterija",
+          "Neutralan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 261,
   "created_at": "2026-08-16T02:13:50.969040Z",
-  "updated_at": "2026-08-16T02:13:50.969040Z",
-  "lead_time": 26.405
+  "updated_at": "2026-08-26T02:58:22.945729Z",
+  "lead_time": 86.10900000000001
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/l7m\/Samsung\/Galaxy-S23-Ultra\/22",
@@ -8195,12 +8368,34 @@
   "complexity_score": 9,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija",
   "id": 516,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 77,
+      "end": 83,
+      "text": "ekrana",
+      "labels": [
+        "Ekran"
+      ]
+    },
+    {
+      "start": 77,
+      "end": 83,
+      "text": "ekrana",
+      "labels": [
+        "Ekran"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Neutralan",
+    "Neutralan"
+  ],
   "annotator": 1,
   "annotation_id": 263,
   "created_at": "2026-08-16T02:14:27.917518Z",
-  "updated_at": "2026-08-16T02:14:27.917518Z",
-  "lead_time": 9.015
+  "updated_at": "2026-08-26T03:43:49.981455Z",
+  "lead_time": 32.496
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/sfg\/Honor\/X6c-8GB-256GB-2x-SIM",
@@ -8274,12 +8469,48 @@
   "complexity_score": 9,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Sleng",
   "id": 520,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Izgled",
+          "Pozitivan"
+        ],
+        [
+          "Cena",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "start": 232,
+      "end": 237,
+      "text": "ekran",
+      "labels": [
+        "Ekran"
+      ]
+    },
+    {
+      "start": 246,
+      "end": 254,
+      "text": "procesor",
+      "labels": [
+        "Hardver"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Pozitivan",
+    "Pozitivan"
+  ],
   "annotator": 1,
   "annotation_id": 267,
   "created_at": "2026-08-16T02:14:51.882513Z",
-  "updated_at": "2026-08-16T02:14:51.882513Z",
-  "lead_time": 3.152
+  "updated_at": "2026-08-26T03:01:50.254555Z",
+  "lead_time": 74.529
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/mgt\/Samsung\/Galaxy-A54\/22",
@@ -9656,22 +9887,12 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 565,
-  "review_status": "DA",
-  "implicit_aspects": [
-    {
-      "taxonomy": [
-        [
-          "Opšta ocena",
-          "Pozitivan"
-        ]
-      ]
-    }
-  ],
+  "review_status": "NE",
   "annotator": 1,
   "annotation_id": 312,
   "created_at": "2026-08-16T10:47:55.878371Z",
-  "updated_at": "2026-08-16T10:47:55.878371Z",
-  "lead_time": 18.819
+  "updated_at": "2026-08-26T03:14:53.078297Z",
+  "lead_time": 44.93
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9638\/Samsung\/Galaxy-S22-5G\/2",
@@ -9749,12 +9970,23 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 568,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 30,
+      "end": 45,
+      "text": "zadnjom kamerom",
+      "labels": [
+        "Kamera"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 315,
   "created_at": "2026-08-16T10:48:37.967579Z",
-  "updated_at": "2026-08-16T10:48:37.967579Z",
-  "lead_time": 5.384
+  "updated_at": "2026-08-26T03:58:51.485372Z",
+  "lead_time": 22.499
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9955\/Honor\/70\/6",
@@ -9783,12 +10015,22 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija, Motiv kupovine",
   "id": 570,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Ekran",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 317,
   "created_at": "2026-08-16T10:48:54.856917Z",
-  "updated_at": "2026-08-16T10:48:54.856917Z",
-  "lead_time": 7.499
+  "updated_at": "2026-08-26T03:42:34.020530Z",
+  "lead_time": 23.169999999999998
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/53bb5\/Xiaomi\/12T\/2",
@@ -10059,12 +10301,23 @@
   "complexity_score": 7,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
   "id": 582,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 64,
+      "end": 68,
+      "text": "cena",
+      "labels": [
+        "Cena"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 329,
   "created_at": "2026-08-16T10:54:22.289990Z",
-  "updated_at": "2026-08-16T10:54:22.289990Z",
-  "lead_time": 10.645
+  "updated_at": "2026-08-26T03:16:46.695479Z",
+  "lead_time": 17.551
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7651\/Apple\/iPhone-SE-(2020)\/14",
@@ -10363,12 +10616,33 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 593,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 25,
+      "end": 29,
+      "text": "pare",
+      "labels": [
+        "Cena"
+      ]
+    }
+  ],
+  "sentiment": "Pozitivan",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Opšta ocena",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 340,
   "created_at": "2026-08-16T11:01:29.808672Z",
-  "updated_at": "2026-08-16T11:01:29.808672Z",
-  "lead_time": 5.878
+  "updated_at": "2026-08-26T02:59:28.674833Z",
+  "lead_time": 43.362
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/l7m\/Samsung\/Galaxy-S23-Ultra\/10",
@@ -10642,12 +10916,22 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 606,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Cena",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 353,
   "created_at": "2026-08-16T11:04:41.468368Z",
-  "updated_at": "2026-08-16T11:04:41.468368Z",
-  "lead_time": 3.675
+  "updated_at": "2026-08-26T03:47:59.611732Z",
+  "lead_time": 23.924
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7651\/Apple\/iPhone-SE-(2020)\/8",
@@ -10946,12 +11230,23 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 617,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 50,
+      "end": 55,
+      "text": "cenom",
+      "labels": [
+        "Cena"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 364,
   "created_at": "2026-08-16T14:22:10.745935Z",
-  "updated_at": "2026-08-16T14:22:10.745935Z",
-  "lead_time": 2.306
+  "updated_at": "2026-08-26T03:45:11.225496Z",
+  "lead_time": 8.483
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9573\/Samsung\/Galaxy-S21-FE-5G\/17",
@@ -11082,12 +11377,23 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija, Motiv kupovine",
   "id": 620,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 18,
+      "end": 26,
+      "text": "punjenje",
+      "labels": [
+        "Baterija"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 367,
   "created_at": "2026-08-16T14:23:21.494946Z",
-  "updated_at": "2026-08-16T14:23:21.495959Z",
-  "lead_time": 1.882
+  "updated_at": "2026-08-26T03:59:34.002642Z",
+  "lead_time": 24.333000000000002
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/qqy\/Xiaomi\/13T\/4",
@@ -11148,12 +11454,22 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 622,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Hardver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 369,
   "created_at": "2026-08-16T14:24:12.004860Z",
-  "updated_at": "2026-08-16T14:24:12.004860Z",
-  "lead_time": 4.213
+  "updated_at": "2026-08-26T03:56:41.442442Z",
+  "lead_time": 27.758
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/gz0\/Honor\/Magic5-Pro\/7",
@@ -11386,12 +11702,23 @@
   "complexity_score": 6,
   "reasons": "Dužina (>=15 reči), Negacija, Specifikacija",
   "id": 630,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 5,
+      "end": 11,
+      "text": "apdejt",
+      "labels": [
+        "Softver"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 376,
   "created_at": "2026-08-16T14:28:02.667643Z",
-  "updated_at": "2026-08-16T14:28:02.667643Z",
-  "lead_time": 3.835
+  "updated_at": "2026-08-26T03:55:37.829397Z",
+  "lead_time": 9.889
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/82x\/Samsung\/Galaxy-A57-8GB-256GB-1x-SIM-1x-eSIM",
@@ -11726,32 +12053,32 @@
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 640,
   "review_status": "DA",
+  "categories": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Telefon",
+      "labels": [
+        "Opšta ocena"
+      ]
+    }
+  ],
+  "sentiment": "Pozitivan",
   "implicit_aspects": [
     {
       "taxonomy": [
         [
-          "Opšta ocena",
+          "Softver",
           "Pozitivan"
         ]
       ]
     }
   ],
-  "categories": [
-    {
-      "start": 108,
-      "end": 114,
-      "text": "bagova",
-      "labels": [
-        "Softver"
-      ]
-    }
-  ],
-  "sentiment": "Pozitivan",
   "annotator": 1,
   "annotation_id": 386,
   "created_at": "2026-08-16T14:35:42.308857Z",
-  "updated_at": "2026-08-16T14:35:42.309857Z",
-  "lead_time": 21.798
+  "updated_at": "2026-08-26T02:48:10.209423Z",
+  "lead_time": 97.941
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/khb\/Samsung\/Galaxy-S23\/27",
@@ -11951,12 +12278,23 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 647,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 25,
+      "end": 36,
+      "text": "obaveštenja",
+      "labels": [
+        "Softver"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 393,
   "created_at": "2026-08-16T14:39:56.490205Z",
-  "updated_at": "2026-08-16T14:39:56.490205Z",
-  "lead_time": 4.161
+  "updated_at": "2026-08-26T03:33:09.541121Z",
+  "lead_time": 42.15
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/khb\/Samsung\/Galaxy-S23\/27",
@@ -12387,12 +12725,22 @@
   "complexity_score": 7,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
   "id": 662,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Baterija",
+          "Neutralan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 408,
   "created_at": "2026-08-16T16:53:28.813280Z",
-  "updated_at": "2026-08-16T16:53:28.813280Z",
-  "lead_time": 25.387
+  "updated_at": "2026-08-26T04:04:00.779552Z",
+  "lead_time": 68.636
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9955\/Honor\/70\/15",
@@ -12535,12 +12883,26 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija, Motiv kupovine",
   "id": 667,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Cena",
+          "Pozitivan"
+        ],
+        [
+          "Opšta ocena",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 413,
   "created_at": "2026-08-16T16:55:07.658238Z",
-  "updated_at": "2026-08-16T16:55:07.658238Z",
-  "lead_time": 49.041
+  "updated_at": "2026-08-26T04:15:36.063485Z",
+  "lead_time": 152.939
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/8239\/Samsung\/Galaxy-S21-Ultra-5G\/5",
@@ -12609,12 +12971,22 @@
   "complexity_score": 7,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
   "id": 669,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Cena",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 415,
   "created_at": "2026-08-16T16:56:38.856910Z",
-  "updated_at": "2026-08-16T16:56:38.856910Z",
-  "lead_time": 15.773
+  "updated_at": "2026-08-26T03:44:30.765887Z",
+  "lead_time": 24.474
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9280\/Apple\/iPhone-13-Pro-Max\/3",
@@ -12660,12 +13032,22 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Sleng, Motiv kupovine",
   "id": 672,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Softver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 418,
   "created_at": "2026-08-16T16:57:05.681381Z",
-  "updated_at": "2026-08-16T16:57:05.681381Z",
-  "lead_time": 4.959
+  "updated_at": "2026-08-26T03:21:39.451076Z",
+  "lead_time": 55.724000000000004
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/87w\/Honor\/400-Pro-12GB-256GB-1x-SIM-1x-eSIM\/5",
@@ -13868,12 +14250,33 @@
   "complexity_score": 2,
   "reasons": "Negacija",
   "id": 713,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 52,
+      "end": 60,
+      "text": "Baterija",
+      "labels": [
+        "Baterija"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Opšta ocena",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 459,
   "created_at": "2026-08-16T19:41:34.207925Z",
-  "updated_at": "2026-08-16T19:41:34.207925Z",
-  "lead_time": 3.825
+  "updated_at": "2026-08-26T03:39:51.794628Z",
+  "lead_time": 33.002
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/x9p\/Samsung\/Galaxy-S23+\/3",
@@ -14341,12 +14744,23 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 725,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Telefon",
+      "labels": [
+        "Opšta ocena"
+      ]
+    }
+  ],
+  "sentiment": "Neutralan",
   "annotator": 1,
   "annotation_id": 471,
   "created_at": "2026-08-16T19:51:21.828593Z",
-  "updated_at": "2026-08-16T19:51:21.828593Z",
-  "lead_time": 49.744
+  "updated_at": "2026-08-26T03:43:11.308020Z",
+  "lead_time": 71.14999999999999
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/tqv\/Samsung\/Galaxy-S25-12GB-512GB-1x-SIM-2x-eSIM",
@@ -14621,12 +15035,23 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 735,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 90,
+      "end": 104,
+      "text": "battery health",
+      "labels": [
+        "Baterija"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 481,
   "created_at": "2026-08-16T19:57:26.072424Z",
-  "updated_at": "2026-08-16T19:57:26.072424Z",
-  "lead_time": 4.796
+  "updated_at": "2026-08-26T03:31:48.730630Z",
+  "lead_time": 46.972
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/gz0\/Honor\/Magic5-Pro\/10",
@@ -14887,12 +15312,34 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 739,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 118,
+      "end": 123,
+      "text": "ekran",
+      "labels": [
+        "Ekran"
+      ]
+    },
+    {
+      "start": 132,
+      "end": 140,
+      "text": "baterija",
+      "labels": [
+        "Baterija"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Negativan",
+    "Pozitivan"
+  ],
   "annotator": 1,
   "annotation_id": 485,
   "created_at": "2026-08-16T20:03:10.323928Z",
-  "updated_at": "2026-08-16T20:03:10.323928Z",
-  "lead_time": 2.554
+  "updated_at": "2026-08-26T04:03:01.655892Z",
+  "lead_time": 111.479
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/kgt\/Samsung\/Galaxy-M55-12GB-256GB-2x-SIM",
@@ -15174,12 +15621,22 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 748,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Softver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 494,
   "created_at": "2026-08-16T21:33:13.885723Z",
-  "updated_at": "2026-08-16T21:33:13.885723Z",
-  "lead_time": 7.313
+  "updated_at": "2026-08-26T03:46:02.114629Z",
+  "lead_time": 23.88
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/y94s0\/Apple\/iPhone-14-Pro\/3",
@@ -15360,12 +15817,22 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija, Motiv kupovine",
   "id": 756,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Softver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 502,
   "created_at": "2026-08-16T21:35:38.905101Z",
-  "updated_at": "2026-08-16T21:35:38.905101Z",
-  "lead_time": 22.79
+  "updated_at": "2026-08-26T03:33:46.513720Z",
+  "lead_time": 44.393
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7651\/Apple\/iPhone-SE-(2020)\/11",
@@ -15790,12 +16257,33 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija, Motiv kupovine",
   "id": 772,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Opšta ocena",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "start": 142,
+      "end": 159,
+      "text": "120hz osvezavanje",
+      "labels": [
+        "Ekran"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 518,
   "created_at": "2026-08-16T23:56:20.970456Z",
-  "updated_at": "2026-08-16T23:56:20.970456Z",
-  "lead_time": 17.182
+  "updated_at": "2026-08-26T03:35:30.330890Z",
+  "lead_time": 64.53399999999999
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9638\/Samsung\/Galaxy-S22-5G\/2",
@@ -15807,12 +16295,34 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 773,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 211,
+      "end": 219,
+      "text": "Baterija",
+      "labels": [
+        "Baterija"
+      ]
+    },
+    {
+      "start": 269,
+      "end": 280,
+      "text": "nadogradnja",
+      "labels": [
+        "Softver"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Neutralan",
+    "Neutralan"
+  ],
   "annotator": 1,
   "annotation_id": 519,
   "created_at": "2026-08-16T23:56:28.970661Z",
-  "updated_at": "2026-08-16T23:56:28.970661Z",
-  "lead_time": 7.612
+  "updated_at": "2026-08-26T03:25:22.301711Z",
+  "lead_time": 57.953
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9293\/Xiaomi\/11T-Pro\/2",
@@ -15916,12 +16426,23 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 776,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 5,
+      "end": 12,
+      "text": "telefon",
+      "labels": [
+        "Opšta ocena"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 522,
   "created_at": "2026-08-16T23:57:03.597635Z",
-  "updated_at": "2026-08-16T23:57:03.597635Z",
-  "lead_time": 3.081
+  "updated_at": "2026-08-26T03:37:15.250786Z",
+  "lead_time": 14.453999999999999
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/f2p\/Samsung\/Galaxy-S23-FE\/3",
@@ -16436,12 +16957,22 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 796,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Softver",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 542,
   "created_at": "2026-08-17T00:27:04.959367Z",
-  "updated_at": "2026-08-17T00:27:04.959367Z",
-  "lead_time": 7.98
+  "updated_at": "2026-08-26T03:20:16.168393Z",
+  "lead_time": 19.334
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9573\/Samsung\/Galaxy-S21-FE-5G\/10",
@@ -16645,12 +17176,43 @@
   "complexity_score": 9,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija",
   "id": 803,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 350,
+      "end": 358,
+      "text": "procesor",
+      "labels": [
+        "Hardver"
+      ]
+    },
+    {
+      "start": 360,
+      "end": 371,
+      "text": "osvežavanje",
+      "labels": [
+        "Ekran"
+      ]
+    },
+    {
+      "start": 225,
+      "end": 230,
+      "text": "shell",
+      "labels": [
+        "Softver"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Pozitivan",
+    "Pozitivan",
+    "Pozitivan"
+  ],
   "annotator": 1,
   "annotation_id": 549,
   "created_at": "2026-08-17T00:29:39.119126Z",
-  "updated_at": "2026-08-17T00:29:39.119126Z",
-  "lead_time": 2.343
+  "updated_at": "2026-08-26T03:22:52.463282Z",
+  "lead_time": 42.747
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9646\/Samsung\/Galaxy-S22+-5G\/2",
@@ -17593,12 +18155,23 @@
   "complexity_score": 2,
   "reasons": "Dužina (>=15 reči)",
   "id": 838,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 31,
+      "end": 48,
+      "text": "ultra vide kameri",
+      "labels": [
+        "Kamera"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 584,
   "created_at": "2026-08-17T01:07:09.876260Z",
-  "updated_at": "2026-08-17T01:07:09.876260Z",
-  "lead_time": 9.199
+  "updated_at": "2026-08-26T04:08:49.032338Z",
+  "lead_time": 29.656999999999996
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/sw0\/Honor\/600-Lite-8GB-256GB-2x-SIM",
@@ -17759,7 +18332,7 @@
       "end": 718,
       "text": "performanse",
       "labels": [
-        "Performanse"
+        "Softver"
       ]
     }
   ],
@@ -17767,8 +18340,8 @@
   "annotator": 1,
   "annotation_id": 590,
   "created_at": "2026-08-17T01:17:01.653393Z",
-  "updated_at": "2026-08-17T01:17:01.653393Z",
-  "lead_time": 403.996
+  "updated_at": "2026-08-26T02:45:19.551498Z",
+  "lead_time": 494.414
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/kwp\/Huawei\/Pura-70-Ultra-16GB-512GB-2x-SIM",
@@ -18455,12 +19028,23 @@
   "complexity_score": 5,
   "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
   "id": 866,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 63,
+      "end": 71,
+      "text": "mikrofon",
+      "labels": [
+        "Zvučnici"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 612,
   "created_at": "2026-08-17T14:45:56.635940Z",
-  "updated_at": "2026-08-17T14:45:56.635940Z",
-  "lead_time": 8.865
+  "updated_at": "2026-08-26T03:19:06.374003Z",
+  "lead_time": 16.91
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/6c6\/Xiaomi\/Redmi-Note-13-5G-6GB-128GB-2x-SIM",
@@ -18609,12 +19193,80 @@
   "complexity_score": 7,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
   "id": 869,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 110,
+      "end": 118,
+      "text": "baterija",
+      "labels": [
+        "Baterija"
+      ]
+    },
+    {
+      "start": 320,
+      "end": 329,
+      "text": "Interfejs",
+      "labels": [
+        "Softver"
+      ]
+    },
+    {
+      "start": 365,
+      "end": 372,
+      "text": "zvucnik",
+      "labels": [
+        "Zvučnici"
+      ]
+    },
+    {
+      "start": 391,
+      "end": 402,
+      "text": "wifi aignal",
+      "labels": [
+        "Hardver"
+      ]
+    },
+    {
+      "start": 550,
+      "end": 556,
+      "text": "Kamera",
+      "labels": [
+        "Kamera"
+      ]
+    },
+    {
+      "start": 311,
+      "end": 318,
+      "text": "uredjaj",
+      "labels": [
+        "Opšta ocena"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Pozitivan",
+    "Pozitivan",
+    "Pozitivan",
+    "Pozitivan",
+    "Pozitivan",
+    "Pozitivan"
+  ],
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Hardver",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 615,
   "created_at": "2026-08-17T14:49:08.294572Z",
-  "updated_at": "2026-08-17T14:49:08.294572Z",
-  "lead_time": 12.293
+  "updated_at": "2026-08-26T04:19:24.858912Z",
+  "lead_time": 195.219
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/rgg\/Xiaomi\/Redmi-Note-13-Pro-5G-12GB-512GB-2x-SIM",
@@ -19143,12 +19795,43 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 885,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 50,
+      "end": 55,
+      "text": "cenom",
+      "labels": [
+        "Cena"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 76,
+      "text": "ekran",
+      "labels": [
+        "Ekran"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 98,
+      "text": "procesor",
+      "labels": [
+        "Hardver"
+      ]
+    }
+  ],
+  "sentiment": [
+    "Negativan",
+    "Pozitivan",
+    "Pozitivan"
+  ],
   "annotator": 1,
   "annotation_id": 631,
   "created_at": "2026-08-17T15:01:30.963333Z",
-  "updated_at": "2026-08-17T15:01:30.963333Z",
-  "lead_time": 5.217
+  "updated_at": "2026-08-26T03:51:02.270872Z",
+  "lead_time": 18.371
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/mgt\/Samsung\/Galaxy-A54\/5",
@@ -19177,12 +19860,22 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 887,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Cena",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 633,
   "created_at": "2026-08-17T15:01:37.464235Z",
-  "updated_at": "2026-08-17T15:01:37.464235Z",
-  "lead_time": 3.281
+  "updated_at": "2026-08-26T03:40:52.506112Z",
+  "lead_time": 22.558999999999997
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/gwmgy\/Xiaomi\/12T-Pro\/3",
@@ -20062,12 +20755,22 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 920,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Hardver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 666,
   "created_at": "2026-08-17T15:16:08.576687Z",
-  "updated_at": "2026-08-17T15:16:08.576687Z",
-  "lead_time": 4.151
+  "updated_at": "2026-08-26T03:52:41.460335Z",
+  "lead_time": 34.19
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/mgt\/Samsung\/Galaxy-A54\/19",
@@ -20573,12 +21276,23 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 940,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 35,
+      "end": 47,
+      "text": "otisak prsta",
+      "labels": [
+        "Hardver"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 686,
   "created_at": "2026-08-17T18:12:34.373196Z",
-  "updated_at": "2026-08-17T18:12:34.373196Z",
-  "lead_time": 3.013
+  "updated_at": "2026-08-26T03:49:21.398403Z",
+  "lead_time": 65.45400000000001
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/8448\/Samsung\/Galaxy-A72\/8",
@@ -20624,12 +21338,22 @@
   "complexity_score": 7,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija",
   "id": 943,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Softver",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 689,
   "created_at": "2026-08-17T18:12:46.505800Z",
-  "updated_at": "2026-08-17T18:12:46.505800Z",
-  "lead_time": 5.598
+  "updated_at": "2026-08-26T03:30:35.485527Z",
+  "lead_time": 30.429
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/blm\/Honor\/Magic5-Lite",
@@ -20641,34 +21365,12 @@
   "complexity_score": 10,
   "reasons": "Dužina (>=15 reči), Suprotni veznici, Negacija, Specifikacija, Motiv kupovine",
   "id": 944,
-  "review_status": "DA",
-  "categories": [
-    {
-      "start": 65,
-      "end": 68,
-      "text": "tel",
-      "labels": [
-        "Opšta ocena"
-      ]
-    },
-    {
-      "start": 86,
-      "end": 94,
-      "text": "baterija",
-      "labels": [
-        "Baterija"
-      ]
-    }
-  ],
-  "sentiment": [
-    "Pozitivan",
-    "Negativan"
-  ],
+  "review_status": "NE",
   "annotator": 1,
   "annotation_id": 690,
   "created_at": "2026-08-17T18:13:48.287904Z",
-  "updated_at": "2026-08-17T18:13:48.287904Z",
-  "lead_time": 61.231
+  "updated_at": "2026-08-26T03:53:47.865325Z",
+  "lead_time": 89.905
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9573\/Samsung\/Galaxy-S21-FE-5G\/20",
@@ -20738,12 +21440,37 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 946,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Opšta ocena",
+          "Negativan"
+        ],
+        [
+          "Cena",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "start": 182,
+      "end": 189,
+      "text": "MagicOS",
+      "labels": [
+        "Softver"
+      ]
+    }
+  ],
+  "sentiment": "Pozitivan",
   "annotator": 1,
   "annotation_id": 692,
   "created_at": "2026-08-17T18:14:47.899222Z",
-  "updated_at": "2026-08-17T18:14:47.899222Z",
-  "lead_time": 5.202
+  "updated_at": "2026-08-26T03:16:12.670604Z",
+  "lead_time": 60.348
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/dd4\/Honor\/Magic6-Lite\/7",
@@ -21553,12 +22280,22 @@
   "complexity_score": 0,
   "reasons": "",
   "id": 979,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Opšta ocena",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 725,
   "created_at": "2026-08-17T18:38:17.907912Z",
-  "updated_at": "2026-08-17T18:38:17.907912Z",
-  "lead_time": 1.8
+  "updated_at": "2026-08-26T03:32:16.849815Z",
+  "lead_time": 9.498000000000001
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni\/tkw\/Honor\/600-8GB-256GB-1x-SIM-1x-eSIM",
@@ -21587,12 +22324,22 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 981,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Kamera",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 727,
   "created_at": "2026-08-17T18:38:23.159790Z",
-  "updated_at": "2026-08-17T18:38:23.159790Z",
-  "lead_time": 2.016
+  "updated_at": "2026-08-26T03:26:31.636730Z",
+  "lead_time": 22.465000000000003
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/blm\/Honor\/Magic5-Lite\/17",
@@ -21604,12 +22351,23 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 982,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 273,
+      "end": 281,
+      "text": "procesor",
+      "labels": [
+        "Hardver"
+      ]
+    }
+  ],
+  "sentiment": "Pozitivan",
   "annotator": 1,
   "annotation_id": 728,
   "created_at": "2026-08-17T18:38:41.591176Z",
-  "updated_at": "2026-08-17T18:38:41.591176Z",
-  "lead_time": 17.95
+  "updated_at": "2026-08-26T03:24:09.562580Z",
+  "lead_time": 49.45
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7651\/Apple\/iPhone-SE-(2020)\/3",
@@ -22826,12 +23584,22 @@
   "complexity_score": 1,
   "reasons": "Motiv kupovine",
   "id": 1023,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Opšta ocena",
+          "Pozitivan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 769,
   "created_at": "2026-08-17T20:15:47.570301Z",
-  "updated_at": "2026-08-17T20:15:47.570301Z",
-  "lead_time": 4.861
+  "updated_at": "2026-08-26T03:58:14.021642Z",
+  "lead_time": 25.240000000000002
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9573\/Samsung\/Galaxy-S21-FE-5G\/10",
@@ -22860,12 +23628,23 @@
   "complexity_score": 5,
   "reasons": "Dužina (>=15 reči), Negacija, Motiv kupovine",
   "id": 1025,
-  "review_status": "NE",
+  "review_status": "DA",
+  "categories": [
+    {
+      "start": 22,
+      "end": 32,
+      "text": "ažuriranja",
+      "labels": [
+        "Softver"
+      ]
+    }
+  ],
+  "sentiment": "Negativan",
   "annotator": 1,
   "annotation_id": 771,
   "created_at": "2026-08-17T20:16:51.550534Z",
-  "updated_at": "2026-08-17T20:16:51.550534Z",
-  "lead_time": 23.668
+  "updated_at": "2026-08-26T04:05:15.788645Z",
+  "lead_time": 43.662
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/9573\/Samsung\/Galaxy-S21-FE-5G\/5",
@@ -23569,12 +24348,22 @@
   "complexity_score": 4,
   "reasons": "Dužina (>=15 reči), Negacija",
   "id": 1049,
-  "review_status": "NE",
+  "review_status": "DA",
+  "implicit_aspects": [
+    {
+      "taxonomy": [
+        [
+          "Baterija",
+          "Negativan"
+        ]
+      ]
+    }
+  ],
   "annotator": 1,
   "annotation_id": 795,
   "created_at": "2026-08-17T21:31:11.889527Z",
-  "updated_at": "2026-08-17T21:31:11.889527Z",
-  "lead_time": 5.207
+  "updated_at": "2026-08-26T03:23:18.576287Z",
+  "lead_time": 12.86
 },
 {
   "url": "https:\/\/mobilnisvet.com\/mobilni-komentari\/7xf\/Huawei\/P60-Pro\/4",
