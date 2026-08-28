@@ -22751,15 +22751,7 @@
         "phone": "Xiaomi 14 Ultra",
         "comment": "Da li se nekom desio \"fogging\" tj zamagljivanje sociva kamere? Izgleda da je to cesta mana ovog telefona",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 48,
-                "to": 61,
-                "trg": "sociva kamere",
-                "category": "Kamera",
-                "polarity": "Negativan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {

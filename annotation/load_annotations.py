@@ -1,9 +1,11 @@
 from collections import defaultdict
 import json
+import sys
 from typing import Any
 
 from pathlib import Path
 absPath = Path(__file__).resolve().parent
+sys.path.insert(0, str(absPath.parent))
 
 from common.enums import Category, Polarity
 
@@ -12,9 +14,9 @@ FILE_PATHS = [
 	"jb/raw.json",
 	"lr/raw.json",
 	"nb/raw.json",
-	"zg/raw.json",
-	"../calibration/calibration_annotations.json"
+	"zg/raw.json"
 ]
+CALIBRATION_PATH = absPath / "../calibration/adjudicated_calibration_final.json"
 
 
 def aggregate_polarity(polarities: list[str]) -> Polarity | None:
@@ -96,7 +98,7 @@ def parse_records(records: list[Any], folder_path: Path, file_name: str) -> tupl
 					annotation_map_to_id[tax_id].update(label)
 		if review_status == "DA":
 			reviews_cnt += 1
-		aspect_terms = list(annotation_map_to_id.values())
+		aspect_terms = list(annotation_map_to_id.values()) if review_status == "DA" else []
 		aspect_categories = get_aspect_categories(aspect_terms) if review_status == "DA" else []
 		flat_record = {
 			"phone": record.get("data", {}).get("phone"),
@@ -146,6 +148,21 @@ def main():
 		reviews_cnt, records = load_annotation_file(absPath / file_path)
 		total_reviews_cnt += reviews_cnt
 		all_records.extend(records)
+
+	with CALIBRATION_PATH.open("r", encoding="utf-8-sig") as file:
+		calibration_records = json.load(file)
+	if not isinstance(calibration_records, list) or len(calibration_records) != 800:
+		raise ValueError("Adjudicated calibration set must contain exactly 800 records")
+	for index, record in enumerate(calibration_records):
+		if record.get("review_status") not in {"DA", "NE"}:
+			raise ValueError(f"Invalid calibration review_status at index {index}")
+		if not isinstance(record.get("phone"), str) or not isinstance(record.get("comment"), str):
+			raise ValueError(f"Invalid calibration metadata at index {index}")
+		if not isinstance(record.get("aspect_terms"), list) or not isinstance(record.get("aspect_categories"), list):
+			raise ValueError(f"Invalid calibration annotations at index {index}")
+	print(f"{CALIBRATION_PATH.name}: Number of reviews: {sum(r['review_status'] == 'DA' for r in calibration_records)}/{len(calibration_records)}")
+	total_reviews_cnt += sum(record["review_status"] == "DA" for record in calibration_records)
+	all_records.extend(calibration_records)
 
 	output_path = absPath / "annotations.json"
 	with output_path.open("w", encoding="utf-8-sig") as file:

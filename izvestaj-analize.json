@@ -3,23 +3,27 @@
     "annotators": [
       {
         "id": "A1",
-        "file": "analytics/andrija.json"
+        "file": "calibration/at/raw.json"
       },
       {
         "id": "A2",
-        "file": "analytics/jelena.json"
+        "file": "calibration/jb/raw.json"
       },
       {
         "id": "A3",
-        "file": "analytics/luka.json"
+        "file": "calibration/lr/raw.json"
       },
       {
         "id": "A4",
-        "file": "analytics/nikola.json"
+        "file": "calibration/nb/raw.json"
+      },
+      {
+        "id": "A5",
+        "file": "calibration/zg/raw.json"
       }
     ],
     "review_count": 800,
-    "pair_count": 6,
+    "pair_count": 10,
     "pairs": {
       "A1-A2": {
         "noise_cohen_kappa": 0.8283359314353514,
@@ -37,19 +41,19 @@
         "full_tuple_micro_f1": 0.41077704021866457
       },
       "A1-A3": {
-        "noise_cohen_kappa": 0.6754271288824776,
-        "span_strict_f1": 0.5028213166144201,
-        "span_partial_f1": 0.6945070077974699,
-        "category_cohen_kappa": 0.688970285807685,
-        "category_gwet_ac1": 0.6976052623009541,
-        "acsa_tuple_micro_f1": 0.6481916392672616,
-        "sentiment_cohen_kappa": 0.7375944435203807,
-        "sentiment_gwet_ac1": 0.8586046233716148,
-        "sentiment_exact_agreement": 0.8801213960546282,
-        "sentiment_positive_component_kappa": 0.7778848712414629,
-        "sentiment_negative_component_kappa": 0.812756227252432,
-        "sentiment_bipolar_weighted_kappa": 0.7941489210653355,
-        "full_tuple_micro_f1": 0.375
+        "noise_cohen_kappa": 0.8490974139069308,
+        "span_strict_f1": 0.5207166853303471,
+        "span_partial_f1": 0.6994127900201572,
+        "category_cohen_kappa": 0.7014743900468573,
+        "category_gwet_ac1": 0.7092986851743878,
+        "acsa_tuple_micro_f1": 0.6915486915486916,
+        "sentiment_cohen_kappa": 0.77469753262837,
+        "sentiment_gwet_ac1": 0.8662196096758792,
+        "sentiment_exact_agreement": 0.8883116883116883,
+        "sentiment_positive_component_kappa": 0.8175715695952617,
+        "sentiment_negative_component_kappa": 0.8453788262410729,
+        "sentiment_bipolar_weighted_kappa": 0.8307783532299732,
+        "full_tuple_micro_f1": 0.4212218649517685
       },
       "A1-A4": {
         "noise_cohen_kappa": 0.8270720032079396,
@@ -66,20 +70,35 @@
         "sentiment_bipolar_weighted_kappa": 0.7902134751599226,
         "full_tuple_micro_f1": 0.3567433188315724
       },
+      "A1-A5": {
+        "noise_cohen_kappa": 0.7784140420764347,
+        "span_strict_f1": 0.43646408839779005,
+        "span_partial_f1": 0.586499917429232,
+        "category_cohen_kappa": 0.7175043937555875,
+        "category_gwet_ac1": 0.723224451552544,
+        "acsa_tuple_micro_f1": 0.6864784546805349,
+        "sentiment_cohen_kappa": 0.7994082720224724,
+        "sentiment_gwet_ac1": 0.8799284618203791,
+        "sentiment_exact_agreement": 0.8998875140607424,
+        "sentiment_positive_component_kappa": 0.8348816160710864,
+        "sentiment_negative_component_kappa": 0.8821874239150869,
+        "sentiment_bipolar_weighted_kappa": 0.8580099025714742,
+        "full_tuple_micro_f1": 0.36019242333132895
+      },
       "A2-A3": {
-        "noise_cohen_kappa": 0.6816263154117654,
-        "span_strict_f1": 0.6446759259259259,
-        "span_partial_f1": 0.6760193263907569,
-        "category_cohen_kappa": 0.7057550964191159,
-        "category_gwet_ac1": 0.7160171109913523,
-        "acsa_tuple_micro_f1": 0.6155276615527662,
-        "sentiment_cohen_kappa": 0.6189711805710378,
-        "sentiment_gwet_ac1": 0.7934824395538002,
-        "sentiment_exact_agreement": 0.8250377073906485,
-        "sentiment_positive_component_kappa": 0.6619112468278869,
-        "sentiment_negative_component_kappa": 0.7402764564329285,
-        "sentiment_bipolar_weighted_kappa": 0.6980903568348948,
-        "full_tuple_micro_f1": 0.4321353065539112
+        "noise_cohen_kappa": 0.7982816114777763,
+        "span_strict_f1": 0.6413326392503904,
+        "span_partial_f1": 0.6732234112462285,
+        "category_cohen_kappa": 0.7006703101593612,
+        "category_gwet_ac1": 0.7107218756440012,
+        "acsa_tuple_micro_f1": 0.6383340416489588,
+        "sentiment_cohen_kappa": 0.6511027556923847,
+        "sentiment_gwet_ac1": 0.7967348243565497,
+        "sentiment_exact_agreement": 0.8297587131367292,
+        "sentiment_positive_component_kappa": 0.6931453289339833,
+        "sentiment_negative_component_kappa": 0.7647347396453851,
+        "sentiment_bipolar_weighted_kappa": 0.7267270934109803,
+        "full_tuple_micro_f1": 0.449438202247191
       },
       "A2-A4": {
         "noise_cohen_kappa": 0.7867482877141925,
@@ -96,38 +115,83 @@
         "sentiment_bipolar_weighted_kappa": 0.8144372429763506,
         "full_tuple_micro_f1": 0.47780126849894294
       },
+      "A2-A5": {
+        "noise_cohen_kappa": 0.7489747732074066,
+        "span_strict_f1": 0.6190833959429001,
+        "span_partial_f1": 0.6455420422604082,
+        "category_cohen_kappa": 0.7540038135293979,
+        "category_gwet_ac1": 0.7613940797854015,
+        "acsa_tuple_micro_f1": 0.6779661016949152,
+        "sentiment_cohen_kappa": 0.7444138559671034,
+        "sentiment_gwet_ac1": 0.8421076886268067,
+        "sentiment_exact_agreement": 0.8689866939611054,
+        "sentiment_positive_component_kappa": 0.7818709533377987,
+        "sentiment_negative_component_kappa": 0.8543015689875753,
+        "sentiment_bipolar_weighted_kappa": 0.8169230574441955,
+        "full_tuple_micro_f1": 0.46563322608949986
+      },
       "A3-A4": {
-        "noise_cohen_kappa": 0.6386242450279245,
-        "span_strict_f1": 0.5636114911080712,
-        "span_partial_f1": 0.5919940347742163,
-        "category_cohen_kappa": 0.6823805458425058,
-        "category_gwet_ac1": 0.6924237848138014,
-        "acsa_tuple_micro_f1": 0.5407554671968191,
-        "sentiment_cohen_kappa": 0.5840511386336396,
-        "sentiment_gwet_ac1": 0.7630523352737841,
-        "sentiment_exact_agreement": 0.8008298755186722,
-        "sentiment_positive_component_kappa": 0.63658944841082,
-        "sentiment_negative_component_kappa": 0.6876598129531682,
-        "sentiment_bipolar_weighted_kappa": 0.6598424820114244,
-        "full_tuple_micro_f1": 0.357379219060225
+        "noise_cohen_kappa": 0.8822438804399569,
+        "span_strict_f1": 0.5898764447987246,
+        "span_partial_f1": 0.6167895545615272,
+        "category_cohen_kappa": 0.6914607127705354,
+        "category_gwet_ac1": 0.7009324342902349,
+        "acsa_tuple_micro_f1": 0.6087596613912404,
+        "sentiment_cohen_kappa": 0.6598589872544304,
+        "sentiment_gwet_ac1": 0.7772640709445754,
+        "sentiment_exact_agreement": 0.8171428571428572,
+        "sentiment_positive_component_kappa": 0.7233898066948448,
+        "sentiment_negative_component_kappa": 0.7358611103310775,
+        "sentiment_bipolar_weighted_kappa": 0.7290606584903372,
+        "full_tuple_micro_f1": 0.41630636195182213
+      },
+      "A3-A5": {
+        "noise_cohen_kappa": 0.7583758874081454,
+        "span_strict_f1": 0.5753532182103611,
+        "span_partial_f1": 0.6025234697471864,
+        "category_cohen_kappa": 0.762936221419976,
+        "category_gwet_ac1": 0.7688257766290972,
+        "acsa_tuple_micro_f1": 0.6735218508997429,
+        "sentiment_cohen_kappa": 0.7262978604260482,
+        "sentiment_gwet_ac1": 0.8380232762316724,
+        "sentiment_exact_agreement": 0.8646616541353384,
+        "sentiment_positive_component_kappa": 0.7964247245790737,
+        "sentiment_negative_component_kappa": 0.7900041550424408,
+        "sentiment_bipolar_weighted_kappa": 0.7933664417499677,
+        "full_tuple_micro_f1": 0.4512851165570831
+      },
+      "A4-A5": {
+        "noise_cohen_kappa": 0.7653519720419371,
+        "span_strict_f1": 0.6817058096415327,
+        "span_partial_f1": 0.7116278538015924,
+        "category_cohen_kappa": 0.7565544087820213,
+        "category_gwet_ac1": 0.7637835734622336,
+        "acsa_tuple_micro_f1": 0.654320987654321,
+        "sentiment_cohen_kappa": 0.6876076847135628,
+        "sentiment_gwet_ac1": 0.7855023780447679,
+        "sentiment_exact_agreement": 0.8251968503937008,
+        "sentiment_positive_component_kappa": 0.7718523841297541,
+        "sentiment_negative_component_kappa": 0.7675308683063201,
+        "sentiment_bipolar_weighted_kappa": 0.7698139273348994,
+        "full_tuple_micro_f1": 0.4784102060843965
       }
     },
     "group_means": {
-      "noise_cohen_kappa": 0.7396389852799419,
-      "span_strict_f1": 0.5468490357957558,
-      "span_partial_f1": 0.6501430585294978,
-      "category_cohen_kappa": 0.709947607629441,
-      "category_gwet_ac1": 0.7198480730223725,
-      "acsa_tuple_micro_f1": 0.6392323374590726,
-      "sentiment_cohen_kappa": 0.6930509206365518,
-      "sentiment_gwet_ac1": 0.821417827276928,
-      "sentiment_exact_agreement": 0.8505004683422852,
-      "sentiment_positive_component_kappa": 0.7340375923404494,
-      "sentiment_negative_component_kappa": 0.792683243223249,
-      "sentiment_bipolar_weighted_kappa": 0.7616704140636247,
-      "full_tuple_micro_f1": 0.4016393588605527
+      "noise_cohen_kappa": 0.8022895802916071,
+      "span_strict_f1": 0.5634517762698164,
+      "span_partial_f1": 0.6473957021280876,
+      "category_cohen_kappa": 0.7267183968171076,
+      "category_gwet_ac1": 0.7351223156566028,
+      "acsa_tuple_micro_f1": 0.6661849046255994,
+      "sentiment_cohen_kappa": 0.7261075709798624,
+      "sentiment_gwet_ac1": 0.8299147875163,
+      "sentiment_exact_agreement": 0.8590959802231923,
+      "sentiment_positive_component_kappa": 0.7746976370904328,
+      "sentiment_negative_component_kappa": 0.8155405655169924,
+      "sentiment_bipolar_weighted_kappa": 0.7942620158701921,
+      "full_tuple_micro_f1": 0.428780902876227
     },
-    "noise_fleiss_kappa": 0.738951935137221,
+    "noise_fleiss_kappa": 0.8019950378452648,
     "methodology": {
       "review_alignment": "exact composite key (url, review text); source IDs are ignored",
       "span_scope": "reviews both annotators marked non-noise; explicit targets only",
@@ -158,5 +222,152 @@
       "undefined_scores": "null; excluded from group means"
     }
   },
-  "dataset_statistics": null
+  "dataset_statistics": {
+    "total_reviews": 17551,
+    "valid_reviews": 6454,
+    "noise_reviews": 11097,
+    "noise_percentage": 63.22716654321691,
+    "total_annotations": 18082,
+    "category_distribution": {
+      "Baterija": {
+        "count": 2624,
+        "percentage": 14.51166906315673
+      },
+      "Kamera": {
+        "count": 2150,
+        "percentage": 11.890277624156619
+      },
+      "Ekran": {
+        "count": 1170,
+        "percentage": 6.470523172215463
+      },
+      "Memorija": {
+        "count": 180,
+        "percentage": 0.9954651034177635
+      },
+      "Zvučnici": {
+        "count": 639,
+        "percentage": 3.5339011171330603
+      },
+      "Izgled": {
+        "count": 1100,
+        "percentage": 6.083397854219666
+      },
+      "Hardver": {
+        "count": 1716,
+        "percentage": 9.49010065258268
+      },
+      "Softver": {
+        "count": 2576,
+        "percentage": 14.246211702245327
+      },
+      "Performanse": {
+        "count": 1268,
+        "percentage": 7.0124986174095785
+      },
+      "Cena": {
+        "count": 941,
+        "percentage": 5.204070346200641
+      },
+      "Opšta ocena": {
+        "count": 3718,
+        "percentage": 20.56188474726247
+      }
+    },
+    "sentiment_distribution": {
+      "Pozitivan": {
+        "count": 9672,
+        "percentage": 53.48965822364783
+      },
+      "Negativan": {
+        "count": 7567,
+        "percentage": 41.848246875345644
+      },
+      "Neutralan": {
+        "count": 682,
+        "percentage": 3.7717066696161927
+      },
+      "Konflikt": {
+        "count": 161,
+        "percentage": 0.890388231390333
+      }
+    },
+    "category_sentiment_crosstab": {
+      "Baterija": {
+        "Pozitivan": 1272,
+        "Negativan": 1152,
+        "Neutralan": 169,
+        "Konflikt": 31
+      },
+      "Kamera": {
+        "Pozitivan": 1131,
+        "Negativan": 855,
+        "Neutralan": 120,
+        "Konflikt": 44
+      },
+      "Ekran": {
+        "Pozitivan": 632,
+        "Negativan": 491,
+        "Neutralan": 41,
+        "Konflikt": 6
+      },
+      "Memorija": {
+        "Pozitivan": 78,
+        "Negativan": 95,
+        "Neutralan": 7,
+        "Konflikt": 0
+      },
+      "Zvučnici": {
+        "Pozitivan": 270,
+        "Negativan": 341,
+        "Neutralan": 16,
+        "Konflikt": 12
+      },
+      "Izgled": {
+        "Pozitivan": 744,
+        "Negativan": 302,
+        "Neutralan": 44,
+        "Konflikt": 10
+      },
+      "Hardver": {
+        "Pozitivan": 541,
+        "Negativan": 1083,
+        "Neutralan": 78,
+        "Konflikt": 14
+      },
+      "Softver": {
+        "Pozitivan": 785,
+        "Negativan": 1692,
+        "Neutralan": 84,
+        "Konflikt": 15
+      },
+      "Performanse": {
+        "Pozitivan": 950,
+        "Negativan": 289,
+        "Neutralan": 24,
+        "Konflikt": 5
+      },
+      "Cena": {
+        "Pozitivan": 467,
+        "Negativan": 441,
+        "Neutralan": 29,
+        "Konflikt": 4
+      },
+      "Opšta ocena": {
+        "Pozitivan": 2802,
+        "Negativan": 826,
+        "Neutralan": 70,
+        "Konflikt": 20
+      }
+    },
+    "explicit": {
+      "count": 14635,
+      "percentage": 80.93684326954983
+    },
+    "implicit": {
+      "count": 3447,
+      "percentage": 19.06315673045017
+    },
+    "annotation_density": 2.8016733808490857
+  }
 }

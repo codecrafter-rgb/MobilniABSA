@@ -3,3 +3,7 @@
 __pycache__/
 .venv/
 venv/
+
+# Regenerable adjudication intermediates and Microsoft Word lock files.
+calibration/.adjudication_work/
+docs/~$*.docx

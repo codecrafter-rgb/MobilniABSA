@@ -2,7 +2,7 @@
 
 ## 1. Namena
 
-Modul `absa_analytics.py` služi za dve povezane analize:
+Modul `analytics/absa_analytics.py` služi za dve povezane analize:
 
 1. merenje slaganja anotatora na kalibracionom skupu (Inter-Annotator Agreement, IAA);
 2. opisnu statistiku konačnog, konsolidovanog ABSA skupa podataka.
@@ -604,7 +604,7 @@ Noise recenzije nisu u imeniocu. Ako nema validnih recenzija, gustina je `0.0` u
 ### 14.1. Eksplicitna lista fajlova
 
 ```bash
-python3 absa_analytics.py \
+python3 analytics/absa_analytics.py \
   <anotatorski-fajl-1.json> \
   <anotatorski-fajl-2.json> \
   <anotatorski-fajl-3.json> \
@@ -623,7 +623,7 @@ Nazivi fajlova nisu značajni. Svaki fajl se učitava prema svojoj unutrašnjoj 
 Ako jedan pozicioni argument pokazuje na direktorijum, učitavaju se svi `.json` fajlovi direktno u tom direktorijumu, sortirani po nazivu:
 
 ```bash
-python3 absa_analytics.py <direktorijum-sa-anotacijama>/ \
+python3 analytics/absa_analytics.py <direktorijum-sa-anotacijama>/ \
   --final <finalni-skup.json> \
   --output <izvestaj.json>
 ```
@@ -637,7 +637,7 @@ Preporučuje se da direktorijum sadrži samo anotatorske JSON fajlove. U suprotn
 Argument `--final` nije obavezan:
 
 ```bash
-python3 absa_analytics.py <anotatorski-fajlovi> --output <izvestaj.json>
+python3 analytics/absa_analytics.py <anotatorski-fajlovi> --output <izvestaj.json>
 ```
 
 U tom slučaju Markdown izlaz sadrži samo IAA tabelu, a `dataset_statistics` u JSON izveštaju ima vrednost `null`.
@@ -647,7 +647,7 @@ U tom slučaju Markdown izlaz sadrži samo IAA tabelu, a `dataset_statistics` u 
 Modul se može koristiti i iz drugog Python koda:
 
 ```python
-from absa_analytics import (
+from analytics.absa_analytics import (
     calculate_iaa,
     generate_dataset_statistics,
     render_markdown,
@@ -776,7 +776,7 @@ Visoko slaganje znači da anotatori dosledno primenjuju ista pravila. Ne dokazuj
 Testovi se pokreću komandom:
 
 ```bash
-python3 -m unittest -v test_absa_analytics.py
+python3 -m unittest -v tests/test_absa_analytics.py
 ```
 
 Test suite proverava:
@@ -805,7 +805,7 @@ Test suite proverava:
 Praktičan kalibracioni ciklus može da izgleda ovako:
 
 1. svih pet anotatora nezavisno anotira isti kalibracioni skup;
-2. pokreće se `absa_analytics.py` nad pet eksportovanih fajlova;
+2. pokreće se `analytics/absa_analytics.py` nad pet eksportovanih fajlova;
 3. pregledaju se najniže metrike i problematični parovi;
 4. ručno se analiziraju konkretna neslaganja;
 5. smernice se dopunjuju primerima i jasnijim pravilima;

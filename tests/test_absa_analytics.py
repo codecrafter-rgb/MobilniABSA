@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from absa_analytics import (
+from analytics.absa_analytics import (
     Annotation,
     CATEGORIES,
     Review,
@@ -155,7 +155,30 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("10 Pairs", markdown)
 
     def test_dataset_statistics(self):
-        final_path = self._write("final.json")
+        rows = [
+            {
+                "phone": "Telefon A",
+                "comment": "Dobra baterija i brz rad.",
+                "review_status": "DA",
+                "aspect_terms": [
+                    {"fr": 6, "to": 14, "trg": "baterija", "category": "Baterija", "polarity": "Pozitivan"},
+                    {"fr": -1, "to": -1, "trg": None, "category": "Performanse", "polarity": "Pozitivan"},
+                ],
+                "aspect_categories": [
+                    {"category": "Baterija", "polarity": "Pozitivan"},
+                    {"category": "Performanse", "polarity": "Pozitivan"},
+                ],
+            },
+            {
+                "phone": "Telefon B",
+                "comment": "Da li ga neko koristi?",
+                "review_status": "NE",
+                "aspect_terms": [],
+                "aspect_categories": [],
+            },
+        ]
+        final_path = self.directory / "final.json"
+        final_path.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8-sig")
         stats = generate_dataset_statistics(final_path)
         self.assertEqual(stats["total_reviews"], 2)
         self.assertEqual(stats["valid_reviews"], 1)
