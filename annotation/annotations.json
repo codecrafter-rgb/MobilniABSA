@@ -132665,7 +132665,7 @@
                 "to": 353,
                 "trg": "Senzor blizine",
                 "category": "Hardver",
-                "polarity": "Konfliktan"
+                "polarity": "Konflikt"
             }
         ],
         "aspect_categories": [
@@ -141872,7 +141872,7 @@
                 "to": 253,
                 "trg": "ekran",
                 "category": "Ekran",
-                "polarity": "Konfliktan"
+                "polarity": "Konflikt"
             },
             {
                 "fr": 303,
@@ -141903,7 +141903,7 @@
             },
             {
                 "category": "Ekran",
-                "polarity": "Negativan"
+                "polarity": "Konflikt"
             },
             {
                 "category": "Izgled",
@@ -154250,7 +154250,7 @@
                 "to": 493,
                 "trg": "AI tehnolgija",
                 "category": "Softver",
-                "polarity": "Konfliktan"
+                "polarity": "Konflikt"
             },
             {
                 "fr": 635,
@@ -154281,7 +154281,7 @@
             },
             {
                 "category": "Softver",
-                "polarity": "Pozitivan"
+                "polarity": "Konflikt"
             },
             {
                 "category": "Performanse",
@@ -156557,7 +156557,7 @@
                 "to": 269,
                 "trg": "telefon",
                 "category": "Opšta ocena",
-                "polarity": "Konfliktan"
+                "polarity": "Konflikt"
             },
             {
                 "fr": 369,
@@ -156609,6 +156609,10 @@
             {
                 "category": "Performanse",
                 "polarity": "Pozitivan"
+            },
+            {
+                "category": "Opšta ocena",
+                "polarity": "Konflikt"
             }
         ]
     },
@@ -162208,7 +162212,7 @@
                 "to": 8,
                 "trg": "tel",
                 "category": "Opšta ocena",
-                "polarity": "Konfliktan"
+                "polarity": "Konflikt"
             },
             {
                 "fr": 88,
@@ -162233,6 +162237,10 @@
             {
                 "category": "Softver",
                 "polarity": "Negativan"
+            },
+            {
+                "category": "Opšta ocena",
+                "polarity": "Konflikt"
             }
         ]
     },
