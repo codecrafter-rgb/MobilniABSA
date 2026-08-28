@@ -116,8 +116,7 @@ if __name__ == "__main__":
     parser = build_parser()
     args = parser.parse_args()
 
-    if args.output is None:
-        output_json = f"mobilnisvet_segment_{args.brand}/{args.index}.json"
+    output_json = args.output or f"mobilnisvet_segment_{args.brand}/{args.index}.json"
 
     convert_csv_segment_to_json(
         input_csv=absPath / args.input_dir / f"{args.brand}.csv",

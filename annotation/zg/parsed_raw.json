@@ -311,57 +311,7 @@
         "phone": "Huawei nova 10",
         "comment": "Imam Nova 10 vec vise od godinu dana. Kupio sam ga polovnog. Pre njega sam imao promasaj sa Xiaomi 11 lite 5g NE koji sam uzeo zbog Google servisa(gms) posle P40 lite. Godinu dana sam telefon koristio bez gBox-a i slicnih virualizacija jer je skoro sve radilo sasvim dobro i bez gms. Za neke aplikacije jednostavno mora, ali u mom slucaju su to bile 4-5 aplikacije. Preselio sam se u Nemacku gde se 90% stvari radi preko telefona i gde je potrebno mnogo vise aplikacija i zato sam se odlucio i na svoj telefon ubacio HarmonyOS. Nakon toga instalirao klasicne Google servise i sve radi mnogo bolje nego sto je radilo bez istih ili preko gBox-a. Bolje drzi bateriju, bolje radi i konacno moguce je imati Google Play. Da sam u Srbiji, verovatno mi ne bi trebao gplay, ali posto je telefon, kao i svi ostali Huawei telefoni, odlicnog kvaliteta odlucio sam se za ovo i sigurno cu ga jos koristiti. Moja topla preporuka je HarmonyOS",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 517,
-                "to": 526,
-                "trg": "HarmonyOS",
-                "category": "Softver",
-                "polarity": "Pozitivan"
-            },
-            {
-                "fr": 559,
-                "to": 573,
-                "trg": "Google servise",
-                "category": "Softver",
-                "polarity": "Pozitivan"
-            },
-            {
-                "fr": 655,
-                "to": 663,
-                "trg": "bateriju",
-                "category": "Baterija",
-                "polarity": "Pozitivan"
-            },
-            {
-                "fr": 702,
-                "to": 713,
-                "trg": "Google Play",
-                "category": "Softver",
-                "polarity": "Pozitivan"
-            },
-            {
-                "fr": 778,
-                "to": 785,
-                "trg": "telefon",
-                "category": "Opšta ocena",
-                "polarity": "Pozitivan"
-            },
-            {
-                "fr": 804,
-                "to": 819,
-                "trg": "Huawei telefoni",
-                "category": "Opšta ocena",
-                "polarity": "Pozitivan"
-            },
-            {
-                "fr": 917,
-                "to": 926,
-                "trg": "HarmonyOS",
-                "category": "Softver",
-                "polarity": "Pozitivan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -417,15 +367,7 @@
         "phone": "Honor 50 Lite",
         "comment": "Kupiobsam tel pre par dan i fon je bruka",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 28,
-                "to": 31,
-                "trg": "fon",
-                "category": "Opšta ocena",
-                "polarity": "Negativan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -2042,15 +1984,7 @@
         "phone": "Honor 90 Lite",
         "comment": "Telefoni su mi se brzo kvarili,obicno zbog baterije ili padanu mi u vodu. Sada pazim na telefone ali za bateriju na ovom Honor 90 lite nemam reci.",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 104,
-                "to": 112,
-                "trg": "bateriju",
-                "category": "Baterija",
-                "polarity": "Pozitivan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -14004,15 +13938,7 @@
         "phone": "Xiaomi Redmi 10C",
         "comment": "Telefon nema kompas?",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 13,
-                "to": 19,
-                "trg": "kompas",
-                "category": "Hardver",
-                "polarity": "Negativan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -16812,36 +16738,7 @@
         "phone": "Xiaomi 12 Lite",
         "comment": "Kada uradite ažuriranje na MIUI 13.0.7 obavezno odradite i factory reset jer u suprotnom update neće leći kako treba,ima nekih bubica kakve resetovanjem treba očistiti.",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 13,
-                "to": 23,
-                "trg": "ažuriranje",
-                "category": "Softver",
-                "polarity": "Negativan"
-            },
-            {
-                "fr": 27,
-                "to": 38,
-                "trg": "MIUI 13.0.7",
-                "category": "Softver",
-                "polarity": "Negativan"
-            },
-            {
-                "fr": 89,
-                "to": 95,
-                "trg": "update",
-                "category": "Softver",
-                "polarity": "Negativan"
-            },
-            {
-                "fr": 127,
-                "to": 133,
-                "trg": "bubica",
-                "category": "Softver",
-                "polarity": "Negativan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -24080,22 +23977,7 @@
         "phone": "Xiaomi Mi 11 Lite 5G",
         "comment": "Vidim neki hvale bateriju posle abdejta na Miui 13, a neki tvrde da je još gora. Najveći problem, barem po prikazu kada se uđe u podešavanjima u bateriju je Chrome- koristio ga ili, blokirao ili ne, troši oko 45% baterije. Da li je to ispravljeno abdejtom ili ne na kraju?",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 17,
-                "to": 25,
-                "trg": "bateriju",
-                "category": "Baterija",
-                "polarity": "Negativan"
-            },
-            {
-                "fr": 157,
-                "to": 163,
-                "trg": "Chrome",
-                "category": "Softver",
-                "polarity": "Negativan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -28897,7 +28779,7 @@
             {
                 "fr": 202,
                 "to": 221,
-                "trg": "proximity senzorom",
+                "trg": "proximity  senzorom",
                 "category": "Hardver",
                 "polarity": "Negativan"
             }
@@ -52321,7 +52203,7 @@
             {
                 "fr": 36,
                 "to": 47,
-                "trg": "android 15",
+                "trg": "android  15",
                 "category": "Softver",
                 "polarity": "Negativan"
             }

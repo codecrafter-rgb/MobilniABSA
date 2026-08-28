@@ -82,8 +82,8 @@ def build_parser() -> argparse.ArgumentParser:
 	parser.add_argument(
 		"--calibration_set_csv",
 		type=str,
-		default="calibration/calibration_set_1200.csv",
-		help="Path to the calibration set CSV file (default: 'calibration/calibration_set_1200.csv')."
+		default="calibration/calibration_set.csv",
+		help="Path to the final 800-comment calibration set CSV (default: 'calibration/calibration_set.csv')."
 	)
 	parser.add_argument(
 		"--output_dir",

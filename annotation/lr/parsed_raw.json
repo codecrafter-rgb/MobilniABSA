@@ -1124,29 +1124,7 @@
         "phone": "Huawei P40 Pro",
         "comment": "Samsung A52 il ovaj telefon? U čemu je ako, je ovaj telefon uopšte bolji? Ekran, baterija, zvučnici su na strani duplo jeftinijeg modela?",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 74,
-                "to": 79,
-                "trg": "Ekran",
-                "category": "Ekran",
-                "polarity": "Negativan"
-            },
-            {
-                "fr": 81,
-                "to": 89,
-                "trg": "baterija",
-                "category": "Baterija",
-                "polarity": "Negativan"
-            },
-            {
-                "fr": 91,
-                "to": 99,
-                "trg": "zvučnici",
-                "category": "Zvučnici",
-                "polarity": "Negativan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -1479,15 +1457,7 @@
         "phone": "Huawei P40 Pro",
         "comment": "Da li telefon vredi ovih para i da li cu se pokajati ako ga kupim. Imao sam iPhone, ali mi se jako svidja P40... malo sam skeptican zbog kupovine jer nije iPhone... sta mi preporucujete",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 106,
-                "to": 109,
-                "trg": "P40",
-                "category": "Opšta ocena",
-                "polarity": "Pozitivan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -1668,29 +1638,7 @@
         "phone": "Huawei P40 Pro",
         "comment": "Ljudi pozdrav sta kupiti dvoumim se izmedju p40 huawei   s20fe i hiaomi mi 10 t pro...Nekako mi se najvise svidja huawei al mi se ne svidja cena i to sto nema google servisa ne znam sta radi na huaweijevoj play stor...s20fe losa baterija i procesor a puno para iskreno stalo sve super...Hiaomi kida ima sve sto mi treba al deluje mi kao tel koji baguje itd...svaki ima vrlina i mana cini mi se....",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 48,
-                "to": 54,
-                "trg": "huawei",
-                "category": "Opšta ocena",
-                "polarity": "Pozitivan"
-            },
-            {
-                "fr": 140,
-                "to": 144,
-                "trg": "cena",
-                "category": "Cena",
-                "polarity": "Negativan"
-            },
-            {
-                "fr": 159,
-                "to": 173,
-                "trg": "google servisa",
-                "category": "Softver",
-                "polarity": "Negativan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {
@@ -1896,15 +1844,7 @@
         "phone": "Huawei P40 Pro",
         "comment": "Interesuje me ažuriranje npr novog androida kako to radi kad bude izašao,hoce li ovaj tel dobiti harmony os kad bude izašao zvanično? Da li mogu na ovaj tel da instaliram aplikacije mobi banke? Malo sam skeptican u vezi tih aplikacija da u jednom momentu ne počne da puca,nema ažuriranja na android itd... inače znam da je kamera dobra ali me interesuje u poredjenju sa 11 pro kakva je,kao i baterija i ekran u odnosu na pomenuti te. Hvala.",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 323,
-                "to": 329,
-                "trg": "kamera",
-                "category": "Kamera",
-                "polarity": "Pozitivan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {

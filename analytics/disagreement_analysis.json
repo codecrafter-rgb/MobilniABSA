@@ -1,0 +1,513 @@
+{
+  "methodology": {
+    "scope": "Ten pairwise comparisons of five independent annotations of the same 800 reviews",
+    "explicit_alignment": "Hungarian maximum-total character IoU; spans must overlap",
+    "counting_note": "Counts are pairwise comparison units, not unique reviews or unique aspect mentions",
+    "annotators": {
+      "A1": "calibration/at/raw.json",
+      "A2": "calibration/jb/raw.json",
+      "A3": "calibration/lr/raw.json",
+      "A4": "calibration/nb/raw.json",
+      "A5": "calibration/zg/raw.json"
+    },
+    "missing_category_label": "__MISSING__"
+  },
+  "totals": {
+    "reviews": 8000,
+    "noise_status_disagreements": 790,
+    "joint_non_noise_reviews": 3403,
+    "explicit_a": 10076,
+    "explicit_b": 14098,
+    "overlapping_span_pairs": 8216,
+    "unmatched_explicit_mentions": 7742,
+    "exact_boundary_pairs": 6872,
+    "category_agreements_on_overlap": 7813,
+    "sentiment_agreements": 6623,
+    "implicit_category_units": 3839,
+    "implicit_category_disagreements": 2512,
+    "overlap_boundary_disagreements": 1344,
+    "implicit_category_agreements": 1327,
+    "category_disagreements_on_overlap": 403,
+    "sentiment_disagreements": 1190
+  },
+  "annotator_totals": {
+    "A1": {
+      "noise_reviews": 433,
+      "non_noise_reviews": 367,
+      "explicit_mentions": 913,
+      "implicit_aspects": 321
+    },
+    "A2": {
+      "noise_reviews": 447,
+      "non_noise_reviews": 353,
+      "explicit_mentions": 1060,
+      "implicit_aspects": 267
+    },
+    "A3": {
+      "noise_reviews": 429,
+      "non_noise_reviews": 371,
+      "explicit_mentions": 942,
+      "implicit_aspects": 312
+    },
+    "A4": {
+      "noise_reviews": 412,
+      "non_noise_reviews": 388,
+      "explicit_mentions": 1656,
+      "implicit_aspects": 328
+    },
+    "A5": {
+      "noise_reviews": 380,
+      "non_noise_reviews": 420,
+      "explicit_mentions": 1785,
+      "implicit_aspects": 307
+    }
+  },
+  "rates": {
+    "noise_status_disagreement_pct": 9.88,
+    "exact_boundaries_among_overlaps_pct": 83.64,
+    "boundary_disagreement_among_overlaps_pct": 16.36,
+    "category_disagreement_pct": 24.18,
+    "category_disagreement_on_explicit_overlap_pct": 4.91,
+    "sentiment_disagreement_after_category_match_pct": 15.23
+  },
+  "top_explicit_category_confusions": [
+    {
+      "categories": [
+        "Performanse",
+        "Softver"
+      ],
+      "count": 114
+    },
+    {
+      "categories": [
+        "Ekran",
+        "Kamera"
+      ],
+      "count": 31
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Softver"
+      ],
+      "count": 30
+    },
+    {
+      "categories": [
+        "Baterija",
+        "Kamera"
+      ],
+      "count": 29
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Izgled"
+      ],
+      "count": 25
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Memorija"
+      ],
+      "count": 20
+    },
+    {
+      "categories": [
+        "Ekran",
+        "Softver"
+      ],
+      "count": 14
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Performanse"
+      ],
+      "count": 13
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Zvučnici"
+      ],
+      "count": 13
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Kamera"
+      ],
+      "count": 12
+    },
+    {
+      "categories": [
+        "Ekran",
+        "Hardver"
+      ],
+      "count": 8
+    },
+    {
+      "categories": [
+        "Baterija",
+        "Hardver"
+      ],
+      "count": 7
+    },
+    {
+      "categories": [
+        "Kamera",
+        "Opšta ocena"
+      ],
+      "count": 6
+    },
+    {
+      "categories": [
+        "Ekran",
+        "Izgled"
+      ],
+      "count": 5
+    },
+    {
+      "categories": [
+        "Softver",
+        "Zvučnici"
+      ],
+      "count": 5
+    }
+  ],
+  "top_implicit_category_confusions": [
+    {
+      "categories": [
+        "Opšta ocena",
+        "__MISSING__"
+      ],
+      "count": 589
+    },
+    {
+      "categories": [
+        "Softver",
+        "__MISSING__"
+      ],
+      "count": 400
+    },
+    {
+      "categories": [
+        "Performanse",
+        "__MISSING__"
+      ],
+      "count": 272
+    },
+    {
+      "categories": [
+        "Hardver",
+        "__MISSING__"
+      ],
+      "count": 179
+    },
+    {
+      "categories": [
+        "Izgled",
+        "__MISSING__"
+      ],
+      "count": 162
+    },
+    {
+      "categories": [
+        "Cena",
+        "__MISSING__"
+      ],
+      "count": 130
+    },
+    {
+      "categories": [
+        "Baterija",
+        "__MISSING__"
+      ],
+      "count": 109
+    },
+    {
+      "categories": [
+        "Performanse",
+        "Softver"
+      ],
+      "count": 86
+    },
+    {
+      "categories": [
+        "Ekran",
+        "__MISSING__"
+      ],
+      "count": 67
+    },
+    {
+      "categories": [
+        "Opšta ocena",
+        "Softver"
+      ],
+      "count": 66
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Opšta ocena"
+      ],
+      "count": 40
+    },
+    {
+      "categories": [
+        "Izgled",
+        "Opšta ocena"
+      ],
+      "count": 37
+    },
+    {
+      "categories": [
+        "Hardver",
+        "Softver"
+      ],
+      "count": 35
+    },
+    {
+      "categories": [
+        "Izgled",
+        "Softver"
+      ],
+      "count": 33
+    },
+    {
+      "categories": [
+        "Opšta ocena",
+        "Performanse"
+      ],
+      "count": 31
+    }
+  ],
+  "top_sentiment_confusions": [
+    {
+      "sentiments": [
+        "Neutralan",
+        "Pozitivan"
+      ],
+      "count": 515
+    },
+    {
+      "sentiments": [
+        "Negativan",
+        "Neutralan"
+      ],
+      "count": 232
+    },
+    {
+      "sentiments": [
+        "Konflikt",
+        "Pozitivan"
+      ],
+      "count": 140
+    },
+    {
+      "sentiments": [
+        "Negativan",
+        "Pozitivan"
+      ],
+      "count": 116
+    },
+    {
+      "sentiments": [
+        "Konflikt",
+        "Neutralan"
+      ],
+      "count": 103
+    },
+    {
+      "sentiments": [
+        "Konflikt",
+        "Negativan"
+      ],
+      "count": 84
+    }
+  ],
+  "pairs": {
+    "A1-A2": {
+      "reviews": 800,
+      "noise_status_disagreements": 68,
+      "joint_non_noise_reviews": 326,
+      "explicit_a": 876,
+      "explicit_b": 1039,
+      "overlapping_span_pairs": 699,
+      "unmatched_explicit_mentions": 517,
+      "exact_boundary_pairs": 479,
+      "category_agreements_on_overlap": 667,
+      "sentiment_agreements": 573,
+      "implicit_category_units": 354,
+      "implicit_category_disagreements": 225,
+      "overlap_boundary_disagreements": 220,
+      "implicit_category_agreements": 129,
+      "category_disagreements_on_overlap": 32,
+      "sentiment_disagreements": 94
+    },
+    "A1-A3": {
+      "reviews": 800,
+      "joint_non_noise_reviews": 339,
+      "explicit_a": 886,
+      "explicit_b": 900,
+      "overlapping_span_pairs": 670,
+      "unmatched_explicit_mentions": 446,
+      "implicit_category_units": 382,
+      "implicit_category_disagreements": 225,
+      "noise_status_disagreements": 60,
+      "overlap_boundary_disagreements": 205,
+      "category_agreements_on_overlap": 614,
+      "sentiment_agreements": 542,
+      "implicit_category_agreements": 157,
+      "category_disagreements_on_overlap": 56,
+      "sentiment_disagreements": 72,
+      "exact_boundary_pairs": 465
+    },
+    "A1-A4": {
+      "reviews": 800,
+      "joint_non_noise_reviews": 343,
+      "explicit_a": 902,
+      "explicit_b": 1577,
+      "overlapping_span_pairs": 793,
+      "unmatched_explicit_mentions": 893,
+      "implicit_category_units": 412,
+      "implicit_category_disagreements": 275,
+      "exact_boundary_pairs": 545,
+      "category_agreements_on_overlap": 770,
+      "sentiment_agreements": 649,
+      "overlap_boundary_disagreements": 248,
+      "sentiment_disagreements": 121,
+      "implicit_category_agreements": 137,
+      "noise_status_disagreements": 69,
+      "category_disagreements_on_overlap": 23
+    },
+    "A1-A5": {
+      "reviews": 800,
+      "joint_non_noise_reviews": 349,
+      "explicit_a": 882,
+      "explicit_b": 1652,
+      "overlapping_span_pairs": 793,
+      "unmatched_explicit_mentions": 948,
+      "implicit_category_units": 399,
+      "implicit_category_disagreements": 264,
+      "exact_boundary_pairs": 553,
+      "category_agreements_on_overlap": 754,
+      "sentiment_agreements": 675,
+      "overlap_boundary_disagreements": 240,
+      "sentiment_disagreements": 79,
+      "implicit_category_agreements": 135,
+      "noise_status_disagreements": 89,
+      "category_disagreements_on_overlap": 39
+    },
+    "A2-A3": {
+      "reviews": 800,
+      "noise_status_disagreements": 80,
+      "joint_non_noise_reviews": 322,
+      "explicit_a": 1036,
+      "explicit_b": 885,
+      "overlapping_span_pairs": 672,
+      "unmatched_explicit_mentions": 577,
+      "exact_boundary_pairs": 616,
+      "category_agreements_on_overlap": 631,
+      "sentiment_agreements": 512,
+      "implicit_category_units": 347,
+      "implicit_category_agreements": 117,
+      "implicit_category_disagreements": 230,
+      "sentiment_disagreements": 119,
+      "overlap_boundary_disagreements": 56,
+      "category_disagreements_on_overlap": 41
+    },
+    "A2-A4": {
+      "reviews": 800,
+      "noise_status_disagreements": 85,
+      "joint_non_noise_reviews": 328,
+      "explicit_a": 1049,
+      "explicit_b": 1535,
+      "overlapping_span_pairs": 881,
+      "unmatched_explicit_mentions": 822,
+      "exact_boundary_pairs": 814,
+      "category_agreements_on_overlap": 848,
+      "sentiment_agreements": 730,
+      "sentiment_disagreements": 118,
+      "implicit_category_units": 376,
+      "implicit_category_disagreements": 259,
+      "category_disagreements_on_overlap": 33,
+      "implicit_category_agreements": 117,
+      "overlap_boundary_disagreements": 67
+    },
+    "A2-A5": {
+      "reviews": 800,
+      "noise_status_disagreements": 101,
+      "joint_non_noise_reviews": 336,
+      "explicit_a": 1039,
+      "explicit_b": 1623,
+      "overlapping_span_pairs": 894,
+      "unmatched_explicit_mentions": 874,
+      "exact_boundary_pairs": 824,
+      "category_agreements_on_overlap": 868,
+      "sentiment_agreements": 746,
+      "sentiment_disagreements": 122,
+      "implicit_category_units": 360,
+      "implicit_category_agreements": 111,
+      "implicit_category_disagreements": 249,
+      "overlap_boundary_disagreements": 70,
+      "category_disagreements_on_overlap": 26
+    },
+    "A3-A4": {
+      "reviews": 800,
+      "joint_non_noise_reviews": 356,
+      "explicit_a": 934,
+      "explicit_b": 1575,
+      "overlapping_span_pairs": 805,
+      "unmatched_explicit_mentions": 899,
+      "exact_boundary_pairs": 740,
+      "category_agreements_on_overlap": 747,
+      "sentiment_agreements": 599,
+      "noise_status_disagreements": 47,
+      "sentiment_disagreements": 148,
+      "overlap_boundary_disagreements": 65,
+      "implicit_category_units": 410,
+      "implicit_category_agreements": 134,
+      "implicit_category_disagreements": 276,
+      "category_disagreements_on_overlap": 58
+    },
+    "A3-A5": {
+      "reviews": 800,
+      "joint_non_noise_reviews": 347,
+      "explicit_a": 904,
+      "explicit_b": 1644,
+      "overlapping_span_pairs": 803,
+      "unmatched_explicit_mentions": 942,
+      "exact_boundary_pairs": 733,
+      "category_agreements_on_overlap": 759,
+      "sentiment_agreements": 652,
+      "noise_status_disagreements": 97,
+      "sentiment_disagreements": 107,
+      "implicit_category_units": 379,
+      "implicit_category_agreements": 172,
+      "implicit_category_disagreements": 207,
+      "overlap_boundary_disagreements": 70,
+      "category_disagreements_on_overlap": 44
+    },
+    "A4-A5": {
+      "reviews": 800,
+      "joint_non_noise_reviews": 357,
+      "explicit_a": 1568,
+      "explicit_b": 1668,
+      "overlapping_span_pairs": 1206,
+      "unmatched_explicit_mentions": 824,
+      "exact_boundary_pairs": 1103,
+      "category_agreements_on_overlap": 1155,
+      "sentiment_agreements": 945,
+      "sentiment_disagreements": 210,
+      "category_disagreements_on_overlap": 51,
+      "overlap_boundary_disagreements": 103,
+      "implicit_category_units": 420,
+      "implicit_category_disagreements": 302,
+      "noise_status_disagreements": 94,
+      "implicit_category_agreements": 118
+    }
+  }
+}

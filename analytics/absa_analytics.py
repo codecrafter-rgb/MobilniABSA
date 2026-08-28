@@ -14,10 +14,16 @@ from pathlib import Path
 from statistics import fmean
 from typing import Any, Iterable, Sequence
 
-import numpy as np
-from scipy.optimize import linear_sum_assignment
-from sklearn.metrics import cohen_kappa_score
-from statsmodels.stats.inter_rater import fleiss_kappa
+try:
+    import numpy as np
+    from scipy.optimize import linear_sum_assignment
+    from sklearn.metrics import cohen_kappa_score
+    from statsmodels.stats.inter_rater import fleiss_kappa
+except ModuleNotFoundError:  # Dataset statistics do not require the optional IAA stack.
+    np = None  # type: ignore[assignment]
+    linear_sum_assignment = None  # type: ignore[assignment]
+    cohen_kappa_score = None  # type: ignore[assignment]
+    fleiss_kappa = None  # type: ignore[assignment]
 
 
 CATEGORIES = [
@@ -491,6 +497,8 @@ def _fleiss_noise(datasets: Sequence[dict[ReviewKey, Review]]) -> float | None:
 
 
 def calculate_iaa(paths: Sequence[str | Path]) -> dict[str, Any]:
+    if any(item is None for item in (np, linear_sum_assignment, cohen_kappa_score, fleiss_kappa)):
+        raise RuntimeError("IAA calculation requires numpy, scipy, scikit-learn and statsmodels")
     if len(paths) < 2:
         raise ValueError("at least two annotator files are required")
     sources = [Path(path) for path in paths]
@@ -528,10 +536,85 @@ def calculate_iaa(paths: Sequence[str | Path]) -> dict[str, Any]:
 
 
 def generate_dataset_statistics(final_data_json: str | Path) -> dict[str, Any]:
-    data = load_annotations(final_data_json)
-    reviews = list(data.values())
-    valid = [review for review in reviews if not review.is_noise]
-    annotations = [annotation for review in valid for annotation in review.annotations]
+    """Generate statistics for annotation/annotations.json's consolidated schema."""
+    source = Path(final_data_json)
+    try:
+        with source.open(encoding="utf-8-sig") as handle:
+            rows = json.load(handle)
+    except json.JSONDecodeError as error:
+        raise ValueError(
+            f"{source}: invalid JSON at line {error.lineno}, column {error.colno}: {error.msg}"
+        ) from error
+    if not isinstance(rows, list):
+        raise ValueError(f"{source}: top-level JSON value must be a list")
+
+    review_keys: set[tuple[str, str]] = set()
+    valid_reviews = 0
+    noise_reviews = 0
+    annotations: list[Annotation] = []
+    for position, row in enumerate(rows):
+        if not isinstance(row, dict):
+            raise ValueError(f"{source}: review at index {position} is not an object")
+        phone = row.get("phone")
+        comment = row.get("comment")
+        status = row.get("review_status")
+        aspect_terms = row.get("aspect_terms")
+        aspect_categories = row.get("aspect_categories")
+        if not isinstance(phone, str) or not phone.strip():
+            raise ValueError(f"{source}: review at index {position} has no valid phone")
+        if not isinstance(comment, str):
+            raise ValueError(f"{source}: review at index {position} has no valid comment")
+        if status not in {"DA", "NE"}:
+            raise ValueError(f"{source}: review at index {position} has invalid review_status {status!r}")
+        if not isinstance(aspect_terms, list) or not all(isinstance(item, dict) for item in aspect_terms):
+            raise ValueError(f"{source}: aspect_terms at index {position} must be a list of objects")
+        if not isinstance(aspect_categories, list) or not all(
+            isinstance(item, dict) for item in aspect_categories
+        ):
+            raise ValueError(f"{source}: aspect_categories at index {position} must be a list of objects")
+
+        review_key = (phone.strip(), comment)
+        if review_key in review_keys:
+            raise ValueError(f"{source}: duplicate (phone, comment) key at index {position}")
+        review_keys.add(review_key)
+
+        if status == "NE":
+            noise_reviews += 1
+            continue
+        valid_reviews += 1
+        for term_index, term in enumerate(aspect_terms):
+            category = term.get("category")
+            sentiment = term.get("polarity")
+            sentiment = SENTIMENT_ALIASES.get(sentiment, sentiment)
+            if category not in CATEGORIES:
+                raise ValueError(
+                    f"{source}: unknown category {category!r} in aspect_terms[{term_index}] "
+                    f"of review {position}"
+                )
+            if sentiment not in SENTIMENTS:
+                raise ValueError(
+                    f"{source}: unknown polarity {sentiment!r} in aspect_terms[{term_index}] "
+                    f"of review {position}"
+                )
+
+            start = term.get("fr")
+            end = term.get("to")
+            target = term.get("trg")
+            if start == -1 and end == -1 and target is None:
+                annotations.append(Annotation(None, None, None, category, sentiment))
+            elif (
+                isinstance(start, int)
+                and isinstance(end, int)
+                and 0 <= start < end
+                and isinstance(target, str)
+            ):
+                annotations.append(Annotation(target, start, end, category, sentiment))
+            else:
+                raise ValueError(
+                    f"{source}: invalid span/target in aspect_terms[{term_index}] "
+                    f"of review {position}: ({start}, {end}, {target!r})"
+                )
+
     category_counts = Counter(item.category for item in annotations)
     sentiment_counts = Counter(item.sentiment for item in annotations)
     category_order = CATEGORIES + sorted(set(category_counts) - set(CATEGORIES))
@@ -551,20 +634,19 @@ def generate_dataset_statistics(final_data_json: str | Path) -> dict[str, Any]:
     }
     for item in annotations:
         cross_tab[item.category][item.sentiment] += 1
-    total_reviews = len(reviews)
-    noise_count = total_reviews - len(valid)
+    total_reviews = len(rows)
     return {
         "total_reviews": total_reviews,
-        "valid_reviews": len(valid),
-        "noise_reviews": noise_count,
-        "noise_percentage": 100 * noise_count / total_reviews if total_reviews else 0.0,
+        "valid_reviews": valid_reviews,
+        "noise_reviews": noise_reviews,
+        "noise_percentage": 100 * noise_reviews / total_reviews if total_reviews else 0.0,
         "total_annotations": len(annotations),
         "category_distribution": distribution(category_counts, category_order),
         "sentiment_distribution": distribution(sentiment_counts, sentiment_order),
         "category_sentiment_crosstab": cross_tab,
         "explicit": {"count": explicit, "percentage": 100 * explicit / len(annotations) if annotations else 0.0},
         "implicit": {"count": implicit, "percentage": 100 * implicit / len(annotations) if annotations else 0.0},
-        "annotation_density": len(annotations) / len(valid) if valid else 0.0,
+        "annotation_density": len(annotations) / valid_reviews if valid_reviews else 0.0,
     }
 
 

@@ -58383,15 +58383,7 @@
         "phone": "Xiaomi Redmi 14C 4G",
         "comment": "Meni je super Xiaomi 14C igram igrice do 6h skoro ceo dan od 6g ram, 128gb memorija plus 128gb memorijska. Baterija dva dana bez punjaca kad je napunjen 100% baterija.",
         "review_status": "NE",
-        "aspect_terms": [
-            {
-                "fr": 14,
-                "to": 24,
-                "trg": "Xiaomi 14C",
-                "category": "Opšta ocena",
-                "polarity": "Pozitivan"
-            }
-        ],
+        "aspect_terms": [],
         "aspect_categories": []
     },
     {

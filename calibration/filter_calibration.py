@@ -143,7 +143,7 @@ def expand_calibration_set(
 	input_csv: Path,
 	existing_set_csv: Path,
 	output_csv: Path,
-	target_total: int = 1200,
+	target_total: int,
 	additional_complex_cnt: int = 150,
 	random_state: int = 390
 ):
@@ -182,11 +182,16 @@ def expand_calibration_set(
 	# 4. Exclude existing comments to prevent duplicates
 	existing_comments = set(existing_df["comment"].dropna())
 	df_remaining = df_sorted[~df_sorted["comment"].isin(existing_comments)].copy()
+	if len(df_remaining) < needed_cnt:
+		raise ValueError(
+			f"Cannot expand to {target_total} rows: only {len(df_remaining)} new comments are available"
+		)
 
 	# 5. Pick additional complex and random rows from the remaining pool
 	if additional_complex_cnt > 0:
-		df_add_complex = df_remaining.head(additional_complex_cnt)
-		df_rest = df_remaining.iloc[additional_complex_cnt:]
+		complex_needed = min(additional_complex_cnt, needed_cnt)
+		df_add_complex = df_remaining.head(complex_needed)
+		df_rest = df_remaining.iloc[complex_needed:]
 		
 		random_needed = needed_cnt - len(df_add_complex)
 		df_add_random = df_rest.sample(n=random_needed, random_state=random_state)
@@ -324,8 +329,8 @@ def build_parser() -> argparse.ArgumentParser:
 	parser_generate.add_argument(
 		"--candidates-output",
 		type=str,
-		default="calibration_candidates.csv",
-		help="Relative path for candidates output CSV (default: 'calibration_candidates.csv')"
+		default=".calibration_candidates.csv",
+		help="Relative path for intermediate candidates CSV (default: '.calibration_candidates.csv')"
 	)
 	parser_generate.add_argument(
 		"--output",
@@ -335,7 +340,7 @@ def build_parser() -> argparse.ArgumentParser:
 	)
 
 	# Command: expand
-	parser_expand = subparsers.add_parser("expand", help="Expand an existing calibration set CSV")
+	parser_expand = subparsers.add_parser("expand", help="Expand an existing calibration set CSV to an explicit target size")
 	parser_expand.add_argument(
 		"--input",
 		type=str,
@@ -351,29 +356,33 @@ def build_parser() -> argparse.ArgumentParser:
 	parser_expand.add_argument(
 		"--output",
 		type=str,
-		default="calibration_set_1200.csv",
-		help="Relative path for expanded output CSV (default: 'calibration_set_1200.csv')"
+		default="calibration_set_expanded.csv",
+		help="Relative path for optional expanded output CSV (default: 'calibration_set_expanded.csv')"
+	)
+	parser_expand.add_argument(
+		"--target-total",
+		type=int,
+		required=True,
+		help="Required target number of comments in the expanded calibration set"
 	)
 
 	# Command: merge
-	parser_merge = subparsers.add_parser("merge", help="Merge exported JSON annotations into expanded dataset JSON for Label Studio import")
+	parser_merge = subparsers.add_parser("merge", help="Merge exported JSON annotations into a dataset JSON for Label Studio import")
 	parser_merge.add_argument(
 		"exported_json",
 		type=str,
-		required=True,
 		help="Relative path to old exported JSON file"
 	)
 	parser_merge.add_argument(
 		"output_json",
 		type=str,
-		required=True,
 		help="Relative path for output import JSON file"
 	)
 	parser_merge.add_argument(
 		"--csv",
 		type=str,
-		default="calibration_set_1200.csv",
-		help="Relative path to CSV dataset file (default: 'calibration_set_1200.csv')"
+		default="calibration_set.csv",
+		help="Relative path to the final 800-comment CSV dataset (default: 'calibration_set.csv')"
 	)
 
 	return parser
@@ -398,7 +407,7 @@ def main(argv: list[str] | None = None) -> int:
 			input_csv=absPath / args.input,
 			existing_set_csv=absPath / args.existing_set,
 			output_csv=absPath / args.output,
-			target_total=1200,
+			target_total=args.target_total,
 			additional_complex_cnt=150,
 			random_state=390
 		)
