@@ -170345,7 +170345,7 @@
                         "value": {
                             "start": 202,
                             "end": 221,
-                            "text": "proximity senzorom",
+                            "text": "proximity  senzorom",
                             "labels": [
                                 "Hardver"
                             ]
@@ -170360,7 +170360,7 @@
                         "value": {
                             "start": 202,
                             "end": 221,
-                            "text": "proximity senzorom",
+                            "text": "proximity  senzorom",
                             "choices": [
                                 "Negativan"
                             ]
@@ -285629,7 +285629,7 @@
                         "value": {
                             "start": 36,
                             "end": 47,
-                            "text": "android 15",
+                            "text": "android  15",
                             "labels": [
                                 "Softver"
                             ]
@@ -285644,7 +285644,7 @@
                         "value": {
                             "start": 36,
                             "end": 47,
-                            "text": "android 15",
+                            "text": "android  15",
                             "choices": [
                                 "Negativan"
                             ]
