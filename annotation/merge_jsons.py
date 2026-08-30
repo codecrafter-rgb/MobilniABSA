@@ -19,7 +19,7 @@ def merge_json_files(folder_path: Path):
 			print(f"Error! File doesn't exist on location: {file_path}")
 			continue
 
-		with file_path.open("r", encoding="utf-8-sig") as file:
+		with file_path.open("r", encoding="utf-8") as file:
 			merged_json.extend(json.load(file))
 
 	if not merged_json:
@@ -27,7 +27,7 @@ def merge_json_files(folder_path: Path):
 		return
 
 	output_path = folder_path / "raw.json"
-	with output_path.open("w", encoding="utf-8-sig") as file:
+	with output_path.open("w", encoding="utf-8") as file:
 		json.dump(merged_json, file, indent=4, ensure_ascii=False)
 
 	print(f"Successfully merged json files from {folder_path.name} folder! Number of elements: {len(merged_json)}")

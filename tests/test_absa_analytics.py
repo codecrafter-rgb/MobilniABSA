@@ -178,7 +178,7 @@ class PipelineTests(unittest.TestCase):
             },
         ]
         final_path = self.directory / "final.json"
-        final_path.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8-sig")
+        final_path.write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
         stats = generate_dataset_statistics(final_path)
         self.assertEqual(stats["total_reviews"], 2)
         self.assertEqual(stats["valid_reviews"], 1)

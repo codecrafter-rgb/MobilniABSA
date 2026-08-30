@@ -110,8 +110,8 @@ def main() -> None:
     WORK.mkdir(parents=True, exist_ok=True)
     base = json.loads(BASE.read_text(encoding="utf-8"))
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
-    reviewed = json.loads(REVIEWED.read_text(encoding="utf-8-sig"))
-    metadata_rows = json.loads(METADATA.read_text(encoding="utf-8-sig"))
+    reviewed = json.loads(REVIEWED.read_text(encoding="utf-8"))
+    metadata_rows = json.loads(METADATA.read_text(encoding="utf-8"))
     phone_by_comment = {item["data"]["comment"]: item["data"]["phone"] for item in metadata_rows}
     if len(phone_by_comment) != len(metadata_rows):
         raise ValueError("Calibration metadata contains duplicate comments")

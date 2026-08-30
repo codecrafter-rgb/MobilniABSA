@@ -112,7 +112,7 @@ def parse_records(records: list[Any], folder_path: Path, file_name: str) -> tupl
 	print(f"Number of reviews: {reviews_cnt}/{len(all_records)}")
 
 	output_path = folder_path / f"parsed_{file_name}"
-	with output_path.open("w", encoding="utf-8-sig") as file:
+	with output_path.open("w", encoding="utf-8") as file:
 		json.dump(all_records, file, indent=4, ensure_ascii=False)
 	print(f"Successfully saved {folder_path.name}/{output_path.name}!")
 
@@ -125,7 +125,7 @@ def load_annotation_file(file_path: Path) -> tuple[int, list[Any]]:
 		return 0, []
 
 	reviews_cnt, parsed_records = 0, []
-	with file_path.open("r", encoding="utf-8-sig") as file:
+	with file_path.open("r", encoding="utf-8") as file:
 		try:
 			records = json.load(file)
 			if not isinstance(records, list):
@@ -149,7 +149,7 @@ def main():
 		total_reviews_cnt += reviews_cnt
 		all_records.extend(records)
 
-	with CALIBRATION_PATH.open("r", encoding="utf-8-sig") as file:
+	with CALIBRATION_PATH.open("r", encoding="utf-8") as file:
 		calibration_records = json.load(file)
 	if not isinstance(calibration_records, list) or len(calibration_records) != 800:
 		raise ValueError("Adjudicated calibration set must contain exactly 800 records")
@@ -165,7 +165,7 @@ def main():
 	all_records.extend(calibration_records)
 
 	output_path = absPath / "annotations.json"
-	with output_path.open("w", encoding="utf-8-sig") as file:
+	with output_path.open("w", encoding="utf-8") as file:
 		json.dump(all_records, file, indent=4, ensure_ascii=False)
 	print(f"Total number of reviews: {total_reviews_cnt}/{len(all_records)}")
 	print(f"Successfully saved annotations to {output_path.name}!")

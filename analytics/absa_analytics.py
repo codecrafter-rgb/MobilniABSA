@@ -539,7 +539,7 @@ def generate_dataset_statistics(final_data_json: str | Path) -> dict[str, Any]:
     """Generate statistics for annotation/annotations.json's consolidated schema."""
     source = Path(final_data_json)
     try:
-        with source.open(encoding="utf-8-sig") as handle:
+        with source.open(encoding="utf-8") as handle:
             rows = json.load(handle)
     except json.JSONDecodeError as error:
         raise ValueError(
