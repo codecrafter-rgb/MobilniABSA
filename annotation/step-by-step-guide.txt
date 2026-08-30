@@ -1,21 +1,40 @@
-1. python annotation\csv_to_json_segment.py --brand {e.g. Apple} --index {e.g. 0}
+Ручни ток анотације у алату Label Studio
 
-2. https://aistudio.google.com/prompts/new_chat
+1. Припремити скуп без калибрационих коментара и поделити га према произвођачу:
 
-3.1. gemini-pro-latest
+	python prepare_dataset.py
 
-3.2. System instructions: Anotiranje komentara mobilnih telefona + system_instructions.txt
+2. Издвојити жељени сегмент CSV датотеке у JSON формат за Label Studio:
 
-3.3. Temperature: 0.1
+	python annotation/csv_to_json_segment.py --brand Apple --index 0
 
-3.4. Structured outputs: structured_outputs.txt
+	Подразумевана величина сегмента је 50 коментара. По потреби се мења опцијом
+	--segment-size, а одредиште опцијом --output.
 
-4. Copy 'annotation\mobilnisvet_segment_{e.g. Apple}\{e.g. 0}.json' for prompts/new_chat
+3. У пројекат Label Studio учитати конфигурацију:
 
-5. Click 'run ctrl'
+	label-studio/Labeling_Interface.xml
 
-6. Copy response and create 'annotation\mobilnisvet_segment_{e.g. Apple}\g_{e.g. 0}.json'
+4. Директно увести JSON који је направила скрипта csv_to_json_segment.py. Није потребна додатна конверзија.
 
-7. python annotation\gemini_to_label_studio.py --brand {e.g. Apple} --index {e.g. 0}
+5. Сваки запис ручно прегледати и анотирати према упутству:
 
-8. Open LabelStudio and import 'annotation\mobilnisvet_segment_{e.g. Apple}\ls_{e.g. 0}.json'
+	docs/annotation_guide.md
+
+6. По завршетку извести анотације из алата Label Studio. Сегменте једног анотатора организовати по произвођачу и, када је потребно, спојити скриптом:
+
+	python annotation/merge_jsons.py --folder <директоријум-анотатора>
+
+7. Када су сви главни анотаторски експорти и коначни адјудиковани калибрациони скуп спремни, формирати консолидовани скуп:
+
+	python annotation/load_annotations.py
+
+	Резултат је annotation/annotations.json.
+
+8. Анализе и графиконе освежити командама:
+
+	python analytics/absa_analytics.py <пет-калибрационих-експорта> \
+	--final annotation/annotations.json --output izvestaj-analize.json
+
+	python analytics/analyze_disagreements.py
+	python analytics/refresh_report_artifacts.py
