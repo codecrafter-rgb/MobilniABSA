@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-"""Create one deterministic 80/10/10 multilabel-stratified ABSA split.
+"""Create a fixed ABSA split with manual stratification and separate NE data.
 
-Each comment is represented by 44 binary category/sentiment labels and one
-additional NE label.  Comments are assigned directly to train, validation,
-and test with a rare-label-first iterative stratification algorithm.
+DA comments are split by the 44 category/sentiment labels with a manual
+rare-label-first iterative algorithm. NE comments are then deterministically
+allocated to fill the exact global train/validation/test capacities.
 
-The script intentionally does not group duplicate comments.  Splitting is
-always performed before a two-stage notebook expands comments into ACSA
-(comment, category) pairs.
+The script intentionally does not group duplicate comments. Splitting is
+always performed before two-stage notebooks expand comments into ACSA pairs.
 """
 
 from __future__ import annotations
@@ -45,7 +44,6 @@ SENTIMENTS = [
 
 SPLIT_NAMES = ("train", "validation", "test")
 DEFAULT_RATIOS = (0.80, 0.10, 0.10)
-STATUS_LABEL = "STATUS::NE"
 
 
 def parse_args() -> argparse.Namespace:
@@ -54,8 +52,8 @@ def parse_args() -> argparse.Namespace:
 
     parser = argparse.ArgumentParser(
         description=(
-            "Create a fixed multilabel-stratified train/validation/test split "
-            "for the transformer ABSA models."
+            "Create a fixed 80/10/10 ABSA split with manual rare-label-first "
+            "stratification for DA and separate allocation of NE comments."
         )
     )
     parser.add_argument(
@@ -67,7 +65,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=script_dir / "output",
+        default=script_dir / "output-manual",
         help="Directory for split JSON files and the manifest.",
     )
     parser.add_argument("--train-ratio", type=float, default=DEFAULT_RATIOS[0])
@@ -82,12 +80,12 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def label_names() -> list[str]:
+def pair_label_names() -> list[str]:
     return [
         f"{category}::{sentiment}"
         for category in CATEGORIES
         for sentiment in SENTIMENTS
-    ] + [STATUS_LABEL]
+    ]
 
 
 def validate_ratios(ratios: Sequence[float]) -> None:
@@ -149,22 +147,21 @@ def load_and_validate_records(path: Path) -> list[dict[str, Any]]:
     return records
 
 
-def build_sample_labels(
-    records: Sequence[dict[str, Any]], labels: Sequence[str]
+def build_da_sample_labels(
+    records: Sequence[dict[str, Any]],
+    da_indices: Sequence[int],
+    labels: Sequence[str],
 ) -> list[set[int]]:
     label_to_id = {label: index for index, label in enumerate(labels)}
     samples: list[set[int]] = []
 
-    for record in records:
-        if record["review_status"] == "NE":
-            samples.append({label_to_id[STATUS_LABEL]})
-            continue
-
-        active = {
-            label_to_id[f"{aspect['category']}::{aspect['polarity']}"]
-            for aspect in record["aspect_categories"]
-        }
-        samples.append(active)
+    for record_index in da_indices:
+        samples.append(
+            {
+                label_to_id[f"{aspect['category']}::{aspect['polarity']}"]
+                for aspect in records[record_index]["aspect_categories"]
+            }
+        )
 
     return samples
 
@@ -307,13 +304,100 @@ def iterative_multilabel_split(
     return assignments
 
 
-def count_labels(
-    indices: Sequence[int], samples: Sequence[set[int]], labels: Sequence[str]
+def split_da_records(
+    da_indices: Sequence[int],
+    samples: Sequence[set[int]],
+    ratios: Sequence[float],
+    seed: int,
+    number_of_labels: int,
+) -> tuple[list[list[int]], list[int]]:
+    """Mirror the library version's 80/20 then validation/test procedure."""
+    held_out_ratio = ratios[1] + ratios[2]
+    first_split_sizes = exact_split_sizes(
+        len(da_indices),
+        (ratios[0], held_out_ratio),
+    )
+    train_local, held_out_local = iterative_multilabel_split(
+        samples=samples,
+        split_sizes=first_split_sizes,
+        seed=seed,
+        number_of_labels=number_of_labels,
+    )
+
+    held_out_samples = [samples[local_index] for local_index in held_out_local]
+    relative_ratios = (
+        ratios[1] / held_out_ratio,
+        ratios[2] / held_out_ratio,
+    )
+    second_split_sizes = exact_split_sizes(len(held_out_local), relative_ratios)
+    validation_in_held_out, test_in_held_out = iterative_multilabel_split(
+        samples=held_out_samples,
+        split_sizes=second_split_sizes,
+        seed=seed + 1,
+        number_of_labels=number_of_labels,
+    )
+
+    assignments = [
+        [da_indices[local_index] for local_index in train_local],
+        [
+            da_indices[held_out_local[local_index]]
+            for local_index in validation_in_held_out
+        ],
+        [
+            da_indices[held_out_local[local_index]]
+            for local_index in test_in_held_out
+        ],
+    ]
+    return assignments, [len(indices) for indices in assignments]
+
+
+def fill_with_ne_records(
+    da_assignments: Sequence[Sequence[int]],
+    ne_indices: Sequence[int],
+    target_sizes: Sequence[int],
+    seed: int,
+) -> tuple[list[list[int]], list[int]]:
+    required_ne_counts = [
+        target_size - len(da_indices)
+        for target_size, da_indices in zip(target_sizes, da_assignments)
+    ]
+    if any(count < 0 for count in required_ne_counts):
+        raise RuntimeError(
+            "The DA split is larger than at least one global target size: "
+            f"required NE counts={required_ne_counts}."
+        )
+    if sum(required_ne_counts) != len(ne_indices):
+        raise RuntimeError(
+            "NE capacities do not match the number of NE comments: "
+            f"capacities={required_ne_counts}, NE={len(ne_indices)}."
+        )
+
+    shuffled_ne = list(ne_indices)
+    random.Random(seed + 2).shuffle(shuffled_ne)
+
+    assignments: list[list[int]] = []
+    start = 0
+    for split_id, count in enumerate(required_ne_counts):
+        stop = start + count
+        combined = list(da_assignments[split_id]) + shuffled_ne[start:stop]
+        combined.sort()
+        assignments.append(combined)
+        start = stop
+
+    return assignments, required_ne_counts
+
+
+def count_pair_labels(
+    indices: Sequence[int],
+    records: Sequence[dict[str, Any]],
+    labels: Sequence[str],
 ) -> dict[str, int]:
     counts = Counter(
-        label_id for sample_index in indices for label_id in samples[sample_index]
+        f"{aspect['category']}::{aspect['polarity']}"
+        for record_index in indices
+        for aspect in records[record_index]["aspect_categories"]
     )
-    return {label: counts[label_id] for label_id, label in enumerate(labels)}
+    return {label: counts[label] for label in labels}
 
 
 def count_statuses(
@@ -363,14 +447,32 @@ def main() -> None:
         raise FileNotFoundError(f"Input file does not exist: {source_path}")
 
     records = load_and_validate_records(source_path)
-    labels = label_names()
-    samples = build_sample_labels(records, labels)
-    sizes = exact_split_sizes(len(records), ratios)
-    assignments = iterative_multilabel_split(
-        samples=samples,
-        split_sizes=sizes,
+    labels = pair_label_names()
+    da_indices = [
+        index
+        for index, record in enumerate(records)
+        if record["review_status"] == "DA"
+    ]
+    ne_indices = [
+        index
+        for index, record in enumerate(records)
+        if record["review_status"] == "NE"
+    ]
+    da_samples = build_da_sample_labels(records, da_indices, labels)
+
+    da_assignments, da_target_sizes = split_da_records(
+        da_indices=da_indices,
+        samples=da_samples,
+        ratios=ratios,
         seed=args.seed,
         number_of_labels=len(labels),
+    )
+    target_sizes = exact_split_sizes(len(records), ratios)
+    assignments, ne_split_counts = fill_with_ne_records(
+        da_assignments=da_assignments,
+        ne_indices=ne_indices,
+        target_sizes=target_sizes,
+        seed=args.seed,
     )
     validate_assignments(assignments, len(records))
 
@@ -392,25 +494,38 @@ def main() -> None:
             "size": len(indices),
             "source_indices": indices,
             "status_counts": count_statuses(indices, records),
-            "label_counts": count_labels(indices, samples, labels),
+            "label_counts": count_pair_labels(indices, records, labels),
         }
 
     all_indices = list(range(len(records)))
-    global_label_counts = count_labels(all_indices, samples, labels)
+    global_label_counts = count_pair_labels(all_indices, records, labels)
     manifest = {
         "schema_version": 1,
-        "method": "rare-label-first iterative multilabel stratification",
+        "method": "manual rare-label-first; DA and NE split separately",
         "seed": args.seed,
         "source_file": str(source_path),
         "source_sha256": sha256(source_path),
         "total_records": len(records),
         "ratios": dict(zip(SPLIT_NAMES, ratios)),
-        "target_sizes": dict(zip(SPLIT_NAMES, sizes)),
+        "target_sizes": dict(zip(SPLIT_NAMES, target_sizes)),
         "label_definition": {
             "source": "aspect_categories",
-            "category_sentiment_labels": len(CATEGORIES) * len(SENTIMENTS),
-            "status_label": STATUS_LABEL,
+            "number_of_category_sentiment_labels": len(labels),
             "labels": labels,
+        },
+        "strategy": {
+            "DA": (
+                "Manual split into train and held-out subsets, followed by a "
+                "manual split of held-out into validation and test."
+            ),
+            "NE": (
+                "Deterministic shuffle followed by allocation into the exact "
+                "remaining global split capacities."
+            ),
+            "DA_target_sizes": dict(zip(SPLIT_NAMES, da_target_sizes)),
+            "second_split_seed": args.seed + 1,
+            "NE_shuffle_seed": args.seed + 2,
+            "NE_split_counts": dict(zip(SPLIT_NAMES, ne_split_counts)),
         },
         "global_status_counts": count_statuses(all_indices, records),
         "global_label_counts": global_label_counts,
@@ -419,12 +534,13 @@ def main() -> None:
             "Duplicate comments are not grouped.",
             "Split comments before creating two-stage ACSA comment/category pairs.",
             "A label with fewer examples than splits cannot occur in every split.",
+            "This variant exists for a fair algorithm comparison with the library version.",
         ],
     }
     write_json(paths["manifest"], manifest)
 
     print(f"Source: {source_path}")
-    print(f"Method: {manifest['method']}")
+    print("Method: manual rare-label-first for DA; deterministic allocation for NE")
     print(f"Seed: {args.seed}")
     print()
     for split_id, name in enumerate(SPLIT_NAMES):

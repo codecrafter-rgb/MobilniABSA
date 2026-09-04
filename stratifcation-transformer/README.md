@@ -1,37 +1,46 @@
 # Fiksna stratifikovana podela
 
-Skripta `create_stratified_split.py` pravi jednu determinističku podelu
-anotiranih komentara na 80% trening, 10% validaciju i 10% test.
+Folder sadrži dve implementacije podele anotiranih komentara na 80% trening,
+10% validaciju i 10% test. Obe koriste `aspect_categories`, ne grupišu
+duplikate i zasebno raspoređuju `DA` i `NE` komentare.
 
-Za stratifikaciju koristi 44 binarne kombinacije `kategorija::sentiment` iz
-polja `aspect_categories` i dodatnu oznaku `STATUS::NE`. Duplikati se ne
-grupišu.
+## Ručna implementacija
 
-Pokretanje iz korena projekta:
+`create_stratified_split.py` koristi ručno implementiran rare-label-first
+algoritam. Ne zahteva biblioteku `iterative-stratification`.
 
 ```bash
 python3 stratifcation-transformer/create_stratified_split.py
 ```
 
-Podrazumevani ulaz je `annotation/annotations.json`, a rezultat se čuva u
-`stratifcation-transformer/output/`:
+Rezultat se podrazumevano čuva u
+`stratifcation-transformer/output-separate-ne/`.
+
+## Bibliotečka implementacija
+
+`create_stratified_split_iterstrat.py` koristi
+`MultilabelStratifiedShuffleSplit` iz biblioteke
+`iterative-stratification==0.1.9`.
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 stratifcation-transformer/create_stratified_split_iterstrat.py
+```
+
+Rezultat se podrazumevano čuva u
+`stratifcation-transformer/output-iterstrat/`.
+
+Obe skripte generišu:
 
 - `train.json`
 - `validation.json`
 - `test.json`
 - `split_manifest.json`
 
-Manifest sadrži originalne indekse komentara, SHA-256 ulaznog fajla i broj
-svake oznake po podskupu. Ista tri izlazna fajla treba koristiti za RoBERTa i
-BERTić, kao i za two-stage i multi-head pristup.
+Manifest sadrži izvorne indekse, SHA-256 ulaznog fajla i broj svake oznake po
+podskupu. Podela mora nastati pre pravljenja ACSA parova `(komentar,
+kategorija)` i treba da bude ista za RoBERTa i BERTić modele.
 
-Drugi ulazni ili izlazni put mogu se zadati eksplicitno:
+Kratko poređenje rezultata nalazi se u [`COMPARISON.md`](COMPARISON.md).
 
-```bash
-python3 stratifcation-transformer/create_stratified_split.py \
-  --input annotation/annotations.json \
-  --output-dir stratifcation-transformer/output \
-  --seed 42
-```
-
-Skripta ne prepisuje postojeće rezultate bez opcije `--overwrite`.
+Skripte ne prepisuju postojeće rezultate bez opcije `--overwrite`.

@@ -12,6 +12,7 @@ filelock==3.32.2
 hyperlink==21.0.0
 idna==3.18
 Incremental==24.11.0
+iterative-stratification==0.1.9
 itemadapter==0.13.1
 itemloaders==1.4.0
 jmespath==1.1.0
