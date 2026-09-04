@@ -14,7 +14,7 @@ python3 stratifcation-transformer/create_stratified_split.py
 ```
 
 Rezultat se podrazumevano čuva u
-`stratifcation-transformer/output-separate-ne/`.
+`stratifcation-transformer/output-manual/`.
 
 ## Bibliotečka implementacija
 
@@ -29,6 +29,8 @@ python3 stratifcation-transformer/create_stratified_split_iterstrat.py
 
 Rezultat se podrazumevano čuva u
 `stratifcation-transformer/output-iterstrat/`.
+
+## Rezultati
 
 Obe skripte generišu:
 
